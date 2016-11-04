@@ -1,0 +1,101 @@
+<animated-vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:drawable="@drawable/vd_handwriting">
+
+  <target android:name="andro">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="1000"
+        android:interpolator="@android:interpolator/fast_out_linear_in"
+        android:propertyName="trimPathEnd"
+        android:valueFrom="0"
+        android:valueTo="1"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="id">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="250"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="trimPathEnd"
+        android:startOffset="1050"
+        android:valueFrom="0"
+        android:valueTo="1"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="a_stroke">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="50"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="trimPathEnd"
+        android:startOffset="1300"
+        android:valueFrom="0"
+        android:valueTo="1"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="i_dot">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="50"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="trimPathEnd"
+        android:startOffset="1400"
+        android:valueFrom="0"
+        android:valueTo="1"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="d">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="200"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="trimPathEnd"
+        android:startOffset="1550"
+        android:valueFrom="0"
+        android:valueTo="1"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="esig">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="600"
+        android:interpolator="@android:interpolator/fast_out_linear_in"
+        android:propertyName="trimPathEnd"
+        android:startOffset="1800"
+        android:valueFrom="0"
+        android:valueTo="1"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="n">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="200"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="trimPathEnd"
+        android:startOffset="2450"
+        android:valueFrom="0"
+        android:valueTo="1"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="second_i_dot">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="50"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="trimPathEnd"
+        android:startOffset="2700"
+        android:valueFrom="0"
+        android:valueTo="1"/>
+    </aapt:attr>
+  </target>
+
+</animated-vector>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+    android:id="@+id/disable"
+    android:drawable="@drawable/vd_enabledisable_airplane_disabled"
+    android:state_checked="true"/>
+
+  <item
+    android:id="@+id/enable"
+    android:drawable="@drawable/vd_enabledisable_airplane_enabled"/>
+
+  <transition
+    android:drawable="@drawable/avd_enabledisable_airplane_disabled_to_enabled"
+    android:fromId="@id/disable"
+    android:toId="@id/enable"/>
+
+  <transition
+    android:drawable="@drawable/avd_enabledisable_airplane_enabled_to_disabled"
+    android:fromId="@id/enable"
+    android:toId="@id/disable"/>
+
+</animated-selector>

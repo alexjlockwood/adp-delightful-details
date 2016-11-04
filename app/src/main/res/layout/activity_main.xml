@@ -18,32 +18,25 @@
       android:text="@string/play_pause_stop"/>
 
     <TextView
-      android:id="@+id/drawer"
+      android:id="@+id/pathmorph"
       style="@style/MainActivityListItem"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="@string/drawer"/>
+      android:text="@string/pathmorph"/>
 
     <TextView
-      android:id="@+id/search"
+      android:id="@+id/searchback"
       style="@style/MainActivityListItem"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="@string/search_to_back"/>
+      android:text="@string/searchback"/>
 
     <TextView
-      android:id="@+id/clippath"
+      android:id="@+id/enabledisable"
       style="@style/MainActivityListItem"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="@string/clippath"/>
-
-    <TextView
-      android:id="@+id/expandcollapse"
-      style="@style/MainActivityListItem"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/expandcollapse"/>
+      android:text="@string/enabledisable"/>
 
     <TextView
       android:id="@+id/digits"
@@ -81,11 +74,11 @@
       android:text="@string/uploading"/>
 
     <TextView
-      android:id="@+id/googleio"
+      android:id="@+id/io16"
       style="@style/MainActivityListItem"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="@string/googleio"/>
+      android:text="@string/io16"/>
 
     <TextView
       android:id="@+id/handwriting"

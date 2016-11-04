@@ -15,15 +15,14 @@ public class MainActivity extends AppCompatActivity {
   static {
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.playpausestop, PlayPauseStopActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.digits, DigitsActivity.class);
-    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.search, SearchActivity.class);
-    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.clippath, ClipPathActivity.class);
+    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.searchback, SearchBackActivity.class);
+    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.enabledisable, EnableDisableActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.heart, HeartActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.fingerprint, FingerprintActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.uploading, UploadingActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.clock, ClockActivity.class);
-    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.drawer, DrawerActivity.class);
-    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.expandcollapse, ExpandCollapseActivity.class);
-    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.googleio, GoogleIoActivity.class);
+    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.pathmorph, PathMorphActivity.class);
+    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.io16, Io16Activity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.handwriting, HandwritingActivity.class);
   }
 
@@ -37,15 +36,14 @@ public class MainActivity extends AppCompatActivity {
   @OnClick({
       R.id.playpausestop,
       R.id.digits,
-      R.id.search,
-      R.id.clippath,
+      R.id.searchback,
+      R.id.enabledisable,
       R.id.heart,
       R.id.fingerprint,
       R.id.uploading,
       R.id.clock,
-      R.id.drawer,
-      R.id.expandcollapse,
-      R.id.googleio,
+      R.id.pathmorph,
+      R.id.io16,
       R.id.handwriting,
   })
   void onListItemClick(View view) {

@@ -1,0 +1,23 @@
+<vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:width="120dp"
+  android:height="120dp"
+  android:tint="?attr/colorControlNormal"
+  android:viewportHeight="24"
+  android:viewportWidth="24">
+
+  <group
+    android:name="crossTickGroup"
+    android:pivotX="12"
+    android:pivotY="12">
+
+    <path
+      android:name="tickPath"
+      android:pathData="@string/path_tick"
+      android:strokeColor="@android:color/white"
+      android:strokeLineCap="square"
+      android:strokeWidth="@integer/stroke_width"/>
+
+  </group>
+
+</vector>

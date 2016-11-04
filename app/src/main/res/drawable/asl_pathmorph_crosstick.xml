@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+    android:id="@+id/tick"
+    android:drawable="@drawable/vd_pathmorph_crosstick_tick"
+    android:state_checked="true"/>
+
+  <item
+    android:id="@+id/cross"
+    android:drawable="@drawable/vd_pathmorph_crosstick_cross"/>
+
+  <transition
+    android:drawable="@drawable/avd_pathmorph_crosstick_cross_to_tick"
+    android:fromId="@id/cross"
+    android:toId="@id/tick"/>
+
+  <transition
+    android:drawable="@drawable/avd_pathmorph_crosstick_tick_to_cross"
+    android:fromId="@id/tick"
+    android:toId="@id/cross"/>
+
+</animated-selector>

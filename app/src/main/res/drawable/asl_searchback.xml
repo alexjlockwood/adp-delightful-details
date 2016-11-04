@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+    android:id="@+id/back"
+    android:drawable="@drawable/vd_searchback_back"
+    android:state_checked="true"/>
+
+  <item
+    android:id="@+id/search"
+    android:drawable="@drawable/vd_searchback_search"/>
+
+  <transition
+    android:drawable="@drawable/avd_searchback_search_to_back"
+    android:fromId="@id/search"
+    android:toId="@id/back"/>
+
+  <transition
+    android:drawable="@drawable/avd_searchback_back_to_search"
+    android:fromId="@id/back"
+    android:toId="@id/search"/>
+
+</animated-selector>

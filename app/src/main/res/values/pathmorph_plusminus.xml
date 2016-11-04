@@ -1,0 +1,6 @@
+<resources>
+
+  <string name="path_follow_plus">M 5,11 L 11,11 L 11,5 L 13,5 L 13,11 L 19,11 L 19,13 L 13,13 L 13,19 L 11,19 L 11,13 L 5,13 Z</string>
+  <string name="path_follow_minus">M 5,11 L 11,11 L 11,11 L 13,11 L 13,11 L 19,11 L 19,13 L 13,13 L 13,13 L 11,13 L 11,13 L 5,13 Z</string>
+
+</resources>

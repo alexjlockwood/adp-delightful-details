@@ -24,11 +24,11 @@
       android:label="@string/app_name"
       android:theme="@style/AppThemeNoActionBar"/>
     <activity
-      android:name="com.alexjlockwood.example.delight.SearchActivity"
+      android:name="com.alexjlockwood.example.delight.SearchBackActivity"
       android:label="@string/app_name"
       android:theme="@style/AppThemeNoActionBar"/>
     <activity
-      android:name="com.alexjlockwood.example.delight.ClipPathActivity"
+      android:name="com.alexjlockwood.example.delight.EnableDisableActivity"
       android:label="@string/app_name"
       android:theme="@style/AppThemeNoActionBar"/>
     <activity
@@ -48,15 +48,11 @@
       android:label="@string/app_name"
       android:theme="@style/AppThemeNoActionBar"/>
     <activity
-      android:name="com.alexjlockwood.example.delight.DrawerActivity"
+      android:name="com.alexjlockwood.example.delight.PathMorphActivity"
       android:label="@string/app_name"
       android:theme="@style/AppThemeNoActionBar"/>
     <activity
-      android:name="com.alexjlockwood.example.delight.ExpandCollapseActivity"
-      android:label="@string/app_name"
-      android:theme="@style/AppThemeNoActionBar"/>
-    <activity
-      android:name="com.alexjlockwood.example.delight.GoogleIoActivity"
+      android:name="com.alexjlockwood.example.delight.Io16Activity"
       android:label="@string/app_name"
       android:theme="@style/AppThemeNoActionBar"/>
     <activity

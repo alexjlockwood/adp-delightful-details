@@ -1,0 +1,9 @@
+<resources>
+
+  <declare-styleable name="FingerprintState">
+    <attr name="state_on" format="boolean"/>
+    <attr name="state_off" format="boolean"/>
+    <attr name="state_error" format="boolean"/>
+  </declare-styleable>
+
+</resources>

@@ -1,0 +1,29 @@
+<animated-vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:drawable="@drawable/vd_pathmorph_plusminus_plus">
+
+  <target android:name="plus_minus">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="@android:integer/config_mediumAnimTime"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="rotation"
+        android:valueFrom="-180"
+        android:valueTo="0"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="plus">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="@android:integer/config_mediumAnimTime"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="pathData"
+        android:valueFrom="@string/path_follow_plus"
+        android:valueTo="@string/path_follow_minus"
+        android:valueType="pathType"/>
+    </aapt:attr>
+  </target>
+
+</animated-vector>
