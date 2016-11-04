@@ -1,0 +1,49 @@
+<vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:name="ic_volume_expand"
+  android:width="24dp"
+  android:height="24dp"
+  android:tint="?attr/colorControlNormal"
+  android:viewportHeight="24"
+  android:viewportWidth="24">
+
+  <group
+    android:name="chevron_01"
+    android:rotation="90"
+    android:translateX="12"
+    android:translateY="15">
+    <group
+      android:name="rectangle_3"
+      android:rotation="45">
+      <group
+        android:name="rectangle_2_pivot_0"
+        android:translateY="4">
+        <group
+          android:name="rectangle_path_3_position"
+          android:translateY="-1">
+          <path
+            android:name="rectangle_path_3"
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M -1.0,-4.0 l 2.0,0.0 c 0.0,0.0 0.0,0.0 0.0,0.0 l 0.0,8.0 c 0.0,0.0 0.0,0.0 0.0,0.0 l -2.0,0.0 c 0.0,0.0 0.0,0.0 0.0,0.0 l 0.0,-8.0 c 0.0,0.0 0.0,0.0 0.0,0.0 Z"/>
+        </group>
+      </group>
+    </group>
+    <group
+      android:name="rectangle_4"
+      android:rotation="-45">
+      <group
+        android:name="rectangle_1_pivot_0"
+        android:translateY="-4">
+        <group
+          android:name="rectangle_path_4_position"
+          android:translateY="1">
+          <path
+            android:name="rectangle_path_4"
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M -1.0,-4.0 l 2.0,0.0 c 0.0,0.0 0.0,0.0 0.0,0.0 l 0.0,8.0 c 0.0,0.0 0.0,0.0 0.0,0.0 l -2.0,0.0 c 0.0,0.0 0.0,0.0 0.0,0.0 l 0.0,-8.0 c 0.0,0.0 0.0,0.0 0.0,0.0 Z"/>
+        </group>
+      </group>
+    </group>
+  </group>
+
+</vector>

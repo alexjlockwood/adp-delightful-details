@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:width="18dp"
+  android:height="18dp"
+  android:viewportHeight="18"
+  android:viewportWidth="18"
+  android:tint="?attr/colorControlNormal">
+
+  <group
+    android:name="iconGroup"
+    android:pivotX="9"
+    android:pivotY="9"
+    android:rotation="0"
+    android:translateX="0">
+
+    <path
+      android:name="iconPath"
+      android:fillColor="@android:color/white"
+      android:pathData="@string/path_stop"/>
+
+  </group>
+
+</vector>

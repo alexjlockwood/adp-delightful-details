@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:drawable="@drawable/vd_playpausestop_play">
+
+  <target android:name="iconGroup">
+    <aapt:attr name="android:animation">
+      <set>
+        <objectAnimator
+          android:duration="@android:integer/config_shortAnimTime"
+          android:interpolator="@android:interpolator/decelerate_quad"
+          android:propertyName="rotation"
+          android:valueFrom="0"
+          android:valueTo="90"/>
+        <objectAnimator
+          android:duration="@android:integer/config_shortAnimTime"
+          android:interpolator="@android:interpolator/decelerate_quad"
+          android:propertyName="translateX"
+          android:valueFrom="0"
+          android:valueTo="0.75"/>
+      </set>
+    </aapt:attr>
+  </target>
+
+  <target android:name="iconPath">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="@android:integer/config_shortAnimTime"
+        android:interpolator="@android:interpolator/decelerate_quad"
+        android:propertyName="pathData"
+        android:valueFrom="@string/path_stop"
+        android:valueTo="@string/path_play"
+        android:valueType="pathType"/>
+    </aapt:attr>
+  </target>
+
+</animated-vector>

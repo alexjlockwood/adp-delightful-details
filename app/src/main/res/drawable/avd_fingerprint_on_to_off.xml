@@ -1,0 +1,87 @@
+<animated-vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:drawable="@drawable/vd_fingerprint_off">
+  <target android:name="ridge_5_path">
+    <aapt:attr name="android:animation">
+      <set android:ordering="sequentially">
+        <objectAnimator
+          android:duration="20"
+          android:interpolator="@android:interpolator/linear"
+          android:propertyName="trimPathStart"
+          android:valueFrom="0.0"
+          android:valueTo="0.0"
+          android:valueType="floatType"/>
+        <objectAnimator
+          android:duration="180"
+          android:interpolator="@interpolator/fingerprint_off_1"
+          android:propertyName="trimPathStart"
+          android:valueFrom="0.0"
+          android:valueTo="1.0"
+          android:valueType="floatType"/>
+      </set>
+    </aapt:attr>
+  </target>
+  <target android:name="ridge_7_path">
+    <aapt:attr name="android:animation">
+      <set android:ordering="sequentially">
+        <objectAnimator
+          android:duration="10"
+          android:interpolator="@android:interpolator/linear"
+          android:propertyName="trimPathStart"
+          android:valueFrom="0"
+          android:valueTo="0"
+          android:valueType="floatType"/>
+        <objectAnimator
+          android:duration="160"
+          android:interpolator="@interpolator/fingerprint_off_1"
+          android:propertyName="trimPathStart"
+          android:valueFrom="0"
+          android:valueTo="1"
+          android:valueType="floatType"/>
+      </set>
+    </aapt:attr>
+  </target>
+  <target android:name="ridge_6_path">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="190"
+        android:interpolator="@interpolator/fingerprint_off_1"
+        android:propertyName="trimPathEnd"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:valueType="floatType"/>
+    </aapt:attr>
+  </target>
+  <target android:name="ridge_2_path">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="140"
+        android:interpolator="@interpolator/fingerprint_off_0"
+        android:propertyName="trimPathEnd"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:valueType="floatType"/>
+    </aapt:attr>
+  </target>
+  <target android:name="ridge_1_path">
+    <aapt:attr name="android:animation">
+      <set android:ordering="sequentially">
+        <objectAnimator
+          android:duration="60"
+          android:interpolator="@android:interpolator/linear"
+          android:propertyName="trimPathStart"
+          android:valueFrom="0"
+          android:valueTo="0"
+          android:valueType="floatType"/>
+        <objectAnimator
+          android:duration="216"
+          android:interpolator="@interpolator/fingerprint_off_1"
+          android:propertyName="trimPathStart"
+          android:valueFrom="0"
+          android:valueTo="1"
+          android:valueType="floatType"/>
+      </set>
+    </aapt:attr>
+  </target>
+</animated-vector>

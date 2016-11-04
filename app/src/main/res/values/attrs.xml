@@ -1,0 +1,28 @@
+<resources>
+
+  <declare-styleable name="IconState">
+    <attr name="state_play" format="boolean"/>
+    <attr name="state_pause" format="boolean"/>
+    <attr name="state_stop" format="boolean"/>
+  </declare-styleable>
+
+  <declare-styleable name="DigitState">
+    <attr name="state_zero" format="boolean"/>
+    <attr name="state_one" format="boolean"/>
+    <attr name="state_two" format="boolean"/>
+    <attr name="state_three" format="boolean"/>
+    <attr name="state_four" format="boolean"/>
+    <attr name="state_five" format="boolean"/>
+    <attr name="state_six" format="boolean"/>
+    <attr name="state_seven" format="boolean"/>
+    <attr name="state_eight" format="boolean"/>
+    <attr name="state_nine" format="boolean"/>
+  </declare-styleable>
+
+  <declare-styleable name="FingerprintState">
+    <attr name="state_on" format="boolean"/>
+    <attr name="state_off" format="boolean"/>
+    <attr name="state_error" format="boolean"/>
+  </declare-styleable>
+
+</resources>

@@ -1,0 +1,28 @@
+<animated-vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:drawable="@drawable/vd_clock_stopwatch">
+
+  <target android:name="hand">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="1333"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="rotation"
+        android:valueFrom="0"
+        android:valueTo="360"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="button">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="267"
+        android:interpolator="@interpolator/clock_stopwatch_translatex"
+        android:pathData="M 12,12 c 0,0.16667 0,1 0,1 l 0,-1"
+        android:propertyXName="translateX"
+        android:propertyYName="translateY"/>
+    </aapt:attr>
+  </target>
+
+</animated-vector>

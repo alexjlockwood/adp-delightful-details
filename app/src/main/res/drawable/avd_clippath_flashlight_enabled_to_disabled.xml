@@ -1,0 +1,49 @@
+<animated-vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:drawable="@drawable/vd_clippath_flashlight_enabled">
+
+  <target android:name="root">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="350"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="alpha"
+        android:valueFrom="1.0"
+        android:valueTo="0.3"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="maskClipPath">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="350"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="pathData"
+        android:valueFrom="@string/flashlight_mask_clip_path_enabled"
+        android:valueTo="@string/flashlight_mask_clip_path_disabled"
+        android:valueType="pathType"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="crossPath">
+    <aapt:attr name="android:animation">
+      <set>
+        <objectAnimator
+          android:duration="350"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="pathData"
+          android:valueFrom="@string/flashlight_cross_path_enabled"
+          android:valueTo="@string/flashlight_cross_path_disabled"
+          android:valueType="pathType"/>
+        <objectAnimator
+          android:duration="17"
+          android:propertyName="strokeAlpha"
+          android:valueFrom="0"
+          android:valueTo="1"/>
+      </set>
+
+    </aapt:attr>
+  </target>
+
+</animated-vector>

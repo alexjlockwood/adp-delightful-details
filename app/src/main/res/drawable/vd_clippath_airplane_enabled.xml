@@ -1,0 +1,40 @@
+<vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:name="root"
+  android:width="48dp"
+  android:height="48dp"
+  android:tint="?attr/colorControlNormal"
+  android:viewportHeight="48"
+  android:viewportWidth="48">
+
+  <group
+    android:translateX="21.9995"
+    android:translateY="25.73401">
+
+    <group
+      android:translateX="-23.21545"
+      android:translateY="-18.86649">
+
+      <clip-path
+        android:name="maskClipPath"
+        android:pathData="@string/airplane_mask_clip_path_enabled"/>
+
+      <path
+        android:name="crossPath"
+        android:fillColor="@android:color/transparent"
+        android:pathData="@string/airplane_cross_path_enabled"
+        android:strokeAlpha="0"
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="3.5"/>
+
+      <group
+        android:translateX="23.481"
+        android:translateY="18.71151">
+        <path
+          android:fillAlpha="1"
+          android:fillColor="@android:color/white"
+          android:pathData="@string/airplane_path"/>
+      </group>
+    </group>
+  </group>
+</vector>

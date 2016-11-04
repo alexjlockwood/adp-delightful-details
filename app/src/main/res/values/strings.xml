@@ -1,0 +1,21 @@
+<resources>
+
+  <string name="app_name">Animated Vector Drawables</string>
+  <string name="play">Play</string>
+  <string name="pause">Pause</string>
+  <string name="stop">Stop</string>
+  <string name="on">On</string>
+  <string name="off">Off</string>
+  <string name="error">Error</string>
+  <string name="clippath">Enable &amp; disable</string>
+  <string name="heart">Heart break</string>
+  <string name="digits">Countdown</string>
+  <string name="search_to_back">Search to arrow</string>
+  <string name="play_pause_stop">Play, pause, stop</string>
+  <string name="fingerprint">Fingerprint</string>
+  <string name="uploading">Uploading</string>
+  <string name="clock">Clock</string>
+  <string name="drawer">Drawer to arrow</string>
+  <string name="expandcollapse">Expand &amp; collapse</string>
+
+</resources>

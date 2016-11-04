@@ -1,0 +1,52 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="16dp">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+
+    <ImageView
+      android:id="@+id/icon"
+      android:layout_width="200dp"
+      android:layout_height="200dp"
+      android:layout_centerInParent="true"
+      android:contentDescription="@null"
+      android:scaleType="fitCenter"
+      android:src="@drawable/asl_playpausestop"/>
+
+  </RelativeLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+      android:id="@+id/play"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="@string/play"/>
+
+    <Button
+      android:id="@+id/pause"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="@string/pause"/>
+
+    <Button
+      android:id="@+id/stop"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="@string/stop"/>
+
+  </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+    android:id="@+id/liked"
+    android:state_checked="true"
+    android:drawable="@drawable/vd_heart_full" />
+
+  <item
+    android:id="@+id/not_liked"
+    android:drawable="@drawable/vd_heart_empty" />
+
+  <transition
+    android:fromId="@id/not_liked"
+    android:toId="@id/liked"
+    android:drawable="@drawable/avd_heart_fill" />
+
+  <transition
+    android:fromId="@id/liked"
+    android:toId="@id/not_liked"
+    android:drawable="@drawable/avd_heart_break" />
+
+</animated-selector>

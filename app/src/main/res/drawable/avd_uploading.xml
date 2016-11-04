@@ -1,0 +1,64 @@
+<animated-vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:drawable="@drawable/vd_uploading">
+
+  <target android:name="upload_arrow_fill_clip">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="1200"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="pathData"
+        android:repeatCount="-1"
+        android:repeatMode="restart"
+        android:startOffset="300"
+        android:valueFrom="M21 32 L35 32 L35 32 L21 32 Z"
+        android:valueTo="M21 10 L35 10 L35 32 L21 32 Z"
+        android:valueType="pathType"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="progress_bar">
+    <aapt:attr name="android:animation">
+      <set>
+        <objectAnimator
+          android:duration="1333"
+          android:interpolator="@interpolator/trimpath_searchback_start"
+          android:propertyName="trimPathStart"
+          android:repeatCount="-1"
+          android:valueFrom="0"
+          android:valueTo="0.75"/>
+
+        <objectAnimator
+          android:duration="1333"
+          android:interpolator="@interpolator/trimpath_searchback_end"
+          android:propertyName="trimPathEnd"
+          android:repeatCount="-1"
+          android:valueFrom="0"
+          android:valueTo="0.75"/>
+
+        <objectAnimator
+          android:duration="1333"
+          android:interpolator="@android:anim/linear_interpolator"
+          android:propertyName="trimPathOffset"
+          android:repeatCount="-1"
+          android:valueFrom="0"
+          android:valueTo="0.25"/>
+
+      </set>
+    </aapt:attr>
+  </target>
+
+  <target android:name="progress_spinner">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="6665"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotation"
+        android:repeatCount="-1"
+        android:valueFrom="0"
+        android:valueTo="720"/>
+    </aapt:attr>
+  </target>
+
+</animated-vector>

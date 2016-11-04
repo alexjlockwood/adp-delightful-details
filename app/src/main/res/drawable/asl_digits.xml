@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item
+    android:id="@+id/one"
+    android:drawable="@drawable/vd_digits_one"
+    app:state_one="true"/>
+
+  <item
+    android:id="@+id/two"
+    android:drawable="@drawable/vd_digits_two"
+    app:state_two="true"/>
+
+  <item
+    android:id="@+id/three"
+    android:drawable="@drawable/vd_digits_three"
+    app:state_three="true"/>
+
+  <item
+    android:id="@+id/four"
+    android:drawable="@drawable/vd_digits_four"
+    app:state_four="true"/>
+
+  <item
+    android:id="@+id/five"
+    android:drawable="@drawable/vd_digits_five"
+    app:state_five="true"/>
+
+  <item
+    android:id="@+id/six"
+    android:drawable="@drawable/vd_digits_six"
+    app:state_six="true"/>
+
+  <item
+    android:id="@+id/seven"
+    android:drawable="@drawable/vd_digits_seven"
+    app:state_seven="true"/>
+
+  <item
+    android:id="@+id/eight"
+    android:drawable="@drawable/vd_digits_eight"
+    app:state_eight="true"/>
+
+  <item
+    android:id="@+id/nine"
+    android:drawable="@drawable/vd_digits_nine"
+    app:state_nine="true"/>
+
+  <item
+    android:id="@+id/zero"
+    android:drawable="@drawable/vd_digits_zero"/>
+
+  <!-- 0 -->
+
+  <transition
+    android:drawable="@drawable/avd_digits_0_to_1"
+    android:fromId="@id/zero"
+    android:toId="@id/one"/>
+
+  <transition
+    android:drawable="@drawable/avd_digits_0_to_9"
+    android:fromId="@id/zero"
+    android:toId="@id/nine"/>
+
+  <!-- 1 -->
+
+  <transition
+    android:drawable="@drawable/avd_digits_1_to_0"
+    android:fromId="@id/one"
+    android:toId="@id/zero"/>
+
+  <transition
+    android:drawable="@drawable/avd_digits_1_to_2"
+    android:fromId="@id/one"
+    android:toId="@id/two"/>
+
+  <!-- 2 -->
+
+  <transition
+    android:drawable="@drawable/avd_digits_2_to_1"
+    android:fromId="@id/two"
+    android:toId="@id/one"/>
+
+  <transition
+    android:drawable="@drawable/avd_digits_2_to_3"
+    android:fromId="@id/two"
+    android:toId="@id/three"/>
+
+  <!-- 3 -->
+
+  <transition
+    android:drawable="@drawable/avd_digits_3_to_2"
+    android:fromId="@id/three"
+    android:toId="@id/two"/>
+
+  <transition
+    android:drawable="@drawable/avd_digits_3_to_4"
+    android:fromId="@id/three"
+    android:toId="@id/four"/>
+
+  <!-- 4 -->
+
+  <transition
+    android:drawable="@drawable/avd_digits_4_to_3"
+    android:fromId="@id/four"
+    android:toId="@id/three"/>
+
+  <transition
+    android:drawable="@drawable/avd_digits_4_to_5"
+    android:fromId="@id/four"
+    android:toId="@id/five"/>
+
+  <!-- 5 -->
+
+  <transition
+    android:drawable="@drawable/avd_digits_5_to_4"
+    android:fromId="@id/five"
+    android:toId="@id/four"/>
+
+  <transition
+    android:drawable="@drawable/avd_digits_5_to_6"
+    android:fromId="@id/five"
+    android:toId="@id/six"/>
+
+  <!-- 6 -->
+
+  <transition
+    android:drawable="@drawable/avd_digits_6_to_5"
+    android:fromId="@id/six"
+    android:toId="@id/five"/>
+
+  <transition
+    android:drawable="@drawable/avd_digits_6_to_7"
+    android:fromId="@id/six"
+    android:toId="@id/seven"/>
+
+  <!-- 7 -->
+
+  <transition
+    android:drawable="@drawable/avd_digits_7_to_6"
+    android:fromId="@id/seven"
+    android:toId="@id/six"/>
+
+  <transition
+    android:drawable="@drawable/avd_digits_7_to_8"
+    android:fromId="@id/seven"
+    android:toId="@id/eight"/>
+
+  <!-- 8 -->
+
+  <transition
+    android:drawable="@drawable/avd_digits_8_to_7"
+    android:fromId="@id/eight"
+    android:toId="@id/seven"/>
+
+  <transition
+    android:drawable="@drawable/avd_digits_8_to_9"
+    android:fromId="@id/eight"
+    android:toId="@id/nine"/>
+
+  <!-- 9 -->
+
+  <transition
+    android:drawable="@drawable/avd_digits_9_to_0"
+    android:fromId="@id/nine"
+    android:toId="@id/zero"/>
+
+  <transition
+    android:drawable="@drawable/avd_digits_9_to_8"
+    android:fromId="@id/nine"
+    android:toId="@id/eight"/>
+
+</animated-selector>

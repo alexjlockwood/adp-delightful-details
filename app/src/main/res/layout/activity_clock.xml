@@ -1,0 +1,61 @@
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/rootview"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true">
+
+    <ImageView
+      android:id="@+id/alarm"
+      android:layout_width="128dp"
+      android:layout_height="128dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_centerInParent="true"
+      android:contentDescription="@null"
+      android:padding="4dp"
+      android:scaleType="fitCenter"
+      android:src="@drawable/avd_clock_alarm"/>
+
+    <ImageView
+      android:id="@+id/clock"
+      android:layout_width="128dp"
+      android:layout_height="128dp"
+      android:layout_alignTop="@id/alarm"
+      android:layout_centerInParent="true"
+      android:layout_toEndOf="@id/alarm"
+      android:contentDescription="@null"
+      android:padding="4dp"
+      android:scaleType="fitCenter"
+      android:src="@drawable/avd_clock_clock"/>
+
+    <ImageView
+      android:id="@+id/timer"
+      android:layout_width="128dp"
+      android:layout_height="128dp"
+      android:layout_alignStart="@id/alarm"
+      android:layout_below="@id/alarm"
+      android:layout_centerInParent="true"
+      android:contentDescription="@null"
+      android:padding="4dp"
+      android:scaleType="fitCenter"
+      android:src="@drawable/avd_clock_timer"/>
+
+    <ImageView
+      android:id="@+id/stopwatch"
+      android:layout_width="128dp"
+      android:layout_height="128dp"
+      android:layout_alignTop="@id/timer"
+      android:layout_centerInParent="true"
+      android:layout_toEndOf="@id/timer"
+      android:contentDescription="@null"
+      android:padding="4dp"
+      android:scaleType="fitCenter"
+      android:src="@drawable/avd_clock_stopwatch"/>
+
+  </RelativeLayout>
+</RelativeLayout>

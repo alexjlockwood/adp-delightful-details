@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item
+    android:id="@+id/pause"
+    android:drawable="@drawable/vd_playpausestop_pause"
+    app:state_pause="true"/>
+
+  <item
+    android:id="@+id/stop"
+    android:drawable="@drawable/vd_playpausestop_stop"
+    app:state_stop="true"/>
+
+  <item
+    android:id="@+id/play"
+    android:drawable="@drawable/vd_playpausestop_play"/>
+
+  <transition
+    android:drawable="@drawable/avd_playpausestop_pause_to_play"
+    android:fromId="@id/pause"
+    android:toId="@id/play"/>
+
+  <transition
+    android:drawable="@drawable/avd_playpausestop_play_to_pause"
+    android:fromId="@id/play"
+    android:toId="@id/pause"/>
+
+  <transition
+    android:drawable="@drawable/avd_playpausestop_stop_to_play"
+    android:fromId="@id/stop"
+    android:toId="@id/play"/>
+
+  <transition
+    android:drawable="@drawable/avd_playpausestop_play_to_stop"
+    android:fromId="@id/play"
+    android:toId="@id/stop"/>
+
+  <transition
+    android:drawable="@drawable/avd_playpausestop_pause_to_stop"
+    android:fromId="@id/pause"
+    android:toId="@id/stop"/>
+
+  <transition
+    android:drawable="@drawable/avd_playpausestop_stop_to_pause"
+    android:fromId="@id/stop"
+    android:toId="@id/pause"/>
+
+</animated-selector>

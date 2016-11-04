@@ -1,0 +1,49 @@
+<animated-vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:drawable="@drawable/vd_clock_timer">
+
+  <target android:name="hourglass_frame">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="333"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="rotation"
+        android:valueFrom="0"
+        android:valueTo="180"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="hourglass_fill">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="333"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="rotation"
+        android:valueFrom="0"
+        android:valueTo="180"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="mask_1">
+    <aapt:attr name="android:animation">
+      <set android:ordering="sequentially">
+        <objectAnimator
+          android:duration="333"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="pathData"
+          android:valueFrom="M 24,13.4 c 0,0 -24,0.0 -24,0 c 0,0 0,10.6 0,10.6 c 0,0 24,0 24,0 c 0,0 0,-10.6 0,-10.6 Z"
+          android:valueTo="M 24,13.4 c 0,0 -24,0.0 -24,0 c 0,0.0 0,10.6 0,10.6 c 0,0 24,0 24,0 c 0,0 0,-10.6 0,-10.6 Z"
+          android:valueType="pathType"/>
+        <objectAnimator
+          android:duration="1000"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="pathData"
+          android:valueFrom="M 24,13.4 c 0,0.0 -24,0.0 -24,0.0 c 0,0.0 0,10.6 0,10.6 c 0,0 24,0 24,0 c 0,0 0,-10.6 0,-10.6 Z"
+          android:valueTo="M 24,0.00173950195312 c 0,0.0 -24,0.0 -24,0.0 c 0,0.0 0,10.6982574463 0,10.6982574463 c 0,0.0 24,0.0 24,0.0 c 0,0.0 0,-10.6982574463 0,-10.6982574463 Z"
+          android:valueType="pathType"/>
+      </set>
+    </aapt:attr>
+  </target>
+
+</animated-vector>

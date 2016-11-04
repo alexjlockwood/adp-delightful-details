@@ -1,0 +1,67 @@
+<animated-vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:drawable="@drawable/vd_clock_alarm">
+
+  <target android:name="button">
+    <aapt:attr name="android:animation">
+      <set android:ordering="sequentially">
+        <objectAnimator
+          android:duration="33"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="rotation"
+          android:valueFrom="0"
+          android:valueTo="8"/>
+        <objectAnimator
+          android:duration="67"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="rotation"
+          android:valueFrom="8"
+          android:valueTo="-8"/>
+        <objectAnimator
+          android:duration="67"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="rotation"
+          android:valueFrom="-8"
+          android:valueTo="8"/>
+        <objectAnimator
+          android:duration="67"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="rotation"
+          android:valueFrom="8"
+          android:valueTo="-8"/>
+        <objectAnimator
+          android:duration="67"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="rotation"
+          android:valueFrom="-8"
+          android:valueTo="8"/>
+        <objectAnimator
+          android:duration="67"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="rotation"
+          android:valueFrom="8"
+          android:valueTo="-8"/>
+        <objectAnimator
+          android:duration="67"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="rotation"
+          android:valueFrom="-8"
+          android:valueTo="8"/>
+        <objectAnimator
+          android:duration="67"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="rotation"
+          android:valueFrom="8"
+          android:valueTo="-8"/>
+        <objectAnimator
+          android:duration="33"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="rotation"
+          android:valueFrom="-8"
+          android:valueTo="0"/>
+      </set>
+    </aapt:attr>
+  </target>
+
+</animated-vector>
