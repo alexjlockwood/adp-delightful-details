@@ -55,6 +55,14 @@
       android:name="com.alexjlockwood.example.delight.ExpandCollapseActivity"
       android:label="@string/app_name"
       android:theme="@style/AppThemeNoActionBar"/>
+    <activity
+      android:name="com.alexjlockwood.example.delight.GoogleIoActivity"
+      android:label="@string/app_name"
+      android:theme="@style/AppThemeNoActionBar"/>
+    <activity
+      android:name="com.alexjlockwood.example.delight.HandwritingActivity"
+      android:label="@string/app_name"
+      android:theme="@style/AppThemeNoActionBar"/>
   </application>
 
 </manifest>

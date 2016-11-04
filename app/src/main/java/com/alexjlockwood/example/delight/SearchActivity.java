@@ -21,7 +21,7 @@ public class SearchActivity extends AppCompatActivity {
   }
 
   @OnClick(R.id.rootview)
-  void onButtonClick() {
+  void onClick() {
     isChecked = !isChecked;
     iconView.setImageState(new int[]{android.R.attr.state_checked * (isChecked ? 1 : -1)}, true);
   }

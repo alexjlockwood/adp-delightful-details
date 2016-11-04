@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.clock, ClockActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.drawer, DrawerActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.expandcollapse, ExpandCollapseActivity.class);
+    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.googleio, GoogleIoActivity.class);
+    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.handwriting, HandwritingActivity.class);
   }
 
   @Override
@@ -43,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
       R.id.clock,
       R.id.drawer,
       R.id.expandcollapse,
+      R.id.googleio,
+      R.id.handwriting,
   })
   void onListItemClick(View view) {
     startActivity(new Intent(this, LIST_ITEM_TO_ACTIVITY_MAP.get(view.getId())));

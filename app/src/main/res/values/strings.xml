@@ -14,6 +14,8 @@
   <string name="play_pause_stop">Play, pause, stop</string>
   <string name="fingerprint">Fingerprint</string>
   <string name="uploading">Uploading</string>
+  <string name="googleio">#IO16</string>
+  <string name="handwriting">Handwriting</string>
   <string name="clock">Clock</string>
   <string name="drawer">Drawer to arrow</string>
   <string name="expandcollapse">Expand &amp; collapse</string>

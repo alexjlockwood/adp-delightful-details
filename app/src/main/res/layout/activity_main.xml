@@ -80,6 +80,20 @@
       android:layout_height="wrap_content"
       android:text="@string/uploading"/>
 
+    <TextView
+      android:id="@+id/googleio"
+      style="@style/MainActivityListItem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/googleio"/>
+
+    <TextView
+      android:id="@+id/handwriting"
+      style="@style/MainActivityListItem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/handwriting"/>
+
   </LinearLayout>
 
 </ScrollView>
