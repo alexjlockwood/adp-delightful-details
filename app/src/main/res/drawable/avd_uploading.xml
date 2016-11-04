@@ -23,7 +23,7 @@
       <set>
         <objectAnimator
           android:duration="1333"
-          android:interpolator="@interpolator/trimpath_searchback_start"
+          android:interpolator="@interpolator/searchback_trimpath_start"
           android:propertyName="trimPathStart"
           android:repeatCount="-1"
           android:valueFrom="0"
@@ -31,7 +31,7 @@
 
         <objectAnimator
           android:duration="1333"
-          android:interpolator="@interpolator/trimpath_searchback_end"
+          android:interpolator="@interpolator/searchback_trimpath_end"
           android:propertyName="trimPathEnd"
           android:repeatCount="-1"
           android:valueFrom="0"

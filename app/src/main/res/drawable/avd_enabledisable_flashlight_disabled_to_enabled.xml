@@ -18,7 +18,7 @@
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="350"
-        android:interpolator="@interpolator/clippath_flashlight_enable_mask"
+        android:interpolator="@interpolator/enabledisable_flashlight_enable_mask"
         android:propertyName="pathData"
         android:valueFrom="@string/flashlight_mask_clip_path_disabled"
         android:valueTo="@string/flashlight_mask_clip_path_enabled"
@@ -31,7 +31,7 @@
       <set>
         <objectAnimator
           android:duration="350"
-          android:interpolator="@interpolator/clippath_flashlight_enable_cross"
+          android:interpolator="@interpolator/enabledisable_flashlight_enable_cross"
           android:propertyName="pathData"
           android:valueFrom="@string/flashlight_cross_path_disabled"
           android:valueTo="@string/flashlight_cross_path_enabled"
