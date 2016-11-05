@@ -1,0 +1,66 @@
+<animated-vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt">
+
+  <aapt:attr name="android:drawable">
+    <vector
+      android:width="300dp"
+      android:height="300dp"
+      android:viewportHeight="1.5"
+      android:viewportWidth="1.5">
+
+      <group
+        android:scaleX="0.95"
+        android:scaleY="0.95"
+        android:translateX="0.025"
+        android:translateY="0.025">
+
+        <path
+          android:name="border"
+          android:pathData="M 0,0 v 1.4 h 1.4"
+          android:strokeColor="?attr/colorControlNormal"
+          android:strokeWidth="0.01"/>
+
+        <group android:translateY="0.4">
+          <path
+            android:name="path"
+            android:pathData="M 0,0 L 0.2,0 C 0.6,0 0.4,1 1.2,1 L 1.4,1"
+            android:strokeColor="?attr/colorPrimary"
+            android:strokeLineCap="round"
+            android:strokeWidth="0.02"
+            android:trimPathEnd="0"/>
+
+          <group android:translateX="1.4">
+            <group android:name="dotGroup">
+              <path
+                android:name="dot"
+                android:fillColor="?attr/colorAccent"
+                android:pathData="m -0.03,0 a 0.03,0.03 0 1,0 0.06,0 a 0.03,0.03 0 1,0 -0.06,0"/>
+            </group>
+          </group>
+        </group>
+      </group>
+    </vector>
+  </aapt:attr>
+
+  <target android:name="dotGroup">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="800"
+        android:interpolator="@android:interpolator/linear"
+        android:pathData="M 0,0 L 0.2,0 C 0.6,0 0.4,1 1.2,1 L 1.4,1"
+        android:propertyYName="translateY"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="path">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="800"
+        android:interpolator="@android:interpolator/linear"
+        android:pathData="M 0,0 L 1,0"
+        android:propertyXName="trimPathEnd"/>
+    </aapt:attr>
+  </target>
+
+</animated-vector>

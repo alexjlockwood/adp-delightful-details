@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.handwriting, HandwritingActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.widgets, WidgetsActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.uploading, UploadingActivity.class);
+    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.simple, SimpleActivity.class);
   }
 
   @Override
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
       R.id.handwriting,
       R.id.widgets,
       R.id.uploading,
+      R.id.simple,
   })
   void onListItemClick(View view) {
     startActivity(new Intent(this, LIST_ITEM_TO_ACTIVITY_MAP.get(view.getId())));

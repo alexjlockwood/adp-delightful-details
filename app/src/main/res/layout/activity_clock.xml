@@ -17,7 +17,7 @@
       android:layout_alignParentTop="true"
       android:layout_centerInParent="true"
       android:contentDescription="@null"
-      android:padding="4dp"
+      android:layout_margin="4dp"
       android:scaleType="fitCenter"
       android:src="@drawable/avd_clock_alarm"/>
 
@@ -29,7 +29,7 @@
       android:layout_centerInParent="true"
       android:layout_toEndOf="@id/alarm"
       android:contentDescription="@null"
-      android:padding="4dp"
+      android:layout_margin="4dp"
       android:scaleType="fitCenter"
       android:src="@drawable/avd_clock_clock"/>
 
@@ -41,7 +41,7 @@
       android:layout_below="@id/alarm"
       android:layout_centerInParent="true"
       android:contentDescription="@null"
-      android:padding="4dp"
+      android:layout_margin="4dp"
       android:scaleType="fitCenter"
       android:src="@drawable/avd_clock_timer"/>
 
@@ -53,7 +53,7 @@
       android:layout_centerInParent="true"
       android:layout_toEndOf="@id/timer"
       android:contentDescription="@null"
-      android:padding="4dp"
+      android:layout_margin="4dp"
       android:scaleType="fitCenter"
       android:src="@drawable/avd_clock_stopwatch"/>
 
