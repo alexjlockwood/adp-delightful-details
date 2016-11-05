@@ -18,7 +18,5 @@
       android:name="iconPath"
       android:fillColor="@android:color/white"
       android:pathData="@string/path_play"/>
-
   </group>
-
 </vector>

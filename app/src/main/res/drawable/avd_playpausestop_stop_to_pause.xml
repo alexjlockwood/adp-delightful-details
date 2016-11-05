@@ -8,7 +8,7 @@
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="@android:integer/config_shortAnimTime"
-        android:interpolator="@android:interpolator/decelerate_quad"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
         android:propertyName="rotation"
         android:valueFrom="90"
         android:valueTo="180"/>
@@ -19,7 +19,7 @@
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="@android:integer/config_shortAnimTime"
-        android:interpolator="@android:interpolator/decelerate_quad"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
         android:propertyName="pathData"
         android:valueFrom="@string/path_stop"
         android:valueTo="@string/path_pause"

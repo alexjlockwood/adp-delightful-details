@@ -10,15 +10,11 @@
   <group
     android:name="iconGroup"
     android:pivotX="9"
-    android:pivotY="9"
-    android:rotation="0"
-    android:translateX="0">
+    android:pivotY="9">
 
     <path
       android:name="iconPath"
       android:fillColor="@android:color/white"
       android:pathData="@string/path_stop"/>
-
   </group>
-
 </vector>

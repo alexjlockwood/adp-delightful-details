@@ -8,33 +8,28 @@
   android:viewportWidth="48">
 
   <group
-    android:translateX="21.9995"
-    android:translateY="25.73401">
+    android:translateX="-1.21595"
+    android:translateY="6.86752">
+
+    <clip-path
+      android:name="maskClipPath"
+      android:pathData="@string/flashlight_mask_clip_path_disabled"/>
+
+    <path
+      android:name="crossPath"
+      android:fillColor="@android:color/transparent"
+      android:pathData="@string/flashlight_cross_path_disabled"
+      android:strokeAlpha="1"
+      android:strokeColor="@android:color/white"
+      android:strokeWidth="3.5"/>
 
     <group
-      android:translateX="-23.21545"
-      android:translateY="-18.86649">
-
-      <clip-path
-        android:name="maskClipPath"
-        android:pathData="@string/flashlight_mask_clip_path_disabled"/>
-
+      android:translateX="25.06235"
+      android:translateY="22.48294">
       <path
-        android:name="crossPath"
-        android:fillColor="@android:color/transparent"
-        android:pathData="@string/flashlight_cross_path_disabled"
-        android:strokeAlpha="1"
-        android:strokeColor="@android:color/white"
-        android:strokeWidth="3.5"/>
-
-      <group
-        android:translateX="25.06235"
-        android:translateY="22.48294">
-        <path
-          android:fillAlpha="1"
-          android:fillColor="@android:color/white"
-          android:pathData="@string/flashlight_path"/>
-      </group>
+        android:fillAlpha="1"
+        android:fillColor="@android:color/white"
+        android:pathData="@string/flashlight_path"/>
     </group>
   </group>
 </vector>
