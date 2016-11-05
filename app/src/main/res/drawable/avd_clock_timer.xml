@@ -32,15 +32,15 @@
           android:duration="333"
           android:interpolator="@android:interpolator/fast_out_slow_in"
           android:propertyName="pathData"
-          android:valueFrom="M 24,13.4 c 0,0 -24,0.0 -24,0 c 0,0 0,10.6 0,10.6 c 0,0 24,0 24,0 c 0,0 0,-10.6 0,-10.6 Z"
-          android:valueTo="M 24,13.4 c 0,0 -24,0.0 -24,0 c 0,0.0 0,10.6 0,10.6 c 0,0 24,0 24,0 c 0,0 0,-10.6 0,-10.6 Z"
+          android:valueFrom="M 24,13.4 c 0,0 -24,0 -24,0 c 0,0 0,10.6 0,10.6 c 0,0 24,0 24,0 c 0,0 0,-10.6 0,-10.6 Z"
+          android:valueTo="M 24,13.4 c 0,0 -24,0 -24,0 c 0,0 0,10.6 0,10.6 c 0,0 24,0 24,0 c 0,0 0,-10.6 0,-10.6 Z"
           android:valueType="pathType"/>
         <objectAnimator
           android:duration="1000"
           android:interpolator="@android:interpolator/fast_out_slow_in"
           android:propertyName="pathData"
-          android:valueFrom="M 24,13.4 c 0,0.0 -24,0.0 -24,0.0 c 0,0.0 0,10.6 0,10.6 c 0,0 24,0 24,0 c 0,0 0,-10.6 0,-10.6 Z"
-          android:valueTo="M 24,0.00173950195312 c 0,0.0 -24,0.0 -24,0.0 c 0,0.0 0,10.6982574463 0,10.6982574463 c 0,0.0 24,0.0 24,0.0 c 0,0.0 0,-10.6982574463 0,-10.6982574463 Z"
+          android:valueFrom="M 24,13.4 c 0,0 -24,0 -24,0 c 0,0 0,10.6 0,10.6 c 0,0 24,0 24,0 c 0,0 0,-10.6 0,-10.6 Z"
+          android:valueTo="M 24,0.00173950195312 c 0,0 -24,0 -24,0 c 0,0 0,10.6982574463 0,10.6982574463 c 0,0 24,0 24,0 c 0,0 0,-10.6982574463 0,-10.6982574463 Z"
           android:valueType="pathType"/>
       </set>
     </aapt:attr>
