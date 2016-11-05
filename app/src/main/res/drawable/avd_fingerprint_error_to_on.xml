@@ -16,7 +16,7 @@
           android:duration="266"
           android:propertyName="rotation"
           android:valueFrom="200.66753"
-          android:valueTo="0.0"
+          android:valueTo="0"
           android:valueType="floatType"
           android:interpolator="@interpolator/fingerprint_error_to_on_4"/>
       </set>
@@ -28,15 +28,15 @@
         <objectAnimator
           android:duration="216"
           android:propertyName="trimPathEnd"
-          android:valueFrom="0.0"
-          android:valueTo="0.0"
+          android:valueFrom="0"
+          android:valueTo="0"
           android:valueType="floatType"
           android:interpolator="@android:interpolator/linear"/>
         <objectAnimator
           android:duration="316"
           android:propertyName="trimPathEnd"
-          android:valueFrom="0.0"
-          android:valueTo="1.0"
+          android:valueFrom="0"
+          android:valueTo="1"
           android:valueType="floatType"
           android:interpolator="@interpolator/fingerprint_error_to_on_0"/>
       </set>
@@ -48,15 +48,15 @@
         <objectAnimator
           android:duration="233"
           android:propertyName="trimPathStart"
-          android:valueFrom="1.0"
-          android:valueTo="1.0"
+          android:valueFrom="1"
+          android:valueTo="1"
           android:valueType="floatType"
           android:interpolator="@android:interpolator/linear"/>
         <objectAnimator
           android:duration="200"
           android:propertyName="trimPathStart"
-          android:valueFrom="1.0"
-          android:valueTo="0.0"
+          android:valueFrom="1"
+          android:valueTo="0"
           android:valueType="floatType"
           android:interpolator="@interpolator/fingerprint_error_to_on_2"/>
       </set>
@@ -68,15 +68,15 @@
         <objectAnimator
           android:duration="183"
           android:propertyName="trimPathStart"
-          android:valueFrom="1.0"
-          android:valueTo="1.0"
+          android:valueFrom="1"
+          android:valueTo="1"
           android:valueType="floatType"
           android:interpolator="@android:interpolator/linear"/>
         <objectAnimator
           android:duration="350"
           android:propertyName="trimPathStart"
-          android:valueFrom="1.0"
-          android:valueTo="0.0"
+          android:valueFrom="1"
+          android:valueTo="0"
           android:valueType="floatType"
           android:interpolator="@interpolator/fingerprint_error_to_on_5"/>
       </set>
@@ -89,15 +89,15 @@
           android:duration="333"
           android:interpolator="@android:interpolator/linear"
           android:propertyName="trimPathStart"
-          android:valueFrom="1.0"
-          android:valueTo="1.0"
+          android:valueFrom="1"
+          android:valueTo="1"
           android:valueType="floatType"/>
         <objectAnimator
           android:duration="200"
           android:interpolator="@interpolator/fingerprint_error_to_on_3"
           android:propertyName="trimPathStart"
-          android:valueFrom="1.0"
-          android:valueTo="0.0"
+          android:valueFrom="1"
+          android:valueTo="0"
           android:valueType="floatType"/>
       </set>
     </aapt:attr>
@@ -108,15 +108,15 @@
         <objectAnimator
           android:duration="400"
           android:propertyName="trimPathEnd"
-          android:valueFrom="0.0"
-          android:valueTo="0.0"
+          android:valueFrom="0"
+          android:valueTo="0"
           android:valueType="floatType"
           android:interpolator="@android:interpolator/linear"/>
         <objectAnimator
           android:duration="199"
           android:propertyName="trimPathEnd"
-          android:valueFrom="0.0"
-          android:valueTo="1.0"
+          android:valueFrom="0"
+          android:valueTo="1"
           android:valueType="floatType"
           android:interpolator="@interpolator/fingerprint_error_to_on_2"/>
       </set>
@@ -127,8 +127,8 @@
       <objectAnimator
         android:duration="233"
         android:propertyName="rotation"
-        android:valueFrom="0.0"
-        android:valueTo="-289.0"
+        android:valueFrom="0"
+        android:valueTo="-289"
         android:valueType="floatType"
         android:interpolator="@interpolator/fingerprint_error_to_on_1"/>
     </aapt:attr>
@@ -178,8 +178,8 @@
       <objectAnimator
         android:duration="416"
         android:propertyName="rotation"
-        android:valueFrom="430.0"
-        android:valueTo="206.0"
+        android:valueFrom="430"
+        android:valueTo="206"
         android:valueType="floatType"
         android:interpolator="@android:interpolator/fast_out_linear_in"/>
     </aapt:attr>
@@ -189,8 +189,8 @@
       <objectAnimator
         android:duration="383"
         android:propertyName="trimPathEnd"
-        android:valueFrom="1.0"
-        android:valueTo="0.0"
+        android:valueFrom="1"
+        android:valueTo="0"
         android:valueType="floatType"
         android:interpolator="@android:interpolator/fast_out_linear_in"/>
     </aapt:attr>

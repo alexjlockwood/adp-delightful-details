@@ -9,7 +9,7 @@
         android:duration="350"
         android:interpolator="@android:interpolator/fast_out_slow_in"
         android:propertyName="alpha"
-        android:valueFrom="1.0"
+        android:valueFrom="1"
         android:valueTo="0.3"/>
     </aapt:attr>
   </target>

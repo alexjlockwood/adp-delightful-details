@@ -161,15 +161,15 @@
             android:interpolator="@interpolator/clock_clock_0"
             android:propertyName="translateY"
             android:valueFrom="124.41091"
-            android:valueTo="124.0"
+            android:valueTo="124"
             android:valueType="floatType"/>
         </set>
         <objectAnimator
           android:duration="833"
           android:interpolator="@android:interpolator/fast_out_slow_in"
           android:propertyName="rotation"
-          android:valueFrom="0.0"
-          android:valueTo="121.0"
+          android:valueFrom="0"
+          android:valueTo="121"
           android:valueType="floatType"/>
       </set>
     </aapt:attr>
@@ -248,7 +248,7 @@
             android:duration="166"
             android:interpolator="@interpolator/clock_clock_1"
             android:propertyName="translateY"
-            android:valueFrom="124.0"
+            android:valueFrom="124"
             android:valueTo="124.26329"
             android:valueType="floatType"/>
           <objectAnimator
@@ -312,8 +312,8 @@
           android:duration="833"
           android:interpolator="@android:interpolator/fast_out_slow_in"
           android:propertyName="rotation"
-          android:valueFrom="121.0"
-          android:valueTo="360.0"
+          android:valueFrom="121"
+          android:valueTo="360"
           android:valueType="floatType"/>
       </set>
     </aapt:attr>
