@@ -5,7 +5,6 @@
   android:tint="?attr/colorControlActivated"
   android:viewportHeight="48"
   android:viewportWidth="48">
-
   <group
     android:name="root"
     android:translateX="24"
@@ -13,7 +12,7 @@
     <path
       android:name="progressBar"
       android:fillColor="@android:color/transparent"
-      android:pathData="M0, 0 m 0, -18 a 18,18 0 1,1 0,36 a 18,18 0 1,1 0,-36"
+      android:pathData="M0,0 m 0,-18 a 18,18 0 1,1 0,36 a 18,18 0 1,1 0,-36"
       android:strokeColor="@android:color/white"
       android:strokeLineCap="square"
       android:strokeLineJoin="miter"
@@ -22,5 +21,4 @@
       android:trimPathOffset="0"
       android:trimPathStart="0"/>
   </group>
-
 </vector>

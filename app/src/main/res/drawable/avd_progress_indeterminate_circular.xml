@@ -1,13 +1,10 @@
 <animated-vector
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:drawable="@drawable/vd_progress_indeterminate_circular">
-
   <target
     android:name="progressBar"
     android:animation="@animator/progress_indeterminate_material"/>
-
   <target
     android:name="root"
     android:animation="@animator/progress_indeterminate_rotation_material"/>
-
 </animated-vector>
