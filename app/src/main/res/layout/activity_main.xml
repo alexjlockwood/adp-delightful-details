@@ -88,11 +88,11 @@
       android:text="@string/widgets"/>
 
     <TextView
-      android:id="@+id/simple"
+      android:id="@+id/curvedmotion"
       style="@style/MainActivityListItem"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="@string/simple"/>
+      android:text="@string/curvedmotion"/>
 
     <TextView
       android:id="@+id/uploading"

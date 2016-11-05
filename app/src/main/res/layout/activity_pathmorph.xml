@@ -55,7 +55,7 @@
       android:layout_toEndOf="@id/plusminus"
       android:contentDescription="@null"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_digits"/>
+      android:src="@drawable/asl_pathmorph_digits"/>
 
   </RelativeLayout>
 </RelativeLayout>

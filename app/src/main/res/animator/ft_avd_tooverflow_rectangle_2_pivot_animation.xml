@@ -1,9 +1,0 @@
-<set
-  xmlns:android="http://schemas.android.com/apk/res/android">
-  <objectAnimator
-    android:duration="216"
-    android:interpolator="@android:interpolator/fast_out_slow_in"
-    android:pathData="M 9.0,0.0 c -1.5,0.0 -7.5,0.0 -9.0,0.0"
-    android:propertyXName="translateX"
-    android:propertyYName="translateY"/>
-</set>

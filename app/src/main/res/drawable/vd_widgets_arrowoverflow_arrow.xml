@@ -1,0 +1,52 @@
+<vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:name="ft_avd_tooverflow"
+  android:width="24dp"
+  android:height="24dp"
+  android:tint="?attr/colorControlNormal"
+  android:viewportHeight="24"
+  android:viewportWidth="24">
+  <group
+    android:name="carrot_5"
+    android:translateX="12"
+    android:translateY="12">
+    <group
+      android:name="rectangle_3"
+      android:rotation="45"
+      android:translateX="-6.5">
+      <group
+        android:name="rectangle_3_pivot"
+        android:translateX="4.5">
+        <path
+          android:name="rectangle_path_2"
+          android:fillColor="@android:color/white"
+          android:pathData="M -5.5,-1 l 11,0 c 0,0 0,0 0,0 l 0,2 c 0,0 0,0 0,0 l -11,0 c 0,0 0,0 0,0 l 0,-2 c 0,0 0,0 0,0 Z"/>
+      </group>
+    </group>
+    <group
+      android:name="rectangle_2"
+      android:translateX="-8">
+      <group
+        android:name="rectangle_2_pivot"
+        android:translateX="9">
+        <path
+          android:name="rectangle_path_3"
+          android:fillColor="@android:color/white"
+          android:pathData="M -7,-1 l 14,0 c 0,0 0,0 0,0 l 0,2 c 0,0 0,0 0,0 l -14,0 c 0,0 0,0 0,0 l 0,-2 c 0,0 0,0 0,0 Z"/>
+      </group>
+    </group>
+    <group
+      android:name="rectangle_1"
+      android:rotation="-45"
+      android:translateX="-6.5">
+      <group
+        android:name="rectangle_1_pivot"
+        android:translateX="4.5">
+        <path
+          android:name="rectangle_path_1"
+          android:fillColor="@android:color/white"
+          android:pathData="M -5.5,-1 l 11,0 c 0,0 0,0 0,0 l 0,2 c 0,0 0,0 0,0 l -11,0 c 0,0 0,0 0,0 l 0,-2 c 0,0 0,0 0,0 Z"/>
+      </group>
+    </group>
+  </group>
+</vector>
