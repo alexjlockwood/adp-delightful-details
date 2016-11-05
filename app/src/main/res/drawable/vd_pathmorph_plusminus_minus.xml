@@ -14,7 +14,7 @@
     <path
       android:name="minus"
       android:fillColor="@android:color/white"
-      android:pathData="@string/path_follow_minus"/>
+      android:pathData="@string/path_pathmorph_plusminus_minus"/>
 
   </group>
 

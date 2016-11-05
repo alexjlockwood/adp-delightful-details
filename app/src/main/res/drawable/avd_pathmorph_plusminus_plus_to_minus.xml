@@ -6,7 +6,7 @@
   <target android:name="plus_minus">
     <aapt:attr name="android:animation">
       <objectAnimator
-        android:duration="@android:integer/config_mediumAnimTime"
+        android:duration="300"
         android:interpolator="@android:interpolator/fast_out_slow_in"
         android:propertyName="rotation"
         android:valueFrom="-180"
@@ -17,7 +17,7 @@
   <target android:name="plus">
     <aapt:attr name="android:animation">
       <objectAnimator
-        android:duration="@android:integer/config_mediumAnimTime"
+        android:duration="250"
         android:interpolator="@android:interpolator/fast_out_slow_in"
         android:propertyName="pathData"
         android:valueFrom="@string/path_follow_plus"

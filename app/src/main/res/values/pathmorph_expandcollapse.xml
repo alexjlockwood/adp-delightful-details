@@ -1,0 +1,5 @@
+<resources>
+
+  <string name="path_pathmorph_expandcollapse">M 1,-4 L 1,4 L -1,4 L -1,-4 Z</string>
+
+</resources>
