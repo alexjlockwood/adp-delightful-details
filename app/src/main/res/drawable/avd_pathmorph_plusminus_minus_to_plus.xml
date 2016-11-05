@@ -20,8 +20,8 @@
         android:duration="250"
         android:interpolator="@android:interpolator/fast_out_slow_in"
         android:propertyName="pathData"
-        android:valueFrom="@string/path_follow_minus"
-        android:valueTo="@string/path_follow_plus"
+        android:valueFrom="@string/path_pathmorph_plusminus_minus"
+        android:valueTo="@string/path_pathmorph_plusminus_plus"
         android:valueType="pathType"/>
     </aapt:attr>
   </target>
