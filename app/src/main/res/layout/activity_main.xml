@@ -39,13 +39,6 @@
       android:text="@string/enabledisable"/>
 
     <TextView
-      android:id="@+id/digits"
-      style="@style/MainActivityListItem"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/digits"/>
-
-    <TextView
       android:id="@+id/clock"
       style="@style/MainActivityListItem"
       android:layout_width="match_parent"
@@ -67,11 +60,11 @@
       android:text="@string/fingerprint"/>
 
     <TextView
-      android:id="@+id/uploading"
+      android:id="@+id/progressbar"
       style="@style/MainActivityListItem"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="@string/uploading"/>
+      android:text="@string/progressbar"/>
 
     <TextView
       android:id="@+id/io16"
@@ -86,6 +79,13 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="@string/handwriting"/>
+
+    <TextView
+      android:id="@+id/widgets"
+      style="@style/MainActivityListItem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/widgets"/>
 
   </LinearLayout>
 

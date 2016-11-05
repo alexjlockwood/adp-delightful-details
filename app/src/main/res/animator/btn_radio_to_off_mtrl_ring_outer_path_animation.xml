@@ -1,0 +1,25 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <set android:ordering="sequentially">
+    <objectAnimator
+      android:duration="183"
+      android:interpolator="@android:interpolator/fast_out_slow_in"
+      android:propertyName="strokeWidth"
+      android:valueFrom="2.0"
+      android:valueTo="2.0"
+      android:valueType="floatType"/>
+    <objectAnimator
+      android:duration="16"
+      android:interpolator="@android:interpolator/fast_out_slow_in"
+      android:propertyName="strokeWidth"
+      android:valueFrom="2.0"
+      android:valueTo="18.0"
+      android:valueType="floatType"/>
+    <objectAnimator
+      android:duration="300"
+      android:interpolator="@android:interpolator/fast_out_slow_in"
+      android:propertyName="strokeWidth"
+      android:valueFrom="18.0"
+      android:valueTo="2.0"
+      android:valueType="floatType"/>
+  </set>
+</set>

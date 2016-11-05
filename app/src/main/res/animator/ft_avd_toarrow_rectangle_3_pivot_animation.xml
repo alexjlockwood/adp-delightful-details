@@ -1,0 +1,7 @@
+<objectAnimator
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:duration="450"
+  android:interpolator="@interpolator/ft_avd_toarrow_animation_interpolator_0"
+  android:pathData="M 4.5,0.0 c -0.75,0.0 -3.75,0.0 -4.5,0.0"
+  android:propertyXName="translateX"
+  android:propertyYName="translateY"/>

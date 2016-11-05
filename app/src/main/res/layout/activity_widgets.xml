@@ -1,0 +1,59 @@
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/rootview"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true">
+
+    <ImageView
+      android:id="@+id/radiobutton"
+      android:layout_width="128dp"
+      android:layout_height="128dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:contentDescription="@null"
+      android:padding="4dp"
+      android:scaleType="fitCenter"
+      android:src="@drawable/asl_widgets_radiobutton"/>
+
+    <ImageView
+      android:id="@+id/checkbox"
+      android:layout_width="128dp"
+      android:layout_height="128dp"
+      android:layout_alignTop="@id/radiobutton"
+      android:layout_toEndOf="@id/radiobutton"
+      android:contentDescription="@null"
+      android:padding="4dp"
+      android:scaleType="fitCenter"
+      android:src="@drawable/asl_widgets_checkbox"/>
+
+    <ImageView
+      android:id="@+id/ft_arrow_overflow"
+      android:layout_width="128dp"
+      android:layout_height="128dp"
+      android:layout_alignStart="@id/radiobutton"
+      android:layout_below="@id/radiobutton"
+      android:contentDescription="@null"
+      android:padding="4dp"
+      android:scaleType="fitCenter"
+      android:src="@drawable/asl_widgets_ftarrowoverflow"/>
+
+    <ImageView
+      android:id="@+id/expandcollapse"
+      android:layout_width="128dp"
+      android:layout_height="128dp"
+      android:layout_alignTop="@id/ft_arrow_overflow"
+      android:layout_centerInParent="true"
+      android:layout_toEndOf="@id/ft_arrow_overflow"
+      android:contentDescription="@null"
+      android:padding="4dp"
+      android:scaleType="fitCenter"
+      android:src="@drawable/asl_widgets_expandcollapse"/>
+
+  </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+
+    <ImageView
+      android:id="@+id/circular_indeterminate_progress_medium"
+      android:layout_width="128dp"
+      android:layout_height="128dp"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginBottom="32dp"
+      android:contentDescription="@null"
+      android:scaleType="fitCenter"
+      android:src="@drawable/avd_progress_indeterminate_circular"/>
+
+    <ImageView
+      android:id="@+id/horizontal_indeterminate_progress"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:contentDescription="@null"
+      android:scaleType="fitCenter"
+      android:src="@drawable/avd_progress_indeterminate_horizontal"/>
+  </LinearLayout>
+</RelativeLayout>

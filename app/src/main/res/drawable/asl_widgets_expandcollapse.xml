@@ -3,20 +3,20 @@
 
   <item
     android:id="@+id/expanded"
-    android:drawable="@drawable/vd_pathmorph_expandcollapse_collapse"
+    android:drawable="@drawable/vd_widgets_expandcollapse_collapse"
     android:state_expanded="true"/>
 
   <item
     android:id="@+id/collapsed"
-    android:drawable="@drawable/vd_pathmorph_expandcollapse_expand"/>
+    android:drawable="@drawable/vd_widgets_expandcollapse_expand"/>
 
   <transition
-    android:drawable="@drawable/avd_pathmorph_expandcollapse_expand"
+    android:drawable="@drawable/avd_widgets_expandcollapse_expand"
     android:fromId="@id/collapsed"
     android:toId="@id/expanded"/>
 
   <transition
-    android:drawable="@drawable/avd_pathmorph_expandcollapse_collapse"
+    android:drawable="@drawable/avd_widgets_expandcollapse_collapse"
     android:fromId="@id/expanded"
     android:toId="@id/collapsed"/>
 

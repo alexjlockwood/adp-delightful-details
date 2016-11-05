@@ -11,7 +11,7 @@ import butterknife.OnClick;
 
 public class HandwritingActivity extends AppCompatActivity {
 
-  @BindView(R.id.icon) ImageView iconView;
+  @BindView(R.id.handwritingIcon) ImageView iconView;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {

@@ -18,6 +18,9 @@ public class PlayPauseStopActivity extends AppCompatActivity {
       {-R.attr.state_play, -R.attr.state_pause, R.attr.state_stop};
 
   @BindView(R.id.icon) ImageView iconView;
+  @BindView(R.id.play) View playButton;
+  @BindView(R.id.pause) View pauseButton;
+  @BindView(R.id.stop) View stopButton;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -26,14 +29,27 @@ public class PlayPauseStopActivity extends AppCompatActivity {
     ButterKnife.bind(this);
   }
 
-  @OnClick({R.id.play, R.id.pause, R.id.stop})
-  public void onButtonClick(View view) {
-    if (view.getId() == R.id.play) {
-      iconView.setImageState(STATE_SET_PLAY, true);
-    } else if (view.getId() == R.id.pause) {
-      iconView.setImageState(STATE_SET_PAUSE, true);
-    } else if (view.getId() == R.id.stop) {
-      iconView.setImageState(STATE_SET_STOP, true);
-    }
+  @OnClick(R.id.play)
+  void setPlay() {
+    playButton.setEnabled(false);
+    pauseButton.setEnabled(true);
+    stopButton.setEnabled(true);
+    iconView.setImageState(STATE_SET_PLAY, true);
+  }
+
+  @OnClick(R.id.pause)
+  void setPause() {
+    playButton.setEnabled(true);
+    pauseButton.setEnabled(false);
+    stopButton.setEnabled(true);
+    iconView.setImageState(STATE_SET_PAUSE, true);
+  }
+
+  @OnClick(R.id.stop)
+  void setStop() {
+    playButton.setEnabled(true);
+    pauseButton.setEnabled(true);
+    stopButton.setEnabled(false);
+    iconView.setImageState(STATE_SET_STOP, true);
   }
 }

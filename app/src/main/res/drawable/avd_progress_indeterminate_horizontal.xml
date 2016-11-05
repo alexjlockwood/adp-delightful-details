@@ -1,0 +1,10 @@
+<animated-vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:drawable="@drawable/vd_progress_indeterminate_horizontal">
+  <target
+    android:name="rect2_grp"
+    android:animation="@animator/progress_indeterminate_horizontal_rect2"/>
+  <target
+    android:name="rect1_grp"
+    android:animation="@animator/progress_indeterminate_horizontal_rect1"/>
+</animated-vector>

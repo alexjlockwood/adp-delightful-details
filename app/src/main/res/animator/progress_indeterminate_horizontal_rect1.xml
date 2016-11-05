@@ -1,0 +1,14 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <objectAnimator
+    android:duration="2000"
+    android:interpolator="@interpolator/progress_indeterminate_horizontal_rect1_translatex"
+    android:pathData="M -522.59998,0 c 48.89972,0 166.02656,0 301.21729,0 c 197.58128,0 420.9827,0 420.9827,0"
+    android:propertyXName="translateX"
+    android:repeatCount="infinite"/>
+  <objectAnimator
+    android:duration="2000"
+    android:interpolator="@interpolator/progress_indeterminate_horizontal_rect1_scalex"
+    android:pathData="M 0 0.1 L 1 0.826849212646 L 2 0.1"
+    android:propertyYName="scaleX"
+    android:repeatCount="infinite"/>
+</set>

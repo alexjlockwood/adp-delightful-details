@@ -6,7 +6,7 @@
   android:padding="16dp">
 
   <ImageView
-    android:id="@+id/icon"
+    android:id="@+id/handwritingIcon"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_centerInParent="true"

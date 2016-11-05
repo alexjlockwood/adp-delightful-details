@@ -10,7 +10,7 @@ import butterknife.OnClick;
 
 public class HeartActivity extends AppCompatActivity {
 
-  @BindView(R.id.icon) ImageView iconView;
+  @BindView(R.id.heartIcon) ImageView iconView;
   private boolean isChecked;
 
   @Override
