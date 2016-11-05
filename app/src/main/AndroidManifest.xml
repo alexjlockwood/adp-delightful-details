@@ -63,6 +63,10 @@
       android:name="com.alexjlockwood.example.delight.WidgetsActivity"
       android:label="@string/app_name"
       android:theme="@style/AppThemeNoActionBar"/>
+    <activity
+      android:name="com.alexjlockwood.example.delight.UploadingActivity"
+      android:label="@string/app_name"
+      android:theme="@style/AppThemeNoActionBar"/>
   </application>
 
 </manifest>

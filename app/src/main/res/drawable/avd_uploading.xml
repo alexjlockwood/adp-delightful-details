@@ -1,7 +1,36 @@
 <animated-vector
   xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:aapt="http://schemas.android.com/aapt"
-  android:drawable="@drawable/vd_uploading">
+  xmlns:aapt="http://schemas.android.com/aapt">
+
+  <aapt:attr name="android:drawable">
+    <vector
+      android:width="56dp"
+      android:height="56dp"
+      android:viewportHeight="56"
+      android:viewportWidth="56">
+
+      <path
+        android:name="upload_arrow_static"
+        android:fillAlpha="1"
+        android:fillColor="@color/dark_icon_half_alpha"
+        android:pathData="M25,32L31,32L31,26L35,26L28,19L21,26L25,26L25,32Z"/>
+
+      <group>
+        <clip-path
+          android:name="upload_arrow_fill_clip"
+          android:pathData="M21 32 L35 32 L35 32 L21 32 Z"/>
+
+        <path
+          android:name="upload_arrow_filling"
+          android:fillColor="@color/dark_icon_half_alpha"
+          android:pathData="M25,32L31,32L31,26L35,26L28,19L21,26L25,26L25,32Z"/>
+      </group>
+
+      <path
+        android:fillColor="@color/dark_icon"
+        android:pathData="M21,34L35,34L35,36L21,36L21,34Z"/>
+    </vector>
+  </aapt:attr>
 
   <target android:name="upload_arrow_fill_clip">
     <aapt:attr name="android:animation">
@@ -15,49 +44,6 @@
         android:valueFrom="M21 32 L35 32 L35 32 L21 32 Z"
         android:valueTo="M21 10 L35 10 L35 32 L21 32 Z"
         android:valueType="pathType"/>
-    </aapt:attr>
-  </target>
-
-  <target android:name="progress_bar">
-    <aapt:attr name="android:animation">
-      <set>
-        <objectAnimator
-          android:duration="1333"
-          android:interpolator="@interpolator/searchback_trimpath_start"
-          android:propertyName="trimPathStart"
-          android:repeatCount="-1"
-          android:valueFrom="0"
-          android:valueTo="0.75"/>
-
-        <objectAnimator
-          android:duration="1333"
-          android:interpolator="@interpolator/searchback_trimpath_end"
-          android:propertyName="trimPathEnd"
-          android:repeatCount="-1"
-          android:valueFrom="0"
-          android:valueTo="0.75"/>
-
-        <objectAnimator
-          android:duration="1333"
-          android:interpolator="@android:anim/linear_interpolator"
-          android:propertyName="trimPathOffset"
-          android:repeatCount="-1"
-          android:valueFrom="0"
-          android:valueTo="0.25"/>
-
-      </set>
-    </aapt:attr>
-  </target>
-
-  <target android:name="progress_spinner">
-    <aapt:attr name="android:animation">
-      <objectAnimator
-        android:duration="6665"
-        android:interpolator="@android:anim/linear_interpolator"
-        android:propertyName="rotation"
-        android:repeatCount="-1"
-        android:valueFrom="0"
-        android:valueTo="720"/>
     </aapt:attr>
   </target>
 
