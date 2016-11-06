@@ -11,12 +11,12 @@
     android:drawable="@drawable/vd_widgets_expandcollapse_collapsed"/>
 
   <transition
-    android:drawable="@drawable/avd_widgets_expandcollapse_to_expanded"
+    android:drawable="@drawable/avd_widgets_expandcollapse_collapsed_to_expanded"
     android:fromId="@id/collapsed"
     android:toId="@id/expanded"/>
 
   <transition
-    android:drawable="@drawable/avd_widgets_expandcollapse_to_collapsed"
+    android:drawable="@drawable/avd_widgets_expandcollapse_expanded_to_collapsed"
     android:fromId="@id/expanded"
     android:toId="@id/collapsed"/>
 
