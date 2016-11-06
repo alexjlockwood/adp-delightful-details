@@ -86,6 +86,6 @@
 
   <item name="digit_translateX" format="float" type="dimen">-0.06</item>
   <item name="digit_translateY" format="float" type="dimen">-0.06</item>
-  <item name="digit_strokewidth" format="float" type="dimen">0.025</item>
+  <item name="digit_strokewidth" format="float" type="dimen">0.028</item>
 
 </resources>
