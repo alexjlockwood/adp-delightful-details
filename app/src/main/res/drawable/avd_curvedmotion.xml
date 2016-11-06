@@ -5,37 +5,48 @@
   <aapt:attr name="android:drawable">
     <vector
       android:width="300dp"
-      android:height="300dp"
-      android:viewportHeight="1.5"
-      android:viewportWidth="1.5">
-
+      android:height="187.5dp"
+      android:viewportHeight="1.25"
+      android:viewportWidth="2">
       <group
-        android:scaleX="0.95"
-        android:scaleY="0.95"
+        android:scaleX="0.93"
+        android:scaleY="0.93"
         android:translateX="0.025"
         android:translateY="0.025">
-
         <path
-          android:name="border"
-          android:pathData="M 0,0 v 1.4 h 1.4"
+          android:name="axes"
+          android:pathData="v 1.25 h 1.5"
           android:strokeColor="?attr/colorControlNormal"
           android:strokeWidth="0.01"/>
-
-        <group android:translateY="0.4">
+        <group android:translateY="0.25">
           <path
-            android:name="path"
+            android:name="noEasingPath"
+            android:pathData="M 0,0 L 0.2,0 L 1.2,1 L 1.4,1"
+            android:strokeColor="?attr/colorAccent"
+            android:strokeLineCap="round"
+            android:strokeWidth="0.02"
+            android:trimPathEnd="0"/>
+          <path
+            android:name="withEasingPath"
             android:pathData="M 0,0 L 0.2,0 C 0.6,0 0.4,1 1.2,1 L 1.4,1"
             android:strokeColor="?attr/colorPrimary"
             android:strokeLineCap="round"
             android:strokeWidth="0.02"
             android:trimPathEnd="0"/>
-
-          <group android:translateX="1.4">
-            <group android:name="dotGroup">
+          <group android:translateX="1.65">
+            <group android:name="noEasingDotGroup">
               <path
-                android:name="dot"
+                android:name="noEasingDot"
                 android:fillColor="?attr/colorAccent"
-                android:pathData="m -0.03,0 a 0.03,0.03 0 1,0 0.06,0 a 0.03,0.03 0 1,0 -0.06,0"/>
+                android:pathData="m -0.05,0 a 0.05,0.05 0 1,0 0.1,0 a 0.05,0.05 0 1,0 -0.1,0"/>
+            </group>
+          </group>
+          <group android:translateX="1.85">
+            <group android:name="withEasingDotGroup">
+              <path
+                android:name="withEasingDot"
+                android:fillColor="?attr/colorPrimary"
+                android:pathData="m -0.05,0 a 0.05,0.05 0 1,0 0.1,0 a 0.05,0.05 0 1,0 -0.1,0"/>
             </group>
           </group>
         </group>
@@ -43,22 +54,42 @@
     </vector>
   </aapt:attr>
 
-  <target android:name="dotGroup">
+  <target android:name="noEasingDotGroup">
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="800"
         android:interpolator="@android:interpolator/linear"
-        android:pathData="M 0,0 L 0.2,0 C 0.6,0 0.4,1 1.2,1 L 1.4,1"
+        android:pathData="L 0.2,0 L 1.2,1 L 1.4,1"
         android:propertyYName="translateY"/>
     </aapt:attr>
   </target>
 
-  <target android:name="path">
+  <target android:name="withEasingDotGroup">
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="800"
         android:interpolator="@android:interpolator/linear"
-        android:pathData="M 0,0 L 1,0"
+        android:pathData="L 0.2,0 C 0.2,0 0.4,1 1.2,1 L 1.4,1"
+        android:propertyYName="translateY"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="noEasingPath">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="800"
+        android:interpolator="@android:interpolator/linear"
+        android:pathData="L 1,0"
+        android:propertyXName="trimPathEnd"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="withEasingPath">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="800"
+        android:interpolator="@android:interpolator/linear"
+        android:pathData="L 1,0"
         android:propertyXName="trimPathEnd"/>
     </aapt:attr>
   </target>
