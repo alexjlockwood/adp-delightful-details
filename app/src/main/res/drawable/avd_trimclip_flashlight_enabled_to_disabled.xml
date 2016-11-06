@@ -1,7 +1,7 @@
 <animated-vector
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:aapt="http://schemas.android.com/aapt"
-  android:drawable="@drawable/vd_enabledisable_airplane_enabled">
+  android:drawable="@drawable/vd_trimclip_flashlight_enabled">
 
   <target android:name="root">
     <aapt:attr name="android:animation">
@@ -20,28 +20,29 @@
         android:duration="350"
         android:interpolator="@android:interpolator/fast_out_slow_in"
         android:propertyName="pathData"
-        android:valueFrom="@string/airplane_mask_clip_path_enabled"
-        android:valueTo="@string/airplane_mask_clip_path_disabled"
+        android:valueFrom="@string/flashlight_mask_clip_path_enabled"
+        android:valueTo="@string/flashlight_mask_clip_path_disabled"
         android:valueType="pathType"/>
     </aapt:attr>
   </target>
 
   <target android:name="crossPath">
     <aapt:attr name="android:animation">
-      <set android:ordering="sequentially">
+      <set>
+        <objectAnimator
+          android:duration="350"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="pathData"
+          android:valueFrom="@string/flashlight_cross_path_enabled"
+          android:valueTo="@string/flashlight_cross_path_disabled"
+          android:valueType="pathType"/>
         <objectAnimator
           android:duration="17"
           android:propertyName="strokeAlpha"
           android:valueFrom="0"
           android:valueTo="1"/>
-        <objectAnimator
-          android:duration="333"
-          android:interpolator="@android:interpolator/fast_out_slow_in"
-          android:propertyName="pathData"
-          android:valueFrom="@string/airplane_cross_path_enabled"
-          android:valueTo="@string/airplane_cross_path_disabled"
-          android:valueType="pathType"/>
       </set>
+
     </aapt:attr>
   </target>
 

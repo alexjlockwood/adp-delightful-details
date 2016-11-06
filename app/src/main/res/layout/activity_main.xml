@@ -25,18 +25,11 @@
       android:text="@string/pathmorph"/>
 
     <TextView
-      android:id="@+id/searchback"
+      android:id="@+id/trimclip"
       style="@style/MainActivityListItem"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="@string/searchback"/>
-
-    <TextView
-      android:id="@+id/enabledisable"
-      style="@style/MainActivityListItem"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/enabledisable"/>
+      android:text="@string/trimclip"/>
 
     <TextView
       android:id="@+id/clock"
@@ -44,13 +37,6 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="@string/clock"/>
-
-    <TextView
-      android:id="@+id/heart"
-      style="@style/MainActivityListItem"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/heart"/>
 
     <TextView
       android:id="@+id/fingerprint"
@@ -65,13 +51,6 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="@string/progressbar"/>
-
-    <TextView
-      android:id="@+id/io16"
-      style="@style/MainActivityListItem"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/io16"/>
 
     <TextView
       android:id="@+id/handwriting"

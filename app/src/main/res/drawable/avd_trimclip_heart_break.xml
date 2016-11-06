@@ -1,7 +1,7 @@
 <animated-vector
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:aapt="http://schemas.android.com/aapt"
-  android:drawable="@drawable/vd_heart_break">
+  android:drawable="@drawable/vd_trimclip_heart_break">
 
   <!-- Rotate and fade out the two broken-halves. -->
   <target android:name="broken_heart_left_group">

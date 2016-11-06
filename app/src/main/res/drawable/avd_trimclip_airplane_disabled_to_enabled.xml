@@ -1,7 +1,7 @@
 <animated-vector
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:aapt="http://schemas.android.com/aapt"
-  android:drawable="@drawable/vd_enabledisable_airplane_disabled">
+  android:drawable="@drawable/vd_trimclip_airplane_disabled">
 
   <target android:name="root">
     <aapt:attr name="android:animation">
@@ -18,7 +18,7 @@
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="350"
-        android:interpolator="@interpolator/enabledisable_airplane_enable_mask"
+        android:interpolator="@interpolator/trimclip_airplane_enable_mask"
         android:propertyName="pathData"
         android:valueFrom="@string/airplane_mask_clip_path_disabled"
         android:valueTo="@string/airplane_mask_clip_path_enabled"
@@ -31,7 +31,7 @@
       <set>
         <objectAnimator
           android:duration="350"
-          android:interpolator="@interpolator/enabledisable_airplane_enable_cross"
+          android:interpolator="@interpolator/trimclip_airplane_enable_cross"
           android:propertyName="pathData"
           android:valueFrom="@string/airplane_cross_path_disabled"
           android:valueTo="@string/airplane_cross_path_enabled"

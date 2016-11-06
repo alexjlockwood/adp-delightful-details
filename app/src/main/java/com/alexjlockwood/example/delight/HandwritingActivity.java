@@ -5,30 +5,30 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 
-import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class HandwritingActivity extends AppCompatActivity {
 
-  @BindView(R.id.handwritingIcon) ImageView iconView;
+  private Animatable cursiveAvd;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_handwriting);
     ButterKnife.bind(this);
-    startAnimation();
+    ((Animatable) ((ImageView) findViewById(R.id.io16Icon)).getDrawable()).start();
+    cursiveAvd = ((Animatable) ((ImageView) findViewById(R.id.cursiveIcon)).getDrawable());
+    restartCursiveAnimation();
   }
 
   @OnClick(R.id.rootview)
   void onClick() {
-    startAnimation();
+    restartCursiveAnimation();
   }
 
-  private void startAnimation() {
-    final Animatable avd = (Animatable) iconView.getDrawable();
-    avd.stop();
-    avd.start();
+  private void restartCursiveAnimation() {
+    cursiveAvd.stop();
+    cursiveAvd.start();
   }
 }

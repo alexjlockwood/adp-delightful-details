@@ -1,6 +1,6 @@
 <animated-vector
   xmlns:android="http://schemas.android.com/apk/res/android"
-  android:drawable="@drawable/vd_io16">
+  android:drawable="@drawable/vd_handwriting_io16">
 
   <target
     android:name="one_1"

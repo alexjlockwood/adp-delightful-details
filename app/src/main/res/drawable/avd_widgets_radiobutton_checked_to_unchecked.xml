@@ -1,7 +1,7 @@
 <animated-vector
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:aapt="http://schemas.android.com/aapt"
-  android:drawable="@drawable/btn_radio_on_mtrl">
+  android:drawable="@drawable/vd_widgets_radiobutton_checked">
   <target android:name="ring_outer">
     <aapt:attr name="android:animation">
       <set>

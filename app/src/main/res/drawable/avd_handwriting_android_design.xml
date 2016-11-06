@@ -1,7 +1,7 @@
 <animated-vector
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:aapt="http://schemas.android.com/aapt"
-  android:drawable="@drawable/vd_handwriting">
+  android:drawable="@drawable/vd_handwriting_android_design">
 
   <target android:name="andro">
     <aapt:attr name="android:animation">

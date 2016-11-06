@@ -3,20 +3,20 @@
 
   <item
     android:id="@+id/disable"
-    android:drawable="@drawable/vd_enabledisable_flashlight_disabled"
+    android:drawable="@drawable/vd_trimclip_flashlight_disabled"
     android:state_checked="true"/>
 
   <item
     android:id="@+id/enable"
-    android:drawable="@drawable/vd_enabledisable_flashlight_enabled"/>
+    android:drawable="@drawable/vd_trimclip_flashlight_enabled"/>
 
   <transition
-    android:drawable="@drawable/avd_enabledisable_flashlight_disabled_to_enabled"
+    android:drawable="@drawable/avd_trimclip_flashlight_disabled_to_enabled"
     android:fromId="@id/disable"
     android:toId="@id/enable"/>
 
   <transition
-    android:drawable="@drawable/avd_enabledisable_flashlight_enabled_to_disabled"
+    android:drawable="@drawable/avd_trimclip_flashlight_enabled_to_disabled"
     android:fromId="@id/enable"
     android:toId="@id/disable"/>
 

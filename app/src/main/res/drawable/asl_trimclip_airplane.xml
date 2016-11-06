@@ -3,20 +3,20 @@
 
   <item
     android:id="@+id/disable"
-    android:drawable="@drawable/vd_enabledisable_airplane_disabled"
+    android:drawable="@drawable/vd_trimclip_airplane_disabled"
     android:state_checked="true"/>
 
   <item
     android:id="@+id/enable"
-    android:drawable="@drawable/vd_enabledisable_airplane_enabled"/>
+    android:drawable="@drawable/vd_trimclip_airplane_enabled"/>
 
   <transition
-    android:drawable="@drawable/avd_enabledisable_airplane_disabled_to_enabled"
+    android:drawable="@drawable/avd_trimclip_airplane_disabled_to_enabled"
     android:fromId="@id/disable"
     android:toId="@id/enable"/>
 
   <transition
-    android:drawable="@drawable/avd_enabledisable_airplane_enabled_to_disabled"
+    android:drawable="@drawable/avd_trimclip_airplane_enabled_to_disabled"
     android:fromId="@id/enable"
     android:toId="@id/disable"/>
 

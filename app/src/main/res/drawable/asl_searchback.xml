@@ -3,20 +3,20 @@
 
   <item
     android:id="@+id/back"
-    android:drawable="@drawable/vd_searchback_back"
+    android:drawable="@drawable/vd_trimclip_searchback_back"
     android:state_checked="true"/>
 
   <item
     android:id="@+id/search"
-    android:drawable="@drawable/vd_searchback_search"/>
+    android:drawable="@drawable/vd_trimclip_searchback_search"/>
 
   <transition
-    android:drawable="@drawable/avd_searchback_search_to_back"
+    android:drawable="@drawable/avd_trimclip_searchback_search_to_back"
     android:fromId="@id/search"
     android:toId="@id/back"/>
 
   <transition
-    android:drawable="@drawable/avd_searchback_back_to_search"
+    android:drawable="@drawable/avd_trimclip_searchback_back_to_search"
     android:fromId="@id/back"
     android:toId="@id/search"/>
 
