@@ -5,9 +5,9 @@
   <aapt:attr name="android:drawable">
     <vector
       android:width="300dp"
-      android:height="187.5dp"
+      android:height="208.333333dp"
       android:viewportHeight="1.25"
-      android:viewportWidth="2">
+      android:viewportWidth="1.825">
       <group
         android:scaleX="0.93"
         android:scaleY="0.93"
@@ -57,7 +57,7 @@
   <target android:name="noEasingDotGroup">
     <aapt:attr name="android:animation">
       <objectAnimator
-        android:duration="800"
+        android:duration="1000"
         android:interpolator="@android:interpolator/linear"
         android:pathData="L 0.2,0 L 1.2,1 L 1.4,1"
         android:propertyYName="translateY"/>
@@ -67,7 +67,7 @@
   <target android:name="withEasingDotGroup">
     <aapt:attr name="android:animation">
       <objectAnimator
-        android:duration="800"
+        android:duration="1000"
         android:interpolator="@android:interpolator/linear"
         android:pathData="L 0.2,0 C 0.2,0 0.4,1 1.2,1 L 1.4,1"
         android:propertyYName="translateY"/>
@@ -77,7 +77,7 @@
   <target android:name="noEasingPath">
     <aapt:attr name="android:animation">
       <objectAnimator
-        android:duration="800"
+        android:duration="1000"
         android:interpolator="@android:interpolator/linear"
         android:pathData="L 1,0"
         android:propertyXName="trimPathEnd"/>
@@ -87,7 +87,7 @@
   <target android:name="withEasingPath">
     <aapt:attr name="android:animation">
       <objectAnimator
-        android:duration="800"
+        android:duration="1000"
         android:interpolator="@android:interpolator/linear"
         android:pathData="L 1,0"
         android:propertyXName="trimPathEnd"/>
