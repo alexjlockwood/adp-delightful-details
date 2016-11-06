@@ -11,60 +11,11 @@
     android:orientation="vertical">
 
     <TextView
-      android:id="@+id/playpausestop"
-      style="@style/MainActivityListItem"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/play_pause_stop"/>
-
-    <TextView
-      android:id="@+id/pathmorph"
-      style="@style/MainActivityListItem"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/pathmorph"/>
-
-    <TextView
-      android:id="@+id/trimclip"
-      style="@style/MainActivityListItem"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/trimclip"/>
-
-    <TextView
       android:id="@+id/clock"
       style="@style/MainActivityListItem"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="@string/clock"/>
-
-    <TextView
-      android:id="@+id/fingerprint"
-      style="@style/MainActivityListItem"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/fingerprint"/>
-
-    <TextView
-      android:id="@+id/progressbar"
-      style="@style/MainActivityListItem"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/progressbar"/>
-
-    <TextView
-      android:id="@+id/handwriting"
-      style="@style/MainActivityListItem"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/handwriting"/>
-
-    <TextView
-      android:id="@+id/widgets"
-      style="@style/MainActivityListItem"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/widgets"/>
 
     <TextView
       android:id="@+id/curvedmotion"
@@ -74,11 +25,60 @@
       android:text="@string/curvedmotion"/>
 
     <TextView
+      android:id="@+id/fingerprint"
+      style="@style/MainActivityListItem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/fingerprint"/>
+
+    <TextView
+      android:id="@+id/handwriting"
+      style="@style/MainActivityListItem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/handwriting"/>
+
+    <TextView
+      android:id="@+id/pathmorph"
+      style="@style/MainActivityListItem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/pathmorph"/>
+
+    <TextView
+      android:id="@+id/playpausestop"
+      style="@style/MainActivityListItem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/play_pause_stop"/>
+
+    <TextView
+      android:id="@+id/progressbar"
+      style="@style/MainActivityListItem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/progressbar"/>
+
+    <TextView
+      android:id="@+id/trimclip"
+      style="@style/MainActivityListItem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/trimclip"/>
+
+    <TextView
       android:id="@+id/uploading"
       style="@style/MainActivityListItem"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="@string/uploading"/>
+
+    <TextView
+      android:id="@+id/widgets"
+      style="@style/MainActivityListItem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/widgets"/>
 
   </LinearLayout>
 
