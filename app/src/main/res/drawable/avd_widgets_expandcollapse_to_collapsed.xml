@@ -1,7 +1,7 @@
 <animated-vector
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:aapt="http://schemas.android.com/aapt"
-  android:drawable="@drawable/vd_widgets_expandcollapse_collapse">
+  android:drawable="@drawable/vd_widgets_expandcollapse_expanded">
 
   <target android:name="chevron">
     <aapt:attr name="android:animation">
@@ -18,10 +18,10 @@
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="200"
-        android:interpolator="@interpolator/pathmorph_expandcollapse_collapse"
+        android:interpolator="@interpolator/pathmorph_expandcollapse"
         android:propertyName="rotation"
-        android:valueFrom="45"
-        android:valueTo="-45"
+        android:valueFrom="135"
+        android:valueTo="45"
         android:valueType="floatType"/>
     </aapt:attr>
   </target>
@@ -30,10 +30,10 @@
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="200"
-        android:interpolator="@interpolator/pathmorph_expandcollapse_collapse"
+        android:interpolator="@interpolator/pathmorph_expandcollapse"
         android:propertyName="rotation"
-        android:valueFrom="-45"
-        android:valueTo="45"
+        android:valueFrom="45"
+        android:valueTo="135"
         android:valueType="floatType"/>
     </aapt:attr>
   </target>

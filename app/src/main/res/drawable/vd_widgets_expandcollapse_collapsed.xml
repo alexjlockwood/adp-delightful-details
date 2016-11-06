@@ -8,12 +8,11 @@
 
   <group
     android:name="chevron"
-    android:rotation="90"
     android:translateX="12"
     android:translateY="15">
     <group
       android:name="leftBar"
-      android:rotation="45">
+      android:rotation="135">
       <group android:translateY="3">
         <path
           android:fillColor="@android:color/white"
@@ -22,7 +21,7 @@
     </group>
     <group
       android:name="rightBar"
-      android:rotation="-45">
+      android:rotation="45">
       <group android:translateY="-3">
         <path
           android:fillColor="@android:color/white"
