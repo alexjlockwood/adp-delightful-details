@@ -5,15 +5,13 @@
   android:tint="?attr/colorControlNormal"
   android:viewportHeight="24"
   android:viewportWidth="24">
-
   <group
-    android:name="plus_minus"
+    android:name="pathGroup"
     android:pivotX="12"
     android:pivotY="12">
-
     <path
-      android:name="plus"
+      android:name="plusPath"
       android:fillColor="@android:color/white"
-      android:pathData="@string/path_pathmorph_plusminus_plus"/>
+      android:pathData="@string/pathmorph_plusminus_plus_path"/>
   </group>
 </vector>

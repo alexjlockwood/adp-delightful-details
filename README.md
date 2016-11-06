@@ -45,6 +45,9 @@ specified in the `android:pathData` attribute (and thus, using `android:valueFro
 and `android:valueTo` is not necessary). See the "curved motion" and "progress bar" demos
 in this sample app for example usages.
 
+TODO(alockwood): give possible example of backporting using propertyValuesHolder
+(like in [this example code][ObjectAnimator])?
+
 #### Declaring custom `PathInterpolator`s in XML
 
 Declaring custom `PathInterpolator`s in XML is only supported on API 21 and above. Note that 
@@ -72,3 +75,5 @@ the support library:
   [FastOutLinearInInterpolator]: https://developer.android.com/reference/android/support/v4/view/animation/FastOutLinearInInterpolator.html
   [LinearOutSlowInInterpolator]: https://developer.android.com/reference/android/support/v4/view/animation/LinearOutSlowInInterpolator.html
   [android.R.interpolator]: https://developer.android.com/reference/android/R.interpolator.html
+  [ObjectAnimator]: https://developer.android.com/reference/android/animation/ObjectAnimator.html
+
