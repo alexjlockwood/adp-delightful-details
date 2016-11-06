@@ -36,11 +36,11 @@
 
   <target
     android:name="arrow_head_top"
-    android:animation="@animator/searchback_show_arrow_head"/>
+    android:animation="@animator/trimclip_searchback_show_arrow_head"/>
 
   <target
     android:name="arrow_head_bottom"
-    android:animation="@animator/searchback_show_arrow_head"/>
+    android:animation="@animator/trimclip_searchback_show_arrow_head"/>
 
   <target android:name="arrow_head">
     <aapt:attr name="android:animation">

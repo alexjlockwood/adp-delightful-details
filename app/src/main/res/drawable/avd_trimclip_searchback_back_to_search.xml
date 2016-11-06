@@ -26,11 +26,11 @@
 
   <target
     android:name="arrow_head_top"
-    android:animation="@animator/searchback_hide_arrow_head"/>
+    android:animation="@animator/trimclip_searchback_hide_arrow_head"/>
 
   <target
     android:name="arrow_head_bottom"
-    android:animation="@animator/searchback_hide_arrow_head"/>
+    android:animation="@animator/trimclip_searchback_hide_arrow_head"/>
 
   <target android:name="stem">
     <aapt:attr name="android:animation">

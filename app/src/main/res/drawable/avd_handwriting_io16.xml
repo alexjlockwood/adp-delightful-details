@@ -4,34 +4,34 @@
 
   <target
     android:name="one_1"
-    android:animation="@animator/io16_offset_trim_one"/>
+    android:animation="@animator/handwriting_io16_offset_trim_one"/>
 
   <target
     android:name="one_2"
-    android:animation="@animator/io16_offset_trim_one"/>
+    android:animation="@animator/handwriting_io16_offset_trim_one"/>
 
   <target
     android:name="one_3"
-    android:animation="@animator/io16_offset_trim_one"/>
+    android:animation="@animator/handwriting_io16_offset_trim_one"/>
 
   <target
     android:name="one_4"
-    android:animation="@animator/io16_offset_trim_one"/>
+    android:animation="@animator/handwriting_io16_offset_trim_one"/>
 
   <target
     android:name="six_1"
-    android:animation="@animator/io16_offset_trim_six"/>
+    android:animation="@animator/handwriting_io16_offset_trim_six"/>
 
   <target
     android:name="six_2"
-    android:animation="@animator/io16_offset_trim_six"/>
+    android:animation="@animator/handwriting_io16_offset_trim_six"/>
 
   <target
     android:name="six_3"
-    android:animation="@animator/io16_offset_trim_six"/>
+    android:animation="@animator/handwriting_io16_offset_trim_six"/>
 
   <target
     android:name="six_4"
-    android:animation="@animator/io16_offset_trim_six"/>
+    android:animation="@animator/handwriting_io16_offset_trim_six"/>
 
 </animated-vector>

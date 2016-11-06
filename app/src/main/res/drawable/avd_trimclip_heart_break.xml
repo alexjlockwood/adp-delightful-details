@@ -17,7 +17,7 @@
 
   <target
     android:name="broken_heart_left"
-    android:animation="@animator/heart_fade_out"/>
+    android:animation="@animator/trimclip_heart_fade_out"/>
 
   <target android:name="broken_heart_right_group">
     <aapt:attr name="android:animation">
@@ -32,15 +32,15 @@
 
   <target
     android:name="broken_heart_right"
-    android:animation="@animator/heart_fade_out"/>
+    android:animation="@animator/trimclip_heart_fade_out"/>
 
   <!-- Re-draw the stroke. -->
   <target
     android:name="heart_stroke_left_atrium"
-    android:animation="@animator/heart_draw_stroke"/>
+    android:animation="@animator/trimclip_heart_draw_stroke"/>
 
   <target
     android:name="heart_stroke_right_atrium"
-    android:animation="@animator/heart_draw_stroke"/>
+    android:animation="@animator/trimclip_heart_draw_stroke"/>
 
 </animated-vector>
