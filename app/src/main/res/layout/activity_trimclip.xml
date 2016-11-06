@@ -40,7 +40,7 @@
       android:contentDescription="@null"
       android:layout_margin="4dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_heart"/>
+      android:src="@drawable/asl_trimclip_heart"/>
 
     <ImageView
       android:id="@+id/searchback"
@@ -51,7 +51,7 @@
       android:contentDescription="@null"
       android:layout_margin="4dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_searchback"/>
+      android:src="@drawable/asl_trimclip_searchback"/>
   </RelativeLayout>
 
 </RelativeLayout>
