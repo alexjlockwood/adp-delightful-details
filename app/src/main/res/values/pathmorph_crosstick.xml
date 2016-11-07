@@ -3,6 +3,6 @@
   <string name="path_tick">M4.8,13.4 L9,17.6 M10.4,16.2 L19.6,7</string>
   <string name="path_cross">M6.4,6.4 L17.6,17.6 M6.4,17.6 L17.6,6.4</string>
   <integer name="stroke_width">2</integer>
-  <integer name="crosstick_duration">325</integer>
+  <integer name="crosstick_duration">300</integer>
 
 </resources>

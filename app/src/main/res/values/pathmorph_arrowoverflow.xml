@@ -1,0 +1,6 @@
+<resources>
+
+  <string name="arrowoverflow_path_arrowhead">M -5.5,-1 l 11,0 c 0,0 0,0 0,0 l 0,2 c 0,0 0,0 0,0 l -11,0 c 0,0 0,0 0,0 l 0,-2 c 0,0 0,0 0,0 Z</string>
+  <string name="arrowoverflow_path_arrowbar">M -7,-1 l 14,0 c 0,0 0,0 0,0 l 0,2 c 0,0 0,0 0,0 l -14,0 c 0,0 0,0 0,0 l 0,-2 c 0,0 0,0 0,0 Z</string>
+  <string name="arrowoverflow_path_dot">M 0,-2 l 0,0 c 1.1045694996,0 2,0.8954305004 2,2 l 0,0 c 0,1.1045694996 -0.8954305004,2 -2,2 l 0,0 c -1.1045694996,0 -2,-0.8954305004 -2,-2 l 0,0 c 0,-1.1045694996 0.8954305004,-2 2,-2 Z</string>
+</resources>

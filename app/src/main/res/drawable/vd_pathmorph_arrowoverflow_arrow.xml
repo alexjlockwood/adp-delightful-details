@@ -19,7 +19,7 @@
         <path
           android:name="rectangle_path_2"
           android:fillColor="@android:color/white"
-          android:pathData="M -5.5,-1 l 11,0 c 0,0 0,0 0,0 l 0,2 c 0,0 0,0 0,0 l -11,0 c 0,0 0,0 0,0 l 0,-2 c 0,0 0,0 0,0 Z"/>
+          android:pathData="@string/arrowoverflow_path_arrowhead"/>
       </group>
     </group>
     <group
@@ -31,7 +31,7 @@
         <path
           android:name="rectangle_path_3"
           android:fillColor="@android:color/white"
-          android:pathData="M -7,-1 l 14,0 c 0,0 0,0 0,0 l 0,2 c 0,0 0,0 0,0 l -14,0 c 0,0 0,0 0,0 l 0,-2 c 0,0 0,0 0,0 Z"/>
+          android:pathData="@string/arrowoverflow_path_arrowbar"/>
       </group>
     </group>
     <group
@@ -44,7 +44,7 @@
         <path
           android:name="rectangle_path_1"
           android:fillColor="@android:color/white"
-          android:pathData="M -5.5,-1 l 11,0 c 0,0 0,0 0,0 l 0,2 c 0,0 0,0 0,0 l -11,0 c 0,0 0,0 0,0 l 0,-2 c 0,0 0,0 0,0 Z"/>
+          android:pathData="@string/arrowoverflow_path_arrowhead"/>
       </group>
     </group>
   </group>
