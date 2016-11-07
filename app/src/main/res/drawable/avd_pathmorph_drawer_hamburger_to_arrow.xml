@@ -1,7 +1,7 @@
 <animated-vector
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:aapt="http://schemas.android.com/aapt"
-  android:drawable="@drawable/vd_drawer_hamburger">
+  android:drawable="@drawable/vd_pathmorph_drawer_hamburger">
 
   <target android:name="rotationGroup">
     <aapt:attr name="android:animation">

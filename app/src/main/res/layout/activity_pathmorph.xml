@@ -55,7 +55,7 @@
       android:layout_toEndOf="@id/plusminus"
       android:contentDescription="@null"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_checkable_arrowoverflow"/>
+      android:src="@drawable/asl_pathmorph_arrowoverflow"/>
 
   </RelativeLayout>
 </RelativeLayout>

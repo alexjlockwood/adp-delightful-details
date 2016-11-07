@@ -3,12 +3,12 @@
 
   <item
     android:id="@+id/arrow"
-    android:drawable="@drawable/vd_drawer_arrow"
+    android:drawable="@drawable/vd_pathmorph_drawer_arrow"
     android:state_checked="true"/>
 
   <item
     android:id="@+id/hamburger"
-    android:drawable="@drawable/vd_drawer_hamburger"/>
+    android:drawable="@drawable/vd_pathmorph_drawer_hamburger"/>
 
   <transition
     android:drawable="@drawable/avd_pathmorph_drawer_hamburger_to_arrow"

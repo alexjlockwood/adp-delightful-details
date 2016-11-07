@@ -7,7 +7,6 @@
   android:viewportHeight="24"
   android:viewportWidth="24">
   <group
-    android:name="carrot_5"
     android:translateX="12"
     android:translateY="12">
     <group

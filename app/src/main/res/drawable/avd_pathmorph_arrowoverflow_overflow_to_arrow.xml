@@ -1,7 +1,7 @@
 <animated-vector
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:aapt="http://schemas.android.com/aapt"
-  android:drawable="@drawable/vd_checkable_arrowoverflow_overflow">
+  android:drawable="@drawable/vd_pathmorph_arrowoverflow_overflow">
   <target android:name="rectangle_4">
     <aapt:attr name="android:animation">
       <set>
