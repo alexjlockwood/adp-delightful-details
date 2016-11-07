@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
   private static final SparseArray<Class<?>> LIST_ITEM_TO_ACTIVITY_MAP = new SparseArray<>();
   static {
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.clock, ClockActivity.class);
+    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.countdown, CountdownActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.curvedmotion, CurvedMotionActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.fingerprint, FingerprintActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.handwriting, HandwritingActivity.class);
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.progressbar, ProgressBarActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.trimclip, TrimClipActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.uploading, UploadingActivity.class);
-    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.widgets, WidgetsActivity.class);
+    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.checkable, CheckableActivity.class);
   }
 
   @Override
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
   @OnClick({
       R.id.clock,
+      R.id.countdown,
       R.id.curvedmotion,
       R.id.fingerprint,
       R.id.handwriting,
@@ -42,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
       R.id.progressbar,
       R.id.trimclip,
       R.id.uploading,
-      R.id.widgets,
+      R.id.checkable,
   })
   void onListItemClick(View view) {
     startActivity(new Intent(this, LIST_ITEM_TO_ACTIVITY_MAP.get(view.getId())));

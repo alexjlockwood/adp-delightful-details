@@ -18,6 +18,20 @@
       android:text="@string/clock"/>
 
     <TextView
+      android:id="@+id/checkable"
+      style="@style/MainActivityListItem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/checkable"/>
+
+    <TextView
+      android:id="@+id/countdown"
+      style="@style/MainActivityListItem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/countdown"/>
+
+    <TextView
       android:id="@+id/curvedmotion"
       style="@style/MainActivityListItem"
       android:layout_width="match_parent"
@@ -72,13 +86,6 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="@string/uploading"/>
-
-    <TextView
-      android:id="@+id/widgets"
-      style="@style/MainActivityListItem"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/widgets"/>
 
   </LinearLayout>
 

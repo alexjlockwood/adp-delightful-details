@@ -3,20 +3,20 @@
 
   <item
     android:id="@+id/checked"
-    android:drawable="@drawable/vd_widgets_radiobutton_checked"
+    android:drawable="@drawable/vd_checkable_radiobutton_checked"
     android:state_checked="true"/>
 
   <item
     android:id="@+id/unchecked"
-    android:drawable="@drawable/vd_widgets_radiobutton_unchecked"/>
+    android:drawable="@drawable/vd_checkable_radiobutton_unchecked"/>
 
   <transition
-    android:drawable="@drawable/avd_widgets_radiobutton_unchecked_to_checked"
+    android:drawable="@drawable/avd_checkable_radiobutton_unchecked_to_checked"
     android:fromId="@id/unchecked"
     android:toId="@id/checked"/>
 
   <transition
-    android:drawable="@drawable/avd_widgets_radiobutton_checked_to_unchecked"
+    android:drawable="@drawable/avd_checkable_radiobutton_checked_to_unchecked"
     android:fromId="@id/checked"
     android:toId="@id/unchecked"/>
 

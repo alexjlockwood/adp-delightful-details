@@ -25,4 +25,8 @@
     <item name="android:textAppearance">@style/TextAppearance.AppCompat.Subhead</item>
   </style>
 
+  <style name="CheckableLinearLayoutStyle">
+    <item name="android:orientation">vertical</item>
+  </style>
+
 </resources>

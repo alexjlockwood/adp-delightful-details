@@ -44,7 +44,7 @@
       android:label="@string/app_name"
       android:theme="@style/AppThemeNoActionBar"/>
     <activity
-      android:name="com.alexjlockwood.example.delight.WidgetsActivity"
+      android:name="com.alexjlockwood.example.delight.CheckableActivity"
       android:label="@string/app_name"
       android:theme="@style/AppThemeNoActionBar"/>
     <activity
@@ -53,6 +53,10 @@
       android:theme="@style/AppThemeNoActionBar"/>
     <activity
       android:name="com.alexjlockwood.example.delight.CurvedMotionActivity"
+      android:label="@string/app_name"
+      android:theme="@style/AppThemeNoActionBar"/>
+    <activity
+      android:name="com.alexjlockwood.example.delight.CountdownActivity"
       android:label="@string/app_name"
       android:theme="@style/AppThemeNoActionBar"/>
   </application>

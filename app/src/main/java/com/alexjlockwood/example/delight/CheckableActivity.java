@@ -8,18 +8,17 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class WidgetsActivity extends AppCompatActivity {
+public class CheckableActivity extends AppCompatActivity {
 
   @BindView(R.id.radiobutton) ImageView radioButtonView;
   @BindView(R.id.checkbox) ImageView checkBoxView;
-  @BindView(R.id.ft_arrow_overflow) ImageView arrowOverflowView;
   @BindView(R.id.expandcollapse) ImageView expandCollapseView;
   private boolean isChecked;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_widgets);
+    setContentView(R.layout.activity_checkable);
     ButterKnife.bind(this);
   }
 
@@ -30,7 +29,6 @@ public class WidgetsActivity extends AppCompatActivity {
     final int stateExpanded = android.R.attr.state_expanded * (isChecked ? 1 : -1);
     radioButtonView.setImageState(new int[]{stateChecked}, true);
     checkBoxView.setImageState(new int[]{stateChecked}, true);
-    arrowOverflowView.setImageState(new int[]{stateChecked}, true);
     expandCollapseView.setImageState(new int[]{stateExpanded}, true);
   }
 }

@@ -46,7 +46,7 @@
       android:src="@drawable/asl_pathmorph_plusminus"/>
 
     <ImageView
-      android:id="@+id/countdown"
+      android:id="@+id/arrowoverflow"
       android:layout_width="128dp"
       android:layout_height="128dp"
       android:layout_alignTop="@id/plusminus"
@@ -55,7 +55,7 @@
       android:layout_toEndOf="@id/plusminus"
       android:contentDescription="@null"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_pathmorph_digits"/>
+      android:src="@drawable/asl_checkable_arrowoverflow"/>
 
   </RelativeLayout>
 </RelativeLayout>

@@ -1,53 +1,53 @@
 <animated-vector
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:aapt="http://schemas.android.com/aapt"
-  android:drawable="@drawable/vd_widgets_radiobutton_checked">
+  android:drawable="@drawable/vd_checkable_radiobutton_unchecked">
   <target android:name="ring_outer">
     <aapt:attr name="android:animation">
-      <set>
+      <set xmlns:android="http://schemas.android.com/apk/res/android">
         <set android:ordering="sequentially">
           <objectAnimator
-            android:duration="183"
+            android:duration="166"
             android:interpolator="@android:interpolator/fast_out_slow_in"
             android:propertyName="scaleX"
             android:valueFrom="1.0"
-            android:valueTo="0.9"
-            android:valueType="floatType"/>
-          <objectAnimator
-            android:duration="16"
-            android:interpolator="@interpolator/widgets_radiobutton_tounchecked_0"
-            android:propertyName="scaleX"
-            android:valueFrom="0.9"
             android:valueTo="0.5"
             android:valueType="floatType"/>
           <objectAnimator
-            android:duration="300"
-            android:interpolator="@interpolator/widgets_radiobutton_tounchecked_0"
+            android:duration="16"
+            android:interpolator="@android:interpolator/fast_out_slow_in"
             android:propertyName="scaleX"
             android:valueFrom="0.5"
+            android:valueTo="0.9"
+            android:valueType="floatType"/>
+          <objectAnimator
+            android:duration="316"
+            android:interpolator="@android:interpolator/fast_out_slow_in"
+            android:propertyName="scaleX"
+            android:valueFrom="0.9"
             android:valueTo="1.0"
             android:valueType="floatType"/>
         </set>
         <set android:ordering="sequentially">
           <objectAnimator
-            android:duration="183"
+            android:duration="166"
             android:interpolator="@android:interpolator/fast_out_slow_in"
             android:propertyName="scaleY"
             android:valueFrom="1.0"
-            android:valueTo="0.9"
-            android:valueType="floatType"/>
-          <objectAnimator
-            android:duration="16"
-            android:interpolator="@interpolator/widgets_radiobutton_tounchecked_0"
-            android:propertyName="scaleY"
-            android:valueFrom="0.9"
             android:valueTo="0.5"
             android:valueType="floatType"/>
           <objectAnimator
-            android:duration="300"
-            android:interpolator="@interpolator/widgets_radiobutton_tounchecked_0"
+            android:duration="16"
+            android:interpolator="@android:interpolator/fast_out_slow_in"
             android:propertyName="scaleY"
             android:valueFrom="0.5"
+            android:valueTo="0.9"
+            android:valueType="floatType"/>
+          <objectAnimator
+            android:duration="316"
+            android:interpolator="@android:interpolator/fast_out_slow_in"
+            android:propertyName="scaleY"
+            android:valueFrom="0.9"
             android:valueTo="1.0"
             android:valueType="floatType"/>
         </set>
@@ -56,80 +56,82 @@
   </target>
   <target android:name="ring_outer_path">
     <aapt:attr name="android:animation">
-      <set>
+      <set xmlns:android="http://schemas.android.com/apk/res/android">
         <set android:ordering="sequentially">
           <objectAnimator
-            android:duration="183"
-            android:interpolator="@android:interpolator/fast_out_slow_in"
-            android:propertyName="strokeWidth"
-            android:valueFrom="2.0"
-            android:valueTo="2.0"
-            android:valueType="floatType"/>
-          <objectAnimator
-            android:duration="16"
-            android:interpolator="@android:interpolator/fast_out_slow_in"
+            android:duration="166"
+            android:interpolator="@interpolator/checkable_radiobutton_tochecked_0"
             android:propertyName="strokeWidth"
             android:valueFrom="2.0"
             android:valueTo="18.0"
             android:valueType="floatType"/>
           <objectAnimator
-            android:duration="300"
+            android:duration="16"
             android:interpolator="@android:interpolator/fast_out_slow_in"
             android:propertyName="strokeWidth"
             android:valueFrom="18.0"
             android:valueTo="2.0"
             android:valueType="floatType"/>
+          <objectAnimator
+            android:duration="316"
+            android:interpolator="@android:interpolator/fast_out_slow_in"
+            android:propertyName="strokeWidth"
+            android:valueFrom="2.0"
+            android:valueTo="2.0"
+            android:valueType="floatType"/>
         </set>
       </set>
+
     </aapt:attr>
   </target>
   <target android:name="dot_group">
     <aapt:attr name="android:animation">
-      <set>
-        <set android:ordering="sequentially">
+      <set xmlns:android="http://schemas.android.com/apk/res/android">
+        <set
+          android:ordering="sequentially">
           <objectAnimator
-            android:duration="183"
+            android:duration="166"
             android:interpolator="@android:interpolator/fast_out_slow_in"
             android:propertyName="scaleX"
-            android:valueFrom="1.0"
-            android:valueTo="1.4"
+            android:valueFrom="0.0"
+            android:valueTo="0.0"
             android:valueType="floatType"/>
           <objectAnimator
             android:duration="16"
             android:interpolator="@android:interpolator/fast_out_slow_in"
             android:propertyName="scaleX"
-            android:valueFrom="1.4"
-            android:valueTo="0.0"
+            android:valueFrom="0.0"
+            android:valueTo="1.5"
             android:valueType="floatType"/>
           <objectAnimator
-            android:duration="300"
+            android:duration="316"
             android:interpolator="@android:interpolator/fast_out_slow_in"
             android:propertyName="scaleX"
-            android:valueFrom="0.0"
-            android:valueTo="0.0"
+            android:valueFrom="1.5"
+            android:valueTo="1.0"
             android:valueType="floatType"/>
         </set>
         <set android:ordering="sequentially">
           <objectAnimator
-            android:duration="183"
+            android:duration="166"
             android:interpolator="@android:interpolator/fast_out_slow_in"
             android:propertyName="scaleY"
-            android:valueFrom="1.0"
-            android:valueTo="1.4"
+            android:valueFrom="0.0"
+            android:valueTo="0.0"
             android:valueType="floatType"/>
           <objectAnimator
             android:duration="16"
             android:interpolator="@android:interpolator/fast_out_slow_in"
             android:propertyName="scaleY"
-            android:valueFrom="1.4"
-            android:valueTo="0.0"
+            android:valueFrom="0.0"
+            android:valueTo="1.5"
             android:valueType="floatType"/>
           <objectAnimator
-            android:duration="300"
+            android:duration="316"
             android:interpolator="@android:interpolator/fast_out_slow_in"
             android:propertyName="scaleY"
-            android:valueFrom="0.0"
-            android:valueTo="0.0"
+            android:valueFrom="1.5"
+            android:valueTo="1.0"
             android:valueType="floatType"/>
         </set>
       </set>

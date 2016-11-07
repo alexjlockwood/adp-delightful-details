@@ -17,9 +17,7 @@
 
     <path
       android:name="crossPath"
-      android:fillColor="@android:color/transparent"
-      android:pathData="@string/flashlight_cross_path_disabled"
-      android:strokeAlpha="1"
+      android:pathData="@string/flashlight_cross_path"
       android:strokeColor="@android:color/white"
       android:strokeWidth="3.5"/>
 

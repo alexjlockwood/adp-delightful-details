@@ -3,20 +3,20 @@
 
   <item
     android:id="@+id/checked"
-    android:drawable="@drawable/vd_widgets_arrowoverflow_overflow"
+    android:drawable="@drawable/vd_checkable_arrowoverflow_overflow"
     android:state_checked="true"/>
 
   <item
     android:id="@+id/unchecked"
-    android:drawable="@drawable/vd_widgets_arrowoverflow_arrow"/>
+    android:drawable="@drawable/vd_checkable_arrowoverflow_arrow"/>
 
   <transition
-    android:drawable="@drawable/avd_widgets_arrowoverflow_arrow_to_overflow"
+    android:drawable="@drawable/avd_checkable_arrowoverflow_arrow_to_overflow"
     android:fromId="@id/unchecked"
     android:toId="@id/checked"/>
 
   <transition
-    android:drawable="@drawable/avd_widgets_arrowoverflow_overflow_to_arrow"
+    android:drawable="@drawable/avd_checkable_arrowoverflow_overflow_to_arrow"
     android:fromId="@id/checked"
     android:toId="@id/unchecked"/>
 

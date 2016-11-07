@@ -1,0 +1,41 @@
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/rootview"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <LinearLayout
+    style="@style/CheckableLinearLayoutStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true">
+
+    <ImageView
+      android:id="@+id/radiobutton"
+      android:layout_width="128dp"
+      android:layout_height="128dp"
+      android:layout_margin="4dp"
+      android:contentDescription="@null"
+      android:scaleType="fitCenter"
+      android:src="@drawable/asl_checkable_radiobutton"/>
+
+    <ImageView
+      android:id="@+id/checkbox"
+      android:layout_width="128dp"
+      android:layout_height="128dp"
+      android:layout_margin="4dp"
+      android:contentDescription="@null"
+      android:scaleType="fitCenter"
+      android:src="@drawable/asl_checkable_checkbox"/>
+
+    <ImageView
+      android:id="@+id/expandcollapse"
+      android:layout_width="128dp"
+      android:layout_height="128dp"
+      android:layout_margin="4dp"
+      android:contentDescription="@null"
+      android:scaleType="fitCenter"
+      android:src="@drawable/asl_checkable_expandcollapse"/>
+
+  </LinearLayout>
+</RelativeLayout>

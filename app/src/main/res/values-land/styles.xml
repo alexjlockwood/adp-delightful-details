@@ -1,0 +1,7 @@
+<resources>
+
+  <style name="CheckableLinearLayoutStyle">
+    <item name="android:orientation">horizontal</item>
+  </style>
+
+</resources>

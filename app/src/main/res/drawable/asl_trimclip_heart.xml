@@ -3,21 +3,21 @@
 
   <item
     android:id="@+id/liked"
-    android:state_checked="true"
-    android:drawable="@drawable/vd_trimclip_heart_full" />
+    android:drawable="@drawable/vd_trimclip_heart_full"
+    android:state_checked="true"/>
 
   <item
     android:id="@+id/not_liked"
-    android:drawable="@drawable/vd_trimclip_heart_empty" />
+    android:drawable="@drawable/vd_trimclip_heart_empty"/>
 
   <transition
+    android:drawable="@drawable/avd_trimclip_heart_fill"
     android:fromId="@id/not_liked"
-    android:toId="@id/liked"
-    android:drawable="@drawable/avd_trimclip_heart_fill" />
+    android:toId="@id/liked"/>
 
   <transition
+    android:drawable="@drawable/avd_trimclip_heart_break"
     android:fromId="@id/liked"
-    android:toId="@id/not_liked"
-    android:drawable="@drawable/avd_trimclip_heart_break" />
+    android:toId="@id/not_liked"/>
 
 </animated-selector>

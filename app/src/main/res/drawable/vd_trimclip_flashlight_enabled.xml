@@ -17,17 +17,15 @@
 
     <path
       android:name="crossPath"
-      android:fillColor="@android:color/transparent"
-      android:pathData="@string/flashlight_cross_path_enabled"
-      android:strokeAlpha="0"
+      android:pathData="@string/flashlight_cross_path"
       android:strokeColor="@android:color/white"
-      android:strokeWidth="3.5"/>
+      android:strokeWidth="3.5"
+      android:trimPathEnd="0"/>
 
     <group
       android:translateX="25.06235"
       android:translateY="22.48294">
       <path
-        android:fillAlpha="1"
         android:fillColor="@android:color/white"
         android:pathData="@string/flashlight_path"/>
     </group>

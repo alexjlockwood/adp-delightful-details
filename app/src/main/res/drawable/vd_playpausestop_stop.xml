@@ -3,9 +3,9 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:width="18dp"
   android:height="18dp"
+  android:tint="?attr/colorControlNormal"
   android:viewportHeight="18"
-  android:viewportWidth="18"
-  android:tint="?attr/colorControlNormal">
+  android:viewportWidth="18">
 
   <group
     android:name="iconGroup"

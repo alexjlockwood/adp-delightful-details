@@ -17,9 +17,7 @@
 
     <path
       android:name="crossPath"
-      android:fillColor="@android:color/transparent"
-      android:pathData="@string/airplane_cross_path_disabled"
-      android:strokeAlpha="1"
+      android:pathData="@string/airplane_cross_path"
       android:strokeColor="@android:color/white"
       android:strokeWidth="3.5"/>
 
@@ -27,7 +25,6 @@
       android:translateX="23.481"
       android:translateY="18.71151">
       <path
-        android:fillAlpha="1"
         android:fillColor="@android:color/white"
         android:pathData="@string/airplane_path"/>
     </group>

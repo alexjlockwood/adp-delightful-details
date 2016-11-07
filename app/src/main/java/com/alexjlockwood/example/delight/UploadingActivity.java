@@ -12,6 +12,5 @@ public class UploadingActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_uploading);
     ((Animatable) ((ImageView) findViewById(R.id.uploadingIcon)).getDrawable()).start();
-
   }
 }

@@ -3,20 +3,20 @@
 
   <item
     android:id="@+id/expanded"
-    android:drawable="@drawable/vd_widgets_expandcollapse_expanded"
+    android:drawable="@drawable/vd_checkable_expandcollapse_expanded"
     android:state_expanded="true"/>
 
   <item
     android:id="@+id/collapsed"
-    android:drawable="@drawable/vd_widgets_expandcollapse_collapsed"/>
+    android:drawable="@drawable/vd_checkable_expandcollapse_collapsed"/>
 
   <transition
-    android:drawable="@drawable/avd_widgets_expandcollapse_collapsed_to_expanded"
+    android:drawable="@drawable/avd_checkable_expandcollapse_collapsed_to_expanded"
     android:fromId="@id/collapsed"
     android:toId="@id/expanded"/>
 
   <transition
-    android:drawable="@drawable/avd_widgets_expandcollapse_expanded_to_collapsed"
+    android:drawable="@drawable/avd_checkable_expandcollapse_expanded_to_collapsed"
     android:fromId="@id/expanded"
     android:toId="@id/collapsed"/>
 
