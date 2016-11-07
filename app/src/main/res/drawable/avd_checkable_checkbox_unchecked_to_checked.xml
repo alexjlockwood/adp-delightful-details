@@ -34,7 +34,6 @@
             android:valueTo="0.2"/>
         </set>
       </set>
-
     </aapt:attr>
   </target>
   <target android:name="box_outer_merged">
