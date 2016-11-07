@@ -45,7 +45,7 @@ specified in the `android:pathData` attribute (and thus, using `android:valueFro
 and `android:valueTo` is not necessary). See the "curved motion" and "progress bar" demos
 in this sample app for example usages.
 
-These new attributes correspond to the [`ObjectAnimator#ofFloat()` method][ObjectAnimator#ofFloat()]. 
+These new attributes correspond to the [`ObjectAnimator#ofFloat(Object, String, String, Path)`][ObjectAnimator#ofFloat()] method. 
 
 TODO(alockwood): give possible example of backporting using propertyValuesHolder
 (like in [this example code][ObjectAnimator])?
