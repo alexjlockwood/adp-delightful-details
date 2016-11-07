@@ -13,11 +13,14 @@
           android:propertyYName="translateY"/>
         <objectAnimator
           android:duration="400"
-          android:interpolator="@interpolator/widgets_arrowoverflow_toarrow_1"
           android:propertyName="rotation"
           android:valueFrom="0"
           android:valueTo="45"
-          android:valueType="floatType"/>
+          android:valueType="floatType">
+          <aapt:attr name="android:interpolator">
+            <pathInterpolator android:pathData="M 0,0 c 0,0 0,1 1,1"/>
+          </aapt:attr>
+        </objectAnimator>
       </set>
     </aapt:attr>
   </target>
@@ -25,14 +28,16 @@
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="200"
-        android:interpolator="@interpolator/widgets_arrowoverflow_toarrow_5"
         android:pathData="M 0,0 c 0.75,0 3.75,0 4.5,0"
         android:propertyXName="translateX"
-        android:propertyYName="translateY"/>
+        android:propertyYName="translateY">
+        <aapt:attr name="android:interpolator">
+          <pathInterpolator android:pathData="M 0,0 c 0,0 0,1 1,1"/>
+        </aapt:attr>
+      </objectAnimator>
     </aapt:attr>
   </target>
-  <target
-    android:name="rectangle_path_4">
+  <target android:name="rectangle_path_4">
     <aapt:attr name="android:animation">
       <set>
         <set android:ordering="sequentially">
@@ -75,8 +80,7 @@
       </set>
     </aapt:attr>
   </target>
-  <target
-    android:name="rectangle_5">
+  <target android:name="rectangle_5">
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="250"
@@ -86,19 +90,21 @@
         android:propertyYName="translateY"/>
     </aapt:attr>
   </target>
-  <target
-    android:name="rectangle_2_pivot_0">
+  <target android:name="rectangle_2_pivot_0">
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="250"
-        android:interpolator="@interpolator/widgets_arrowoverflow_toarrow_2"
         android:pathData="M 0,0 c 1.66667,0 8.5,0 10,0 c 0.13052,0 -0.83333,0 -1,0"
         android:propertyXName="translateX"
-        android:propertyYName="translateY"/>
+        android:propertyYName="translateY">
+        <aapt:attr name="android:interpolator">
+          <pathInterpolator
+            android:pathData="M 0,0 c 0.161290322581,0 0.0806451612903,0.909090909091 0.403225806452,0.909090909091 c 0.238709677419,0 0.11935483871,0.0909090909091 0.596774193548,0.0909090909091 L 1,1"/>
+        </aapt:attr>
+      </objectAnimator>
     </aapt:attr>
   </target>
-  <target
-    android:name="rectangle_path_5">
+  <target android:name="rectangle_path_5">
     <aapt:attr name="android:animation">
       <set>
         <set android:ordering="sequentially">
@@ -166,11 +172,14 @@
           android:propertyYName="translateY"/>
         <objectAnimator
           android:duration="400"
-          android:interpolator="@interpolator/widgets_arrowoverflow_toarrow_1"
           android:propertyName="rotation"
           android:valueFrom="0"
           android:valueTo="-45"
-          android:valueType="floatType"/>
+          android:valueType="floatType">
+          <aapt:attr name="android:interpolator">
+            <pathInterpolator android:pathData="M 0,0 c 0,0 0,1 1,1"/>
+          </aapt:attr>
+        </objectAnimator>
       </set>
     </aapt:attr>
   </target>
@@ -178,10 +187,13 @@
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="200"
-        android:interpolator="@interpolator/widgets_arrowoverflow_toarrow_5"
         android:pathData="M 0,0 c 0.75,0 3.75,0 4.5,0"
         android:propertyXName="translateX"
-        android:propertyYName="translateY"/>
+        android:propertyYName="translateY">
+        <aapt:attr name="android:interpolator">
+          <pathInterpolator android:pathData="M 0,0 c 0,0 0,1 1,1"/>
+        </aapt:attr>
+      </objectAnimator>
     </aapt:attr>
   </target>
   <target android:name="rectangle_path_6">

@@ -6,7 +6,7 @@
   <target android:name="clip">
     <aapt:attr name="android:animation">
       <objectAnimator
-        android:duration="@integer/heart_fill_time"
+        android:duration="@android:integer/config_mediumAnimTime"
         android:interpolator="@android:interpolator/fast_out_slow_in"
         android:propertyName="pathData"
         android:valueFrom="@string/heart_clip_hidden"

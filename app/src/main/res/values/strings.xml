@@ -8,12 +8,9 @@
   <string name="off">Off</string>
   <string name="error">Error</string>
   <string name="trimclip">Trims &amp; clips</string>
-  <string name="heart">Heart break</string>
-  <string name="searchback">Search to back</string>
   <string name="play_pause_stop">Play, pause, stop</string>
   <string name="fingerprint">Fingerprint</string>
   <string name="progressbar">Progress bar</string>
-  <string name="io16">#io16</string>
   <string name="handwriting">Handwriting</string>
   <string name="widgets">Widgets</string>
   <string name="uploading">Uploading</string>
