@@ -70,6 +70,8 @@ the support library:
 * [`FastOutLinearInInterpolator`][FastOutLinearInInterpolator]
 * [`LinearOutSlowInInterpolator`][LinearOutSlowInInterpolator]
 
+asdf
+
   [chris-banes-vector-blog-post]: https://chris.banes.me/2016/02/25/appcompat-vector/
   [theme-attributes-blog-post]: http://www.androiddesignpatterns.com/2016/08/contextcompat-getcolor-getdrawable.html
   [PathInterpolatorCompat]: https://developer.android.com/reference/android/support/v4/view/animation/PathInterpolatorCompat.html
@@ -78,5 +80,5 @@ the support library:
   [LinearOutSlowInInterpolator]: https://developer.android.com/reference/android/support/v4/view/animation/LinearOutSlowInInterpolator.html
   [android.R.interpolator]: https://developer.android.com/reference/android/R.interpolator.html
   [ObjectAnimator]: https://developer.android.com/reference/android/animation/ObjectAnimator.html
-  [ObjectAnimator#ofFloat()]: https://developer.android.com/reference/android/animation/ObjectAnimator.html#ofFloat(java.lang.Object, java.lang.String, java.lang.String, android.graphics.Path)
+  [ObjectAnimator#ofFloat()]: https://developer.android.com/reference/android/animation/ObjectAnimator.html#ofFloat(java.lang.Object,%20java.lang.String,%20java.lang.String,%20android.graphics.Path)
 
