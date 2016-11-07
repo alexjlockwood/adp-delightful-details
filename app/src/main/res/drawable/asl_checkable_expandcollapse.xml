@@ -4,7 +4,7 @@
   <item
     android:id="@+id/expanded"
     android:drawable="@drawable/vd_checkable_expandcollapse_expanded"
-    android:state_expanded="true"/>
+    android:state_checked="true"/>
 
   <item
     android:id="@+id/collapsed"

@@ -25,10 +25,9 @@ public class CheckableActivity extends AppCompatActivity {
   @OnClick(R.id.rootview)
   void onClick() {
     isChecked = !isChecked;
-    final int stateChecked = android.R.attr.state_checked * (isChecked ? 1 : -1);
-    final int stateExpanded = android.R.attr.state_expanded * (isChecked ? 1 : -1);
-    radioButtonView.setImageState(new int[]{stateChecked}, true);
-    checkBoxView.setImageState(new int[]{stateChecked}, true);
-    expandCollapseView.setImageState(new int[]{stateExpanded}, true);
+    final int[] stateSet = {android.R.attr.state_checked * (isChecked ? 1 : -1)};
+    radioButtonView.setImageState(stateSet, true);
+    checkBoxView.setImageState(stateSet, true);
+    expandCollapseView.setImageState(stateSet, true);
   }
 }

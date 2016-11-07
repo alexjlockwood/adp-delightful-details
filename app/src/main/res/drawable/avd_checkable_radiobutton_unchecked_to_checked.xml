@@ -4,7 +4,7 @@
   android:drawable="@drawable/vd_checkable_radiobutton_unchecked">
   <target android:name="ring_outer">
     <aapt:attr name="android:animation">
-      <set xmlns:android="http://schemas.android.com/apk/res/android">
+      <set>
         <set android:ordering="sequentially">
           <objectAnimator
             android:duration="166"
@@ -56,7 +56,7 @@
   </target>
   <target android:name="ring_outer_path">
     <aapt:attr name="android:animation">
-      <set xmlns:android="http://schemas.android.com/apk/res/android">
+      <set>
         <set android:ordering="sequentially">
           <objectAnimator
             android:duration="166"
@@ -81,14 +81,12 @@
             android:valueType="floatType"/>
         </set>
       </set>
-
     </aapt:attr>
   </target>
   <target android:name="dot_group">
     <aapt:attr name="android:animation">
-      <set xmlns:android="http://schemas.android.com/apk/res/android">
-        <set
-          android:ordering="sequentially">
+      <set>
+        <set android:ordering="sequentially">
           <objectAnimator
             android:duration="166"
             android:interpolator="@android:interpolator/fast_out_slow_in"

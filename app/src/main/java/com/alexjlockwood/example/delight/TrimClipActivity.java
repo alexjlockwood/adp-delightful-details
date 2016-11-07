@@ -26,7 +26,7 @@ public class TrimClipActivity extends AppCompatActivity {
   @OnClick(R.id.rootview)
   void onClick() {
     isChecked = !isChecked;
-    final int[] stateSet = new int[]{android.R.attr.state_checked * (isChecked ? 1 : -1)};
+    final int[] stateSet = {android.R.attr.state_checked * (isChecked ? 1 : -1)};
     airplaneView.setImageState(stateSet, true);
     flashlightView.setImageState(stateSet, true);
     searchbackView.setImageState(stateSet, true);

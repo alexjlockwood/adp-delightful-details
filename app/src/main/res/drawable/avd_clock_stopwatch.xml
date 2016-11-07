@@ -19,13 +19,33 @@
       <objectAnimator
         android:duration="267"
         android:pathData="M 12,12 c 0,0.16667 0,1 0,1 l 0,-1"
-        android:propertyXName="translateX"
         android:propertyYName="translateY">
         <aapt:attr name="android:interpolator">
           <pathInterpolator
             android:pathData="M 0,0 C 0.2,0 0.1,0.5 0.5,0.5 C 0.7,0.5 0.6,1 1,1"/>
         </aapt:attr>
       </objectAnimator>
+
+      <!-- The above object animator is compatible with API 21 and above. To backport,
+           you can replace it with the below code instead. -->
+      <!--
+      <set android:ordering="sequentially">
+        <objectAnimator
+          android:duration="133"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="translateY"
+          android:valueFrom="12"
+          android:valueTo="13">
+        </objectAnimator>
+        <objectAnimator
+          android:duration="133"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="translateY"
+          android:valueFrom="13"
+          android:valueTo="12">
+        </objectAnimator>
+      </set>
+      -->
     </aapt:attr>
   </target>
 

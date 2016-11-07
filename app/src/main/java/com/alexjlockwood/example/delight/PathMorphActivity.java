@@ -26,10 +26,10 @@ public class PathMorphActivity extends AppCompatActivity {
   @OnClick(R.id.rootview)
   void onClick() {
     isChecked = !isChecked;
-    final int[] checkedStateSet = new int[]{android.R.attr.state_checked * (isChecked ? 1 : -1)};
-    drawerView.setImageState(checkedStateSet, true);
-    crossTickView.setImageState(checkedStateSet, true);
-    plusMinusView.setImageState(checkedStateSet, true);
-    arrowoverflowView.setImageState(checkedStateSet, true);
+    final int[] stateSet = {android.R.attr.state_checked * (isChecked ? 1 : -1)};
+    drawerView.setImageState(stateSet, true);
+    crossTickView.setImageState(stateSet, true);
+    plusMinusView.setImageState(stateSet, true);
+    arrowoverflowView.setImageState(stateSet, true);
   }
 }
