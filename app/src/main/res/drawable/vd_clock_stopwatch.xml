@@ -13,8 +13,7 @@
       android:name="timer_pivot"
       android:translateX="-12"
       android:translateY="-12">
-      <group
-        android:name="timer_body">
+      <group android:name="timer_body">
         <path
           android:name="timer_interior_path"
           android:fillAlpha="1"
