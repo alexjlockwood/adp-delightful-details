@@ -80,13 +80,6 @@
       android:layout_height="wrap_content"
       android:text="@string/trimclip"/>
 
-    <TextView
-      android:id="@+id/uploading"
-      style="@style/MainActivityListItem"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/uploading"/>
-
   </LinearLayout>
 
 </ScrollView>
