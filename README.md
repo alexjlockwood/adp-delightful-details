@@ -45,6 +45,8 @@ specified in the `android:pathData` attribute (and thus, using `android:valueFro
 and `android:valueTo` is not necessary). See the "curved motion" and "progress bar" demos
 in this sample app for example usages.
 
+These new attributes correspond to the [`ObjectAnimator#ofFloat()` method][ObjectAnimator#ofFloat()]. 
+
 TODO(alockwood): give possible example of backporting using propertyValuesHolder
 (like in [this example code][ObjectAnimator])?
 
@@ -76,4 +78,5 @@ the support library:
   [LinearOutSlowInInterpolator]: https://developer.android.com/reference/android/support/v4/view/animation/LinearOutSlowInInterpolator.html
   [android.R.interpolator]: https://developer.android.com/reference/android/R.interpolator.html
   [ObjectAnimator]: https://developer.android.com/reference/android/animation/ObjectAnimator.html
+  [ObjectAnimator#ofFloat()]: https://developer.android.com/reference/android/animation/ObjectAnimator.html#ofFloat(java.lang.Object, java.lang.String, java.lang.String, android.graphics.Path)
 
