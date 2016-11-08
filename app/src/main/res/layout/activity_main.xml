@@ -53,6 +53,13 @@
       android:text="@string/handwriting"/>
 
     <TextView
+      android:id="@+id/music"
+      style="@style/MainActivityListItem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/music"/>
+
+    <TextView
       android:id="@+id/pathmorph"
       style="@style/MainActivityListItem"
       android:layout_width="match_parent"

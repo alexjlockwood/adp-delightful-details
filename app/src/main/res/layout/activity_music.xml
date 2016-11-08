@@ -1,0 +1,35 @@
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/rootview"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true">
+
+    <ImageView
+      android:id="@+id/previous"
+      android:layout_width="128dp"
+      android:layout_height="128dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:contentDescription="@null"
+      android:padding="8dp"
+      android:scaleType="fitCenter"
+      android:src="@drawable/avd_music_previous"/>
+
+    <ImageView
+      android:id="@+id/next"
+      android:layout_width="128dp"
+      android:layout_height="128dp"
+      android:layout_alignTop="@id/previous"
+      android:layout_toEndOf="@id/previous"
+      android:contentDescription="@null"
+      android:padding="8dp"
+      android:scaleType="fitCenter"
+      android:src="@drawable/avd_music_next"/>
+  </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:name="next"
+  android:width="200dp"
+  android:height="200dp"
+  android:tint="?attr/colorControlNormal"
+  android:viewportHeight="200"
+  android:viewportWidth="200">
+  <group
+    android:name="right_2_outlines"
+    android:scaleX="3.34"
+    android:scaleY="3.34"
+    android:translateX="100.295"
+    android:translateY="98.94466">
+    <group
+      android:name="right_2_outlines_pivot"
+      android:translateX="-14.25"
+      android:translateY="-14.25">
+      <group
+        android:name="group_1"
+        android:translateX="14.25"
+        android:translateY="14.25">
+        <path
+          android:name="path_1"
+          android:fillColor="@android:color/white"
+          android:pathData="M 9.3330078125,14.0 c 0.0,0.0 4.6669921875,0.0 4.6669921875,0.0 c 0.0,0.0 0.0,-28.0 0.0,-28.0 c 0.0,0.0 -4.6669921875,0.0 -4.6669921875,0.0 c 0.0,0.0 0.0,28.0 0.0,28.0 Z"/>
+      </group>
+    </group>
+  </group>
+  <group
+    android:name="right_2_outlines_2"
+    android:scaleX="3.34"
+    android:scaleY="3.34"
+    android:translateX="100.295"
+    android:translateY="98.94466">
+    <group
+      android:name="right_2_outlines_2_pivot"
+      android:translateX="-14.25"
+      android:translateY="-14.25">
+      <clip-path
+        android:name="mask_1"
+        android:pathData="M 24.393951416,-0.677169799805 c 0.0,0.0 -25.1134490967,0.0 -25.1134490967,0.0 c 0.0,0.0 0.0,29.8667297363 0.0,29.8667297363 c 0.0,0.0 25.1134490967,0.0 25.1134490967,0.0 c 0.0,0.0 0.0,-29.8667297363 0.0,-29.8667297363 Z"/>
+      <group
+        android:name="group_2"
+        android:translateX="14.25"
+        android:translateY="14.25">
+        <path
+          android:name="path_3"
+          android:fillColor="@android:color/white"
+          android:pathData="M -14.0,14.0 c 0.0,0.0 19.8330078125,-14.0 19.8330078125,-14.0 c 0.0,0.0 -19.8330078125,-14.0 -19.8330078125,-14.0 c 0.0,0.0 0.0,28.0 0.0,28.0 Z"/>
+      </group>
+    </group>
+  </group>
+  <group
+    android:name="right_2_outlines_3"
+    android:scaleX="3.34"
+    android:scaleY="3.34"
+    android:translateX="53.535"
+    android:translateY="98.94466">
+    <group
+      android:name="right_2_outlines_3_pivot"
+      android:translateX="-0.25"
+      android:translateY="-14.25">
+      <clip-path
+        android:name="mask_2"
+        android:pathData="M 23.8758392334,-0.628646850586 c 0.0,0.0 -24.3848266602,0.0 -24.3848266602,0.0 c 0.0,0.0 0.0,29.631072998 0.0,29.631072998 c 0.0,0.0 24.3848266602,0.0 24.3848266602,0.0 c 0.0,0.0 0.0,-29.631072998 0.0,-29.631072998 Z"/>
+      <group
+        android:name="group_3"
+        android:translateX="14.25"
+        android:translateY="14.25">
+        <path
+          android:name="path_4"
+          android:fillColor="@android:color/white"
+          android:pathData="M -35.5,0.315963745117 c 0.0,0.0 19.8330078125,-0.315963745117 19.8330078125,-0.315963745117 c 0.0,0.0 -19.8330078125,-0.315963745117 -19.8330078125,-0.315963745117 c 0.0,0.0 0.0,0.631927490234 0.0,0.631927490234 Z"/>
+      </group>
+    </group>
+  </group>
+</vector>

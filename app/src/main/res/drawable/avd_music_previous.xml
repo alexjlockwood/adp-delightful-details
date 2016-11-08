@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:drawable="@drawable/vd_music_previous">
+
+  <target android:name="path_3">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="333"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="pathData"
+        android:valueFrom="M -14.0,14.0 c 0.0,0.0 19.8330078125,-14.0 19.8330078125,-14.0 c 0.0,0.0 -19.8330078125,-14.0 -19.8330078125,-14.0 c 0.0,0.0 0.0,28.0 0.0,28.0 Z"
+        android:valueTo="M 10.0,14.0 c 0.0,0.0 19.8330078125,-14.0 19.8330078125,-14.0 c 0.0,0.0 -19.8330078125,-14.0 -19.8330078125,-14.0 c 0.0,0.0 0.0,28.0 0.0,28.0 Z"
+        android:valueType="pathType"/>
+    </aapt:attr>
+  </target>
+
+  <target android:name="path_4">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="333"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="pathData"
+        android:valueFrom="M -35.5,0.315963745117 c 0.0,0.0 19.8330078125,-0.315963745117 19.8330078125,-0.315963745117 c 0.0,0.0 -19.8330078125,-0.315963745117 -19.8330078125,-0.315963745117 c 0.0,0.0 0.0,0.631927490234 0.0,0.631927490234 Z"
+        android:valueTo="M -14.0,14.0 c 0.0,0.0 19.8330078125,-14.0 19.8330078125,-14.0 c 0.0,0.0 -19.8330078125,-14.0 -19.8330078125,-14.0 c 0.0,0.0 0.0,28.0 0.0,28.0 Z"
+        android:valueType="pathType"/>
+    </aapt:attr>
+  </target>
+
+</animated-vector>
