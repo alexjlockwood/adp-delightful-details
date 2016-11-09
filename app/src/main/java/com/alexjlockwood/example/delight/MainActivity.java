@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
       R.id.pathmorph,
       R.id.playpausestop,
       R.id.progressbar,
+      R.id.trimclip,
   })
   void onListItemClick(View view) {
     startActivity(new Intent(this, LIST_ITEM_TO_ACTIVITY_MAP.get(view.getId())));
