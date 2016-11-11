@@ -16,7 +16,7 @@
           android:name="background_track"
           android:fillAlpha="?android:attr/disabledAlpha"
           android:fillColor="?attr/colorControlActivated"
-          android:pathData="M -180.0,-1.0 l 360.0,0 l 0,2.0 l -360.0,0 Z"/>
+          android:pathData="M -180,-1 l 360,0 l 0,2 l -360,0 Z"/>
         <group
           android:name="rect2_grp"
           android:scaleX="0.1"
@@ -24,7 +24,7 @@
           <path
             android:name="rect2"
             android:fillColor="?attr/colorControlActivated"
-            android:pathData="M -144.0,-1.0 l 288.0,0 l 0,2.0 l -288.0,0 Z"/>
+            android:pathData="M -144,-1 l 288,0 l 0,2 l -288,0 Z"/>
         </group>
         <group
           android:name="rect1_grp"
@@ -33,7 +33,7 @@
           <path
             android:name="rect1"
             android:fillColor="?attr/colorControlActivated"
-            android:pathData="M -144.0,-1.0 l 288.0,0 l 0,2.0 l -288.0,0 Z"/>
+            android:pathData="M -144,-1 l 288,0 l 0,2 l -288,0 Z"/>
         </group>
       </group>
     </vector>
