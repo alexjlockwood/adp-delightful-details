@@ -8,9 +8,15 @@
         <objectAnimator
           android:duration="300"
           android:interpolator="@android:interpolator/fast_out_slow_in"
-          android:pathData="M 0,6 c -1.08333,-1 -5.41667,-5 -6.5,-6"
-          android:propertyXName="translateX"
-          android:propertyYName="translateY"/>
+          android:propertyName="translateX"
+          android:valueFrom="0"
+          android:valueTo="-6.5"/>
+        <objectAnimator
+          android:duration="300"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="translateY"
+          android:valueFrom="6"
+          android:valueTo="0"/>
         <objectAnimator
           android:duration="400"
           android:propertyName="rotation"
@@ -28,9 +34,9 @@
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="200"
-        android:pathData="M 0,0 c 0.75,0 3.75,0 4.5,0"
-        android:propertyXName="translateX"
-        android:propertyYName="translateY">
+        android:propertyName="translateX"
+        android:valueFrom="0"
+        android:valueTo="4.5">
         <aapt:attr name="android:interpolator">
           <pathInterpolator android:pathData="M 0,0 c 0,0 0,1 1,1"/>
         </aapt:attr>
@@ -85,21 +91,21 @@
       <objectAnimator
         android:duration="250"
         android:interpolator="@android:interpolator/fast_out_slow_in"
-        android:pathData="M 0,0 c -1.33333,0 -6.66667,0 -8,0"
-        android:propertyXName="translateX"
-        android:propertyYName="translateY"/>
+        android:propertyName="translateX"
+        android:valueFrom="0"
+        android:valueTo="-8"/>
     </aapt:attr>
   </target>
   <target android:name="rectangle_2_pivot_0">
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="250"
-        android:pathData="M 0,0 c 1.66667,0 8.5,0 10,0 c 0.13052,0 -0.83333,0 -1,0"
-        android:propertyXName="translateX"
-        android:propertyYName="translateY">
+        android:valueFrom="0"
+        android:valueTo="9"
+        android:propertyName="translateX">
         <aapt:attr name="android:interpolator">
           <pathInterpolator
-            android:pathData="M 0,0 c 0.161290322581,0 0.0806451612903,0.909090909091 0.403225806452,0.909090909091 c 0.238709677419,0 0.11935483871,0.0909090909091 0.596774193548,0.0909090909091 L 1,1"/>
+            android:pathData="M 0,0 C 0.161290322581,0 0.0806451612903,0.909090909091 0.403225806452,0.909090909091 C 0.64193548387,0.909090909091 0.52258064516,1 1,1"/>
         </aapt:attr>
       </objectAnimator>
     </aapt:attr>
@@ -167,9 +173,15 @@
         <objectAnimator
           android:duration="300"
           android:interpolator="@android:interpolator/fast_out_slow_in"
-          android:pathData="M 0,-6 c -1.08333,1 -5.41667,5 -6.5,6"
-          android:propertyXName="translateX"
-          android:propertyYName="translateY"/>
+          android:propertyName="translateX"
+          android:valueFrom="0"
+          android:valueTo="-6.5"/>
+        <objectAnimator
+          android:duration="300"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="translateY"
+          android:valueFrom="-6"
+          android:valueTo="0"/>
         <objectAnimator
           android:duration="400"
           android:propertyName="rotation"
@@ -187,9 +199,9 @@
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="200"
-        android:pathData="M 0,0 c 0.75,0 3.75,0 4.5,0"
-        android:propertyXName="translateX"
-        android:propertyYName="translateY">
+        android:propertyName="translateX"
+        android:valueFrom="0"
+        android:valueTo="4.5">
         <aapt:attr name="android:interpolator">
           <pathInterpolator android:pathData="M 0,0 c 0,0 0,1 1,1"/>
         </aapt:attr>
