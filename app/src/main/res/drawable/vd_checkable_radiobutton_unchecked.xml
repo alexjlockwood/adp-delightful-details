@@ -1,13 +1,11 @@
 <vector
   xmlns:android="http://schemas.android.com/apk/res/android"
-  android:name="btn_radio_to_on_mtrl"
   android:width="32dp"
   android:height="32dp"
   android:tint="?attr/colorControlNormal"
   android:viewportHeight="32"
   android:viewportWidth="32">
   <group
-    android:name="btn_radio_to_on_mtrl_0"
     android:translateX="16"
     android:translateY="16">
     <group android:name="ring_outer">
@@ -17,7 +15,10 @@
         android:strokeColor="@android:color/white"
         android:strokeWidth="2"/>
     </group>
-    <group android:name="dot_group">
+    <group
+      android:name="dot_group"
+      android:scaleX="0"
+      android:scaleY="0">
       <path
         android:name="dot_path"
         android:fillColor="@android:color/white"
