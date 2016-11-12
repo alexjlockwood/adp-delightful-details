@@ -10,29 +10,29 @@
     android:translateX="12"
     android:translateY="12">
     <group
-      android:name="rectangle_4"
+      android:name="rectangle_3"
       android:translateY="6">
       <group android:name="rectangle_3_pivot_0">
         <path
-          android:name="rectangle_path_4"
+          android:name="rectangle_path_3"
           android:fillColor="@android:color/white"
           android:pathData="@string/arrowoverflow_path_dot"/>
       </group>
     </group>
-    <group android:name="rectangle_5">
+    <group android:name="rectangle_2">
       <group android:name="rectangle_2_pivot_0">
         <path
-          android:name="rectangle_path_5"
+          android:name="rectangle_path_2"
           android:fillColor="@android:color/white"
           android:pathData="@string/arrowoverflow_path_dot"/>
       </group>
     </group>
     <group
-      android:name="rectangle_6"
+      android:name="rectangle_1"
       android:translateY="-6">
       <group android:name="rectangle_1_pivot_0">
         <path
-          android:name="rectangle_path_6"
+          android:name="rectangle_path_1"
           android:fillColor="@android:color/white"
           android:pathData="@string/arrowoverflow_path_dot"/>
       </group>

@@ -2,7 +2,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:aapt="http://schemas.android.com/aapt"
   android:drawable="@drawable/vd_pathmorph_arrowoverflow_overflow">
-  <target android:name="rectangle_4">
+  <target android:name="rectangle_3">
     <aapt:attr name="android:animation">
       <set>
         <objectAnimator
@@ -43,7 +43,7 @@
       </objectAnimator>
     </aapt:attr>
   </target>
-  <target android:name="rectangle_path_4">
+  <target android:name="rectangle_path_3">
     <aapt:attr name="android:animation">
       <set>
         <set android:ordering="sequentially">
@@ -86,7 +86,7 @@
       </set>
     </aapt:attr>
   </target>
-  <target android:name="rectangle_5">
+  <target android:name="rectangle_2">
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="250"
@@ -98,19 +98,23 @@
   </target>
   <target android:name="rectangle_2_pivot_0">
     <aapt:attr name="android:animation">
-      <objectAnimator
-        android:duration="250"
-        android:valueFrom="0"
-        android:valueTo="9"
-        android:propertyName="translateX">
-        <aapt:attr name="android:interpolator">
-          <pathInterpolator
-            android:pathData="M 0,0 C 0.161290322581,0 0.0806451612903,0.909090909091 0.403225806452,0.909090909091 C 0.64193548387,0.909090909091 0.52258064516,1 1,1"/>
-        </aapt:attr>
-      </objectAnimator>
+      <set android:ordering="sequentially">
+        <objectAnimator
+          android:duration="100"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="translateX"
+          android:valueFrom="0"
+          android:valueTo="8.18181818182"/>
+        <objectAnimator
+          android:duration="150"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="translateX"
+          android:valueFrom="8.18181818182"
+          android:valueTo="9"/>
+      </set>
     </aapt:attr>
   </target>
-  <target android:name="rectangle_path_5">
+  <target android:name="rectangle_path_2">
     <aapt:attr name="android:animation">
       <set>
         <set android:ordering="sequentially">
@@ -167,7 +171,7 @@
       </set>
     </aapt:attr>
   </target>
-  <target android:name="rectangle_6">
+  <target android:name="rectangle_1">
     <aapt:attr name="android:animation">
       <set>
         <objectAnimator
@@ -208,7 +212,7 @@
       </objectAnimator>
     </aapt:attr>
   </target>
-  <target android:name="rectangle_path_6">
+  <target android:name="rectangle_path_1">
     <aapt:attr name="android:animation">
       <set>
         <set android:ordering="sequentially">
