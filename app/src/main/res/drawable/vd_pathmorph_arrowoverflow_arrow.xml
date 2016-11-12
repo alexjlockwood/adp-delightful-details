@@ -17,7 +17,7 @@
         android:name="rectangle_3_pivot"
         android:translateX="4.5">
         <path
-          android:name="rectangle_path_2"
+          android:name="rectangle_path_3"
           android:fillColor="@android:color/white"
           android:pathData="@string/arrowoverflow_path_arrowhead"/>
       </group>
@@ -29,7 +29,7 @@
         android:name="rectangle_2_pivot"
         android:translateX="9">
         <path
-          android:name="rectangle_path_3"
+          android:name="rectangle_path_2"
           android:fillColor="@android:color/white"
           android:pathData="@string/arrowoverflow_path_arrowbar"/>
       </group>

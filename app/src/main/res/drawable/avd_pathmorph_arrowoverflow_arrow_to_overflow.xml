@@ -37,7 +37,7 @@
         android:valueTo="0"/>
     </aapt:attr>
   </target>
-  <target android:name="rectangle_path_2">
+  <target android:name="rectangle_path_3">
     <aapt:attr name="android:animation">
       <set>
         <set android:ordering="sequentially">
@@ -121,21 +121,15 @@
         android:valueTo="0"/>
     </aapt:attr>
   </target>
-  <target android:name="rectangle_path_3">
+  <target android:name="rectangle_path_2">
     <aapt:attr name="android:animation">
       <set>
         <set android:ordering="sequentially">
           <objectAnimator
-            android:duration="50"
-            android:interpolator="@android:interpolator/linear"
-            android:propertyName="pathData"
-            android:valueFrom="M -7,-1 l 14,0 c 0,0 0,0 0,0 l 0,2 c 0,0 0,0 0,0 l -14,0 c 0,0 0,0 0,0 l 0,-2 c 0,0 0,0 0,0 Z"
-            android:valueTo="M -7,-1 l 14,0 c 0,0 0,0 0,0 l 0,2 c 0,0 0,0 0,0 l -14,0 c 0,0 0,0 0,0 l 0,-2 c 0,0 0,0 0,0 Z"
-            android:valueType="pathType"/>
-          <objectAnimator
             android:duration="37"
             android:interpolator="@android:interpolator/linear"
             android:propertyName="pathData"
+            android:startDelay="50"
             android:valueFrom="M -7,-1 l 14,0 c 0,0 0,0 0,0 l 0,2 c 0,0 0,0 0,0 l -14,0 c 0,0 0,0 0,0 l 0,-2 c 0,0 0,0 0,0 Z"
             android:valueTo="M -4.36843359242,-1.49992262412 l 8.73686718484,0 c 0.0728757880921,0 0.131953286993,0.0590774989007 0.131953286993,0.131953286993 l 0,2.73593867425 c 0,0.0728757880921 -0.0590774989007,0.131953286993 -0.131953286993,0.131953286993 l -8.73686718484,0 c -0.0728757880921,0 -0.131953286993,-0.0590774989007 -0.131953286993,-0.131953286993 l 0,-2.73593867425 c 0,-0.0728757880921 0.0590774989007,-0.131953286993 0.131953286993,-0.131953286993 Z"
             android:valueType="pathType"/>
@@ -235,6 +229,7 @@
             android:duration="37"
             android:interpolator="@android:interpolator/linear"
             android:propertyName="pathData"
+            android:startDelay="50"
             android:valueFrom="M -5.5,-1 l 11,0 c 0,0 0,0 0,0 l 0,2 c 0,0 0,0 0,0 l -11,0 c 0,0 0,0 0,0 l 0,-2 c 0,0 0,0 0,0 Z"
             android:valueTo="M -5.349609375,-1.04296875 l 10.69921875,0 c 0,0 0,0 0,0 l 0,2.0859375 c 0,0 0,0 0,0 l -10.69921875,0 c 0,0 0,0 0,0 l 0,-2.0859375 c 0,0 0,0 0,0 Z"
             android:valueType="pathType"/>
