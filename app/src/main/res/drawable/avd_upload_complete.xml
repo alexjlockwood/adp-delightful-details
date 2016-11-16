@@ -1,0 +1,17 @@
+<animated-vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:drawable="@drawable/vd_upload_complete">
+
+  <target
+    android:name="upload"
+    android:animation="@animator/upload_fade_out" />
+
+  <target
+    android:name="progress_tick"
+    android:animation="@animator/upload_complete" />
+
+  <target
+    android:name="tick_to_plus"
+    android:animation="@animator/upload_tick_to_plus" />
+
+</animated-vector>
