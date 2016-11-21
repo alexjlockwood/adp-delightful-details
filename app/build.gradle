@@ -28,7 +28,7 @@ android {
 }
 
 ext {
-    supportLibVersion = '25.0.0'
+    supportLibVersion = '25.0.1'
     butterKnifeVersion = '8.4.0'
 }
 
