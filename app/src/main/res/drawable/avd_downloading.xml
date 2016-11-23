@@ -252,4 +252,11 @@
       </set>
     </aapt:attr>
   </target>
+  <target
+      android:name="progress_bar"
+      android:animation="@animator/upload_progress" />
+
+  <target
+      android:name="progress_spinner"
+      android:animation="@animator/upload_progress_rotation" />
 </animated-vector>

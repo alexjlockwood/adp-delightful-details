@@ -4,5 +4,5 @@
   android:valueFrom="0"
   android:valueTo="720"
   android:repeatCount="-1"
-  android:duration="6665"
+  android:duration="4444"
   android:interpolator="@android:anim/linear_interpolator" />
