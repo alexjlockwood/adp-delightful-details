@@ -23,17 +23,21 @@ public class UploadingActivity extends AppCompatActivity {
 
   @OnClick(R.id.rootview)
   void onClick() {
-    if (numClicks % 2 == 0) {
-      final AnimatedVectorDrawableCompat avd =
-          AnimatedVectorDrawableCompat.create(this, R.drawable.avd_uploading);
-      uploadingView.setImageDrawable(avd);
-      avd.start();
-    } else if (numClicks % 2 == 1) {
-      final AnimatedVectorDrawableCompat avd =
-          AnimatedVectorDrawableCompat.create(this, R.drawable.avd_upload_error);
-      uploadingView.setImageDrawable(avd);
-      avd.start();
-    }
-    numClicks++;
+//    if (numClicks % 2 == 0) {
+//      final AnimatedVectorDrawableCompat avd =
+//          AnimatedVectorDrawableCompat.create(this, R.drawable.avd_uploading);
+//      uploadingView.setImageDrawable(avd);
+//      avd.start();
+//    } else if (numClicks % 2 == 1) {
+//      final AnimatedVectorDrawableCompat avd =
+//          AnimatedVectorDrawableCompat.create(this, R.drawable.avd_upload_error);
+//      uploadingView.setImageDrawable(avd);
+//      avd.start();
+//    }
+//    numClicks++;
+    final AnimatedVectorDrawableCompat avd =
+        AnimatedVectorDrawableCompat.create(this, R.drawable.avd_downloading);
+    uploadingView.setImageDrawable(avd);
+    avd.start();
   }
 }
