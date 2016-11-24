@@ -11,8 +11,8 @@
 
     <ImageView
       android:id="@+id/airplane"
-      android:layout_width="128dp"
-      android:layout_height="128dp"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
       android:layout_alignParentStart="true"
       android:layout_alignParentTop="true"
       android:contentDescription="@null"
@@ -21,11 +21,22 @@
       android:src="@drawable/asl_trimclip_airplane"/>
 
     <ImageView
-      android:id="@+id/flashlight"
-      android:layout_width="128dp"
-      android:layout_height="128dp"
+      android:id="@+id/eye"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
       android:layout_alignTop="@id/airplane"
       android:layout_toEndOf="@id/airplane"
+      android:contentDescription="@null"
+      android:padding="8dp"
+      android:scaleType="fitCenter"
+      android:src="@drawable/asl_trimclip_eye"/>
+
+    <ImageView
+      android:id="@+id/flashlight"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_alignTop="@id/eye"
+      android:layout_toEndOf="@id/eye"
       android:contentDescription="@null"
       android:padding="8dp"
       android:scaleType="fitCenter"
