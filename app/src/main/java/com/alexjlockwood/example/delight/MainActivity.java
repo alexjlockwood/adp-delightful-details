@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.playpausestop, PlayPauseStopActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.progressbar, ProgressBarActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.trimclip, TrimClipActivity.class);
+    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.uploading, UploadingActivity.class);
   }
 
   @Override
@@ -45,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
       R.id.playpausestop,
       R.id.progressbar,
       R.id.trimclip,
+      R.id.uploading,
   })
   void onListItemClick(View view) {
     startActivity(new Intent(this, LIST_ITEM_TO_ACTIVITY_MAP.get(view.getId())));

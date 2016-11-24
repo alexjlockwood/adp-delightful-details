@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:width="240dp"
+  android:height="240dp"
+  android:tint="?attr/colorControlNormal"
+  android:viewportHeight="240"
+  android:viewportWidth="240">
+  <path
+    android:name="line_path"
+    android:pathData="M 50,190 c 0,0 47.659576416,0 70,0 c 22.340423584,0 70,0 70,0.0"
+    android:strokeColor="@android:color/white"
+    android:strokeWidth="20"/>
+  <group
+    android:name="arrow_group"
+    android:pivotX="120"
+    android:pivotY="180">
+    <path
+      android:name="arrow_path"
+      android:fillColor="@android:color/white"
+      android:pathData="M 190,90 c 0,0 -40,0 -40,0 c 0,0 0,-60 0,-60 c 0,0 -60,0 -60,0 c 0,0 0,60 0,60 c 0,0 -40,0 -40,0 c 0,0 70,70 70,70 c 0,0 70,-70 70,-70 Z"/>
+  </group>
+  <path
+    android:fillColor="@android:color/white"
+    android:pathData="M 64.0992279053,94.9992218018 c 0,0 0.00311279296875,0.0140533447266 0.00311279296881,0.0140533447266 c 0,0 -0.00233459472656,-0.0132751464844 -0.00233459472661,-0.0132751464844 c 0,0 -14.1000061035,14.1000061035 -14.1000061035,14.1000061035 c 0,0 -0.00157165527344,0.00468444824219 -0.0015716552734,0.004684448242 c 0,0 14.1140594482,-14.1140594482 14.1140594482,-14.1140594482 c 0,0 -0.0132598876953,0.00859069824219 -0.0132598876954,0.0085906982422 Z"/>
+  <group
+    android:name="check_arrow_group"
+    android:rotation="45"
+    android:translateX="94"
+    android:translateY="153">
+    <group
+      android:translateX="-120"
+      android:translateY="-164">
+      <path
+        android:name="check_arrow_path"
+        android:fillColor="@android:color/white"
+        android:pathData="M 129.117767334,164 c 0,0 0.882232666016,0 0.882232666016,0 c 0,0 0,-134 0,-134 c 0,0 -20,0 -20,0 c 0,0 -0.100524902344,114.3777771 -0.100524902344,114.3777771 c 0,0 -51.7990112305,-0.132476806641 -51.7990112305,-0.13247680664 c 0,0 0.0138549804688,19.8652954102 0.0138549804687,19.8652954102 c 0,0 68.0248565674,-0.10595703125 68.0248565674,-0.10595703125 c 0,0 2.97859191895,-0.004638671875 2.97859191894,-0.004638671875 Z"/>
+    </group>
+  </group>
+  <group
+    android:name="progress_spinner"
+    android:translateX="120"
+    android:translateY="120">
+    <path
+      android:name="progress_bar"
+      android:pathData="M 0,-120 a 120,120 0 1,1 0,240 a 120,120 0 1,1 0,-240"
+      android:strokeColor="@color/dark_icon"
+      android:strokeLineCap="square"
+      android:strokeLineJoin="miter"
+      android:strokeWidth="12"
+      android:trimPathEnd="0.03"
+      android:trimPathStart="0"/>
+  </group>
+  <path
+    android:pathData="
+    M 0,-120 a 120,120 0 1,1 0,240 a 120,120 0 1,1 0,-240"
+    android:strokeAlpha="0.5"
+    android:strokeWidth="4"
+    android:strokeColor="#690"/>
+  <group
+    android:scaleX="4.28"
+    android:scaleY="4.28">
+
+    <path
+      android:pathData="
+    M 28,2
+    C 53.4,6.9 35.46,22.07 35.46,22.07"
+      android:strokeAlpha="0.5"
+      android:strokeWidth="4"
+      android:strokeColor="#690"/>
+  </group>
+</vector>

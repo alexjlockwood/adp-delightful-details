@@ -11,6 +11,7 @@ import butterknife.OnClick;
 public class TrimClipActivity extends AppCompatActivity {
 
   @BindView(R.id.airplane) ImageView airplaneView;
+  @BindView(R.id.eye) ImageView eyeView;
   @BindView(R.id.flashlight) ImageView flashlightView;
   @BindView(R.id.searchback) ImageView searchbackView;
   @BindView(R.id.heart) ImageView heartView;
@@ -28,6 +29,7 @@ public class TrimClipActivity extends AppCompatActivity {
     isChecked = !isChecked;
     final int[] stateSet = {android.R.attr.state_checked * (isChecked ? 1 : -1)};
     airplaneView.setImageState(stateSet, true);
+    eyeView.setImageState(stateSet, true);
     flashlightView.setImageState(stateSet, true);
     searchbackView.setImageState(stateSet, true);
     heartView.setImageState(stateSet, true);

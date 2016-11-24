@@ -1,6 +1,13 @@
 <resources>
 
+  <declare-styleable name="UploadingState">
+    <attr name="state_uploading" format="boolean"/>
+  </declare-styleable>
+
   <color name="dark_icon_half_alpha">#4d000000</color>
   <color name="dark_icon">#99000000</color>
+  <color name="primary">#69F0AE</color>
+  <color name="error">#ffdd2c00</color>
+  <color name="dark_icon_on_primary">#ff2a6046</color> <!-- 60% black on @color/primary -->
 
 </resources>

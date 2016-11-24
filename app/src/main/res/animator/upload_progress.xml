@@ -1,0 +1,36 @@
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt">
+  <objectAnimator
+    android:duration="1333"
+    android:propertyName="trimPathStart"
+    android:repeatCount="-1"
+    android:valueFrom="0"
+    android:valueTo="0.75"
+    android:valueType="floatType">
+    <aapt:attr name="android:interpolator">
+      <pathInterpolator
+        android:pathData="L0.5,0 C 0.7,0 0.6,1 1,1"/>
+    </aapt:attr>
+  </objectAnimator>
+  <objectAnimator
+    android:duration="1333"
+    android:propertyName="trimPathEnd"
+    android:repeatCount="-1"
+    android:valueFrom="0.03"
+    android:valueTo="0.78"
+    android:valueType="floatType">
+    <aapt:attr name="android:interpolator">
+      <pathInterpolator
+        android:pathData="C0.2,0 0.1,1 0.5,0.96 C 0.96666666666,0.96 0.99333333333,1 1,1"/>
+    </aapt:attr>
+  </objectAnimator>
+  <objectAnimator
+    android:duration="1333"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:propertyName="trimPathOffset"
+    android:repeatCount="-1"
+    android:valueFrom="0"
+    android:valueTo="0.25"
+    android:valueType="floatType"/>
+</set>

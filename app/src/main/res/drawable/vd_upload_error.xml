@@ -1,0 +1,23 @@
+<vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:width="56dp"
+  android:height="56dp"
+  android:viewportHeight="56"
+  android:viewportWidth="56">
+
+  <path
+    android:name="upload"
+    android:pathData="M21,34L35,34L35,36L21,36L21,34ZM25,32L31,32L31,26L35,26L28,19L21,26L25,26L25,32Z"
+    android:fillColor="@color/dark_icon" />
+
+  <path
+    android:name="background"
+    android:pathData="M28,28m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0"
+    android:fillColor="@color/primary"/>
+
+  <path
+    android:name="cross"
+    android:pathData="M35,22.41L33.59,21L28,26.59L22.41,21L21,22.41L26.59,28L21,33.59L22.41,35L28,29.41L33.59,35L35,33.59L29.41,28L35,22.41Z"
+    android:fillColor="@android:color/white" />
+
+</vector>

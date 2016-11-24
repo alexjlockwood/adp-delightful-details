@@ -1,0 +1,22 @@
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+    android:id="@+id/visible"
+    android:drawable="@drawable/vd_trimclip_eye_visible"
+    android:state_checked="true"/>
+
+  <item
+    android:id="@+id/masked"
+    android:drawable="@drawable/vd_trimclip_eye_masked"/>
+
+  <transition
+    android:drawable="@drawable/avd_trimclip_eye_masked_to_visible"
+    android:fromId="@id/masked"
+    android:toId="@id/visible"/>
+
+  <transition
+    android:drawable="@drawable/avd_trimclip_eye_visible_to_masked"
+    android:fromId="@id/visible"
+    android:toId="@id/masked"/>
+
+</animated-selector>
