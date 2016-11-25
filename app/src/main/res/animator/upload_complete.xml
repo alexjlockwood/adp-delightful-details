@@ -30,7 +30,7 @@
     android:valueFrom="0"
     android:valueTo="1"
     android:duration="1000"
-    android:interpolator="@android:interpolator/fast_out_slow_in" />
+    android:interpolator="@android:interpolator/linear_out_slow_in" />
 
   <!-- animate the trim start to remove the circle & end up with just the tick -->
   <objectAnimator
@@ -39,7 +39,7 @@
     android:valueTo="0.89"
     android:startOffset="400"
     android:duration="600"
-    android:interpolator="@android:interpolator/fast_out_slow_in" />
+    android:interpolator="@android:interpolator/linear_out_slow_in" />
 
   <!-- animate the stroke width (from matching progress spinner, to standard icon stroke) -->
   <objectAnimator

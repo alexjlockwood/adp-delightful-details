@@ -18,6 +18,6 @@
   <string name="countdown">Countdown</string>
   <string name="pathmorph">Path morphing</string>
   <string name="music">Music</string>
-  <string name="uploading">Uploading</string>
+  <string name="downloading">Downloading</string>
 
 </resources>

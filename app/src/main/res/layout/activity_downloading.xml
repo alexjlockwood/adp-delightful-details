@@ -5,11 +5,12 @@
   android:layout_height="match_parent">
 
   <ImageView
-    android:id="@+id/uploading"
+    android:id="@+id/downloading"
     android:layout_width="128dp"
     android:layout_height="128dp"
     android:layout_centerInParent="true"
     android:contentDescription="@null"
-    android:scaleType="fitCenter"/>
+    android:scaleType="fitCenter"
+    android:src="@drawable/avd_downloading_begin"/>
 
 </RelativeLayout>
