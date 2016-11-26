@@ -13,6 +13,9 @@ import butterknife.OnClick;
 // TODO(alockwood): still need to add arrow clip path fill
 public class DownloadingActivity extends AppCompatActivity {
 
+  // TODO(alockwood): this is a bit hacky... but there's not really a great alternative :/
+  private final Handler handler = new Handler();
+
   @BindView(R.id.downloading) ImageView downloadingView;
   private boolean isDownloading;
   private long lastKnownTimeMillis;
@@ -27,8 +30,14 @@ public class DownloadingActivity extends AppCompatActivity {
   @OnClick(R.id.rootview)
   void onClick() {
     if (isDownloading) {
-      // TODO(alockwood): replace this with something less hacky
-      new Handler().postDelayed(this::beginFinishAnimation, 2666 - ((System.currentTimeMillis() - lastKnownTimeMillis) % 2666));
+      final long delayMillis = 2666 - ((System.currentTimeMillis() - lastKnownTimeMillis) % 2666);
+      handler.postDelayed(() -> {
+        final AnimatedVectorDrawableCompat avd =
+            AnimatedVectorDrawableCompat.create(
+                DownloadingActivity.this, R.drawable.avd_downloading_finish);
+        downloadingView.setImageDrawable(avd);
+        avd.start();
+      }, delayMillis);
     } else {
       final AnimatedVectorDrawableCompat avd =
           AnimatedVectorDrawableCompat.create(this, R.drawable.avd_downloading_begin);
@@ -37,12 +46,5 @@ public class DownloadingActivity extends AppCompatActivity {
       lastKnownTimeMillis = System.currentTimeMillis();
     }
     isDownloading = !isDownloading;
-  }
-
-  private void beginFinishAnimation() {
-    final AnimatedVectorDrawableCompat avd =
-        AnimatedVectorDrawableCompat.create(this, R.drawable.avd_downloading_finish);
-    downloadingView.setImageDrawable(avd);
-    avd.start();
   }
 }

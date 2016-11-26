@@ -3,6 +3,7 @@
   android:name="root"
   android:width="48dp"
   android:height="48dp"
+  android:alpha="0.3"
   android:tint="?attr/colorControlNormal"
   android:viewportHeight="48"
   android:viewportWidth="48">
