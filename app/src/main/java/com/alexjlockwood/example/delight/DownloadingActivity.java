@@ -23,6 +23,8 @@ public class DownloadingActivity extends AppCompatActivity {
   // there isn't much else we can do. :/
   private long downloadingStartTimeMillis;
 
+  private boolean isCompleteAnimationPending;
+
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -32,11 +34,16 @@ public class DownloadingActivity extends AppCompatActivity {
 
   @OnClick(R.id.rootview)
   void onClick() {
+    if (isCompleteAnimationPending) {
+      return;
+    }
     if (isDownloading) {
       final long delayMillis = 2666 - ((System.currentTimeMillis() - downloadingStartTimeMillis) % 2666);
       downloadingView.postDelayed(() -> {
         swapAnimation(R.drawable.avd_downloading_finish);
+        isCompleteAnimationPending = false;
       }, delayMillis);
+      isCompleteAnimationPending = true;
     } else {
       swapAnimation(R.drawable.avd_downloading_begin);
       downloadingStartTimeMillis = System.currentTimeMillis();

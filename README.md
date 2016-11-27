@@ -4,6 +4,10 @@ This repository accompanies a blog post I wrote on [Android Design Patterns](www
 
 ![Example animated vector drawables](http://i.imgur.com/0aFdjJn.gif)
 
+...or these!
+
+![Another example animated vector drawable](http://i.imgur.com/4UsNhqV.gif)
+
 Additional icon implementations are welcome if you've written anything cool that you want to share... submit a pull request! :)
 
 ## Some notes on backwards compatibility
