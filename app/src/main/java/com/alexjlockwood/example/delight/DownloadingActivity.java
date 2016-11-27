@@ -1,5 +1,7 @@
 package com.alexjlockwood.example.delight;
 
+import android.graphics.drawable.Animatable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.DrawableRes;
 import android.support.graphics.drawable.AnimatedVectorDrawableCompat;
@@ -12,7 +14,8 @@ import butterknife.OnClick;
 
 public class DownloadingActivity extends AppCompatActivity {
 
-  @BindView(R.id.downloading) ImageView downloadingView;
+  @BindView(R.id.downloading)
+  ImageView downloadingView;
   private boolean isDownloading;
 
   // We want to begin the progress-to-check animation only when the progress bar is at
@@ -39,9 +42,11 @@ public class DownloadingActivity extends AppCompatActivity {
     }
     if (isDownloading) {
       final long delayMillis = 2666 - ((System.currentTimeMillis() - downloadingStartTimeMillis) % 2666);
-      downloadingView.postDelayed(() -> {
-        swapAnimation(R.drawable.avd_downloading_finish);
-        isCompleteAnimationPending = false;
+      downloadingView.postDelayed(new Runnable() {
+        public void run() {
+          swapAnimation(R.drawable.avd_downloading_finish);
+          isCompleteAnimationPending = false;
+        }
       }, delayMillis);
       isCompleteAnimationPending = true;
     } else {
@@ -52,9 +57,8 @@ public class DownloadingActivity extends AppCompatActivity {
   }
 
   private void swapAnimation(@DrawableRes int drawableResId) {
-    final AnimatedVectorDrawableCompat avd =
-        AnimatedVectorDrawableCompat.create(this, drawableResId);
+    final Drawable avd = AnimatedVectorDrawableCompat.create(this, drawableResId);
     downloadingView.setImageDrawable(avd);
-    avd.start();
+    ((Animatable) avd).start();
   }
 }
