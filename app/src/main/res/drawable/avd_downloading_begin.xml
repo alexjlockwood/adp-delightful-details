@@ -185,6 +185,28 @@
         android:valueTo="720"/>
     </aapt:attr>
   </target>
-
+  <target android:name="downloading_arrow_fill_clip">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="1200"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="pathData"
+        android:repeatCount="-1"
+        android:repeatMode="restart"
+        android:startOffset="300"
+        android:valueFrom="M 0,0 L 240,0 L 240,0 L 0,0 L 0,0 Z"
+        android:valueTo="M 0,0 L 240,0 L 240,240 L 0,240 L 0,0 Z"
+        android:valueType="pathType"/>
+    </aapt:attr>
+  </target>
+  <target android:name="downloading_arrow_filling">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="0"
+        android:propertyName="fillAlpha"
+        android:valueFrom="0"
+        android:valueTo="1"/>
+    </aapt:attr>
+  </target>
 
 </animated-vector>

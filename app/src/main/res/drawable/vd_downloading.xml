@@ -3,7 +3,6 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:width="240dp"
   android:height="240dp"
-  android:tint="?attr/colorControlNormal"
   android:viewportHeight="240"
   android:viewportWidth="240">
   <group
@@ -14,7 +13,7 @@
     <path
       android:name="line_path"
       android:pathData="M 50,190 c 0,0 47.659576416,0 70,0 c 22.340423584,0 70,0 70,0.0"
-      android:strokeColor="@android:color/white"
+      android:strokeColor="@color/dark_icon"
       android:strokeWidth="20"/>
     <group
       android:name="arrow_group"
@@ -22,8 +21,17 @@
       android:pivotY="180">
       <path
         android:name="arrow_path"
-        android:fillColor="@android:color/white"
+        android:fillColor="@color/dark_icon_half_alpha"
         android:pathData="M 190,90 c 0,0 -40,0 -40,0 c 0,0 0,-60 0,-60 c 0,0 -60,0 -60,0 c 0,0 0,60 0,60 c 0,0 -40,0 -40,0 c 0,0 70,70 70,70 c 0,0 70,-70 70,-70 Z"/>
+      <group>
+        <clip-path
+          android:name="downloading_arrow_fill_clip"
+          android:pathData="M 0,0 L 240,0 L 240,240 L 0,240 L 0,0 Z"/>
+        <path
+          android:name="downloading_arrow_filling"
+          android:fillColor="@color/dark_icon_half_alpha"
+          android:pathData="M 190,90 c 0,0 -40,0 -40,0 c 0,0 0,-60 0,-60 c 0,0 -60,0 -60,0 c 0,0 0,60 0,60 c 0,0 -40,0 -40,0 c 0,0 70,70 70,70 c 0,0 70,-70 70,-70 Z"/>
+      </group>
     </group>
     <group
       android:name="check_arrow_group"
@@ -36,7 +44,7 @@
         <path
           android:name="check_arrow_path"
           android:fillAlpha="0"
-          android:fillColor="@android:color/white"
+          android:fillColor="@color/dark_icon"
           android:pathData="M 129.117767334,164 c 0,0 0.882232666016,0 0.882232666016,0 c 0,0 0,-134 0,-134 c 0,0 -20,0 -20,0 c 0,0 -0.100524902344,114.3777771 -0.100524902344,114.3777771 c 0,0 -51.7990112305,-0.132476806641 -51.7990112305,-0.13247680664 c 0,0 0.0138549804688,19.8652954102 0.0138549804687,19.8652954102 c 0,0 68.0248565674,-0.10595703125 68.0248565674,-0.10595703125 c 0,0 2.97859191895,-0.004638671875 2.97859191894,-0.004638671875 Z"/>
       </group>
     </group>
@@ -53,7 +61,7 @@
       <path
         android:name="progress_bar"
         android:pathData="M 0,-120 a 120,120 0 1,1 0,240 a 120,120 0 1,1 0,-240"
-        android:strokeColor="@android:color/white"
+        android:strokeColor="@color/dark_icon"
         android:strokeLineCap="square"
         android:strokeLineJoin="miter"
         android:strokeWidth="20"
@@ -65,7 +73,7 @@
         <path
           android:name="progress_bar_check"
           android:pathData="M 120,0 a 120,120 0 1,1 0,240 a 120,120 0 1,1 0,-240 C 224,30 162,83 162,83 L 106.5,138.5 L 80.45,112.45"
-          android:strokeColor="@android:color/white"
+          android:strokeColor="@color/dark_icon"
           android:strokeLineCap="square"
           android:strokeLineJoin="miter"
           android:strokeWidth="20"

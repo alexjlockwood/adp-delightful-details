@@ -184,4 +184,13 @@
       </set>
     </aapt:attr>
   </target>
+  <target android:name="downloading_arrow_filling">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="0"
+        android:propertyName="fillAlpha"
+        android:valueFrom="1"
+        android:valueTo="0"/>
+    </aapt:attr>
+  </target>
 </animated-vector>

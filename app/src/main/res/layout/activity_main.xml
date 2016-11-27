@@ -39,6 +39,13 @@
       android:text="@string/curvedmotion"/>
 
     <TextView
+      android:id="@+id/downloading"
+      style="@style/MainActivityListItem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/downloading"/>
+
+    <TextView
       android:id="@+id/fingerprint"
       style="@style/MainActivityListItem"
       android:layout_width="match_parent"
@@ -86,13 +93,6 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="@string/trimclip"/>
-
-    <TextView
-      android:id="@+id/downloading"
-      style="@style/MainActivityListItem"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="@string/downloading"/>
 
   </LinearLayout>
 
