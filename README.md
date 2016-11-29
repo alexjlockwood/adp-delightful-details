@@ -4,19 +4,19 @@ This repository accompanies a blog post I wrote on [Android Design Patterns](htt
 
 It contains over **25 `AnimatedVectorDrawable`s** that you can refer to free of charge. You know... cool animated icons like these!
 
-![Example animated vector drawables](http://i.imgur.com/0aFdjJn.gifv)
+![Example animated vector drawables](http://i.imgur.com/0aFdjJn.gif)
 
 ...or these!
 
-![Another example animated vector drawable](http://i.imgur.com/ybpVE65.gifv)
+![Another example animated vector drawable](http://i.imgur.com/ybpVE65.gif)
 
 ...or this!
 
-![Another example animated vector drawable](http://i.imgur.com/IG7YxHD.gifv)
+![Another example animated vector drawable](http://i.imgur.com/IG7YxHD.gif)
 
 ...and also this!
 
-![Another example animated vector drawable](http://i.imgur.com/4UsNhqV.gifv)
+![Another example animated vector drawable](http://i.imgur.com/4UsNhqV.gif)
 
 ...and a bunch of others too!
 
