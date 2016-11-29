@@ -1,12 +1,16 @@
 # adp-delightful-details
 
-This repository accompanies a blog post I wrote on [Android Design Patterns](http://www.androiddesignpatterns.com/2016/11/introduction-to-icon-animation-techniques.html) on animated icons. It contains over 25 `AnimatedVectorDrawable` implementations that you can refer to free of charge. You know... cool animated icons like these!
+This repository accompanies a blog post I wrote on [Android Design Patterns](http://www.androiddesignpatterns.com/2016/11/introduction-to-icon-animation-techniques.html) on animated icons. 
+
+It contains over **25 `AnimatedVectorDrawable`s** that you can refer to free of charge. You know... cool animated icons like these!
 
 ![Example animated vector drawables](http://i.imgur.com/0aFdjJn.gif)
 
 ...or these!
 
 ![Another example animated vector drawable](http://i.imgur.com/4UsNhqV.gif)
+
+And a bunch of others too!
 
 Additional icon implementations are welcome if you've written anything cool that you want to share... submit a pull request! :)
 
