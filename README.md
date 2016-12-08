@@ -41,6 +41,10 @@ be used on older platform versions:
 
 7. Using the new material design interpolators (such as `@android:interpolator/fast_out_slow_in`, etc.) is **not supported** on pre-Lollipop devices. See the documentation for [`android.R.interpolator`][android.R.interpolator] for a complete listing of interpolators that can be declared in XML at each platform version. Usually you can get a pretty similar effect using the decelerate and accelerate interpolators, although it won't be identical.
 
+## Known issues
+
+* On Android 5.0 and 5.1, some icons appear blurry and aren't tinted properly. See [this bug thread](https://github.com/alexjlockwood/adp-delightful-details/issues/1) for more information.
+
   [chris-banes-vector-blog-post]: https://chris.banes.me/2016/02/25/appcompat-vector/
   [theme-attributes-blog-post]: http://www.androiddesignpatterns.com/2016/08/contextcompat-getcolor-getdrawable.html
   [PathInterpolatorCompat]: https://developer.android.com/reference/android/support/v4/view/animation/PathInterpolatorCompat.html
