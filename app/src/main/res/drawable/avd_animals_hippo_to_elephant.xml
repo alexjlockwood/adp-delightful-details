@@ -1,0 +1,27 @@
+<animated-vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:drawable="@drawable/vd_animals_hippo">
+  <target android:name="hippo">
+    <aapt:attr name="android:animation">
+      <set>
+        <objectAnimator
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:duration="300"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="pathData"
+          android:valueFrom="@string/hippo"
+          android:valueTo="@string/elephant"
+          android:valueType="pathType"/>
+        <objectAnimator
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:duration="300"
+          android:interpolator="@android:interpolator/fast_out_slow_in"
+          android:propertyName="fillColor"
+          android:valueFrom="@color/hippo_color"
+          android:valueTo="@color/elephant_color"
+          android:valueType="colorType"/>
+      </set>
+    </aapt:attr>
+  </target>
+</animated-vector>

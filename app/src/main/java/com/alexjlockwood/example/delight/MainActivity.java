@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
   private static final SparseArray<Class<?>> LIST_ITEM_TO_ACTIVITY_MAP = new SparseArray<>();
 
   static {
+    LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.animals, AnimalsActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.checkable, CheckableActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.clock, ClockActivity.class);
     LIST_ITEM_TO_ACTIVITY_MAP.put(R.id.countdown, CountdownActivity.class);
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
   }
 
   @OnClick({
+      R.id.animals,
       R.id.checkable,
       R.id.clock,
       R.id.countdown,

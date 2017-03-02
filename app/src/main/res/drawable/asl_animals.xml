@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item
+    android:id="@+id/elephant"
+    android:drawable="@drawable/vd_animals_elephant"
+    app:state_elephant="true"/>
+
+  <item
+    android:id="@+id/buffalo"
+    android:drawable="@drawable/vd_animals_buffalo"
+    app:state_buffalo="true"/>
+
+  <item
+    android:id="@+id/hippo"
+    android:drawable="@drawable/vd_animals_hippo"/>
+
+  <transition
+    android:drawable="@drawable/avd_animals_hippo_to_elephant"
+    android:fromId="@id/hippo"
+    android:toId="@id/elephant"/>
+
+  <transition
+    android:drawable="@drawable/avd_animals_hippo_to_buffalo"
+    android:fromId="@id/hippo"
+    android:toId="@id/buffalo"/>
+
+  <transition
+    android:drawable="@drawable/avd_animals_buffalo_to_hippo"
+    android:fromId="@id/buffalo"
+    android:toId="@id/hippo"/>
+
+  <transition
+    android:drawable="@drawable/avd_animals_elephant_to_hippo"
+    android:fromId="@id/elephant"
+    android:toId="@id/hippo"/>
+
+  <transition
+    android:drawable="@drawable/avd_animals_buffalo_to_elephant"
+    android:fromId="@id/buffalo"
+    android:toId="@id/elephant"/>
+
+  <transition
+    android:drawable="@drawable/avd_animals_elephant_to_buffalo"
+    android:fromId="@id/elephant"
+    android:toId="@id/buffalo"/>
+
+</animated-selector>

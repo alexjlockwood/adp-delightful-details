@@ -1,0 +1,51 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="16dp">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+
+    <ImageView
+      android:id="@+id/icon"
+      android:layout_width="300dp"
+      android:layout_height="300dp"
+      android:layout_centerInParent="true"
+      android:contentDescription="@null"
+      android:scaleType="fitCenter"
+      android:src="@drawable/asl_animals"/>
+
+  </RelativeLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+      android:id="@+id/hippo"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:enabled="false"
+      android:text="@string/hippo_text"/>
+
+    <Button
+      android:id="@+id/buffalo"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="@string/buffalo_text"/>
+
+    <Button
+      android:id="@+id/elephant"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="@string/elephant_text"/>
+  </LinearLayout>
+</LinearLayout>

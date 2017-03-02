@@ -11,6 +11,13 @@
     android:orientation="vertical">
 
     <TextView
+      android:id="@+id/animals"
+      style="@style/MainActivityListItem"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/animals"/>
+
+    <TextView
       android:id="@+id/clock"
       style="@style/MainActivityListItem"
       android:layout_width="match_parent"

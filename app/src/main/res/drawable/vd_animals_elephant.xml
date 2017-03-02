@@ -1,0 +1,11 @@
+<vector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:width="409.6000061035156dp"
+  android:height="280.64898681640625dp"
+  android:viewportWidth="409.6000061035156"
+  android:viewportHeight="280.64898681640625">
+  <path
+    android:name="elephant"
+    android:pathData="@string/elephant"
+    android:fillColor="@color/elephant_color"/>
+</vector>
