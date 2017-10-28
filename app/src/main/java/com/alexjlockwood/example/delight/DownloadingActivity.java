@@ -42,11 +42,9 @@ public class DownloadingActivity extends AppCompatActivity {
     }
     if (isDownloading) {
       final long delayMillis = 2666 - ((System.currentTimeMillis() - downloadingStartTimeMillis) % 2666);
-      downloadingView.postDelayed(new Runnable() {
-        public void run() {
-          swapAnimation(R.drawable.avd_downloading_finish);
-          isCompleteAnimationPending = false;
-        }
+      downloadingView.postDelayed(() -> {
+        swapAnimation(R.drawable.avd_downloading_finish);
+        isCompleteAnimationPending = false;
       }, delayMillis);
       isCompleteAnimationPending = true;
     } else {
