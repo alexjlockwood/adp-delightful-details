@@ -14,7 +14,7 @@
           android:valueType="floatType"/>
         <objectAnimator
           android:duration="180"
-          android:interpolator="@interpolator/fingerprint_off_1"
+          android:interpolator="@anim/fingerprint_off_1"
           android:propertyName="trimPathStart"
           android:valueFrom="0.0"
           android:valueTo="1.0"
@@ -34,7 +34,7 @@
           android:valueType="floatType"/>
         <objectAnimator
           android:duration="160"
-          android:interpolator="@interpolator/fingerprint_off_1"
+          android:interpolator="@anim/fingerprint_off_1"
           android:propertyName="trimPathStart"
           android:valueFrom="0"
           android:valueTo="1"
@@ -46,7 +46,7 @@
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="190"
-        android:interpolator="@interpolator/fingerprint_off_1"
+        android:interpolator="@anim/fingerprint_off_1"
         android:propertyName="trimPathEnd"
         android:valueFrom="1"
         android:valueTo="0"
@@ -57,7 +57,7 @@
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="140"
-        android:interpolator="@interpolator/fingerprint_off_0"
+        android:interpolator="@anim/fingerprint_off_0"
         android:propertyName="trimPathEnd"
         android:valueFrom="1"
         android:valueTo="0"
@@ -76,7 +76,7 @@
           android:valueType="floatType"/>
         <objectAnimator
           android:duration="216"
-          android:interpolator="@interpolator/fingerprint_off_1"
+          android:interpolator="@anim/fingerprint_off_1"
           android:propertyName="trimPathStart"
           android:valueFrom="0"
           android:valueTo="1"
