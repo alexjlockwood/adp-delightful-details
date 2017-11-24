@@ -18,7 +18,7 @@
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="200"
-        android:interpolator="@interpolator/pathmorph_expandcollapse"
+        android:interpolator="@anim/pathmorph_expandcollapse"
         android:propertyName="rotation"
         android:valueFrom="135"
         android:valueTo="45"
@@ -30,7 +30,7 @@
     <aapt:attr name="android:animation">
       <objectAnimator
         android:duration="200"
-        android:interpolator="@interpolator/pathmorph_expandcollapse"
+        android:interpolator="@anim/pathmorph_expandcollapse"
         android:propertyName="rotation"
         android:valueFrom="45"
         android:valueTo="135"

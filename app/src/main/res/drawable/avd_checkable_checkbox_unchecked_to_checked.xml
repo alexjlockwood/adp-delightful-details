@@ -8,13 +8,13 @@
         <set android:ordering="sequentially">
           <objectAnimator
             android:duration="200"
-            android:interpolator="@interpolator/checkable_checkbox_tochecked_1"
+            android:interpolator="@anim/checkable_checkbox_tochecked_1"
             android:propertyName="scaleX"
             android:valueFrom="0.2"
             android:valueTo="0.18"/>
           <objectAnimator
             android:duration="300"
-            android:interpolator="@interpolator/checkable_checkbox_tochecked_1"
+            android:interpolator="@anim/checkable_checkbox_tochecked_1"
             android:propertyName="scaleX"
             android:valueFrom="0.18"
             android:valueTo="0.2"/>
@@ -22,13 +22,13 @@
         <set android:ordering="sequentially">
           <objectAnimator
             android:duration="200"
-            android:interpolator="@interpolator/checkable_checkbox_tochecked_1"
+            android:interpolator="@anim/checkable_checkbox_tochecked_1"
             android:propertyName="scaleY"
             android:valueFrom="0.2"
             android:valueTo="0.18"/>
           <objectAnimator
             android:duration="300"
-            android:interpolator="@interpolator/checkable_checkbox_tochecked_1"
+            android:interpolator="@anim/checkable_checkbox_tochecked_1"
             android:propertyName="scaleY"
             android:valueFrom="0.18"
             android:valueTo="0.2"/>
@@ -49,7 +49,7 @@
             android:valueType="pathType"/>
           <objectAnimator
             android:duration="300"
-            android:interpolator="@interpolator/checkable_checkbox_tochecked_1"
+            android:interpolator="@anim/checkable_checkbox_tochecked_1"
             android:propertyName="pathData"
             android:valueFrom="M 7,-9 c 0,0 -14,0 -14,0 c -1.1044921875,0 -2,0.8955078125 -2,2 c 0,0 0,14 0,14 c 0,1.1044921875 0.8955078125,2 2,2 c 0,0 14,0 14,0 c 1.1044921875,0 2,-0.8955078125 2,-2 c 0,0 0,-14 0,-14 c 0,-1.1044921875 -0.8955078125,-2 -2,-2 c 0,0 0,0 0,0 Z M -2,5.00001525879 c 0,0 -1.4234161377,-1.40159606934 -1.4234161377,-1.40159606934 c 0,0 1.41409301758,-1.41409301758 1.41409301758,-1.41409301758 c 0,0 0.00932312011719,-0.0124053955078 0.00932312011719,-0.0124053955078 c 0,0 0.0234069824219,-0.0235137939453 0.0234069824219,-0.0235137939453 c 0,0 1.41409301758,1.41409301758 1.41409301758,1.41409301758 c 0,0 -1.4375,1.43751525879 -1.4375,1.43751525879 Z"
             android:valueTo="M 7,-9 c 0,0 -14,0 -14,0 c -1.1044921875,0 -2,0.8955078125 -2,2 c 0,0 0,14 0,14 c 0,1.1044921875 0.8955078125,2 2,2 c 0,0 14,0 14,0 c 1.1044921875,0 2,-0.8955078125 2,-2 c 0,0 0,-14 0,-14 c 0,-1.1044921875 -0.8955078125,-2 -2,-2 c 0,0 0,0 0,0 Z M -2,5.00001525879 c 0,0 -5,-5.00001525879 -5,-5.00001525879 c 0,0 1.41409301758,-1.41409301758 1.41409301758,-1.41409301758 c 0,0 3.58590698242,3.58601379395 3.58590698242,3.58601379395 c 0,0 7.58590698242,-7.58601379395 7.58590698242,-7.58601379395 c 0,0 1.41409301758,1.41409301758 1.41409301758,1.41409301758 c 0,0 -9,9.00001525879 -9,9.00001525879 Z"
@@ -64,7 +64,7 @@
             android:valueTo="0"/>
           <objectAnimator
             android:duration="33"
-            android:interpolator="@interpolator/checkable_checkbox_tochecked_0"
+            android:interpolator="@anim/checkable_checkbox_tochecked_0"
             android:propertyName="fillAlpha"
             android:valueFrom="0"
             android:valueTo="1"/>
@@ -77,7 +77,7 @@
       <set>
         <objectAnimator
           android:duration="166"
-          android:interpolator="@interpolator/checkable_checkbox_tochecked_1"
+          android:interpolator="@anim/checkable_checkbox_tochecked_1"
           android:propertyName="pathData"
           android:valueFrom="M -7,-7 l 14,0 c 0,0 0,0 0,0 l 0,14 c 0,0 0,0 0,0 l -14,0 c 0,0 0,0 0,0 l 0,-14 c 0,0 0,0 0,0 Z M 7,-9 c 0,0 -14,0 -14,0 c -1.1044921875,0 -2,0.8955078125 -2,2 c 0,0 0,14 0,14 c 0,1.1044921875 0.8955078125,2 2,2 c 0,0 14,0 14,0 c 1.1044921875,0 2,-0.8955078125 2,-2 c 0,0 0,-14 0,-14 c 0,-1.1044921875 -0.8955078125,-2 -2,-2 c 0,0 0,0 0,0 Z"
           android:valueTo="M 0,-0.05 l 0,0 c 0.02761423749,0 0.05,0.02238576251 0.05,0.05 l 0,0 c 0,0.02761423749 -0.02238576251,0.05 -0.05,0.05 l 0,0 c -0.02761423749,0 -0.05,-0.02238576251 -0.05,-0.05 l 0,0 c 0,-0.02761423749 0.02238576251,-0.05 0.05,-0.05 Z M 7,-9 c 0,0 -14,0 -14,0 c -1.1044921875,0 -2,0.8955078125 -2,2 c 0,0 0,14 0,14 c 0,1.1044921875 0.8955078125,2 2,2 c 0,0 14,0 14,0 c 1.1044921875,0 2,-0.8955078125 2,-2 c 0,0 0,-14 0,-14 c 0,-1.1044921875 -0.8955078125,-2 -2,-2 c 0,0 0,0 0,0 Z"
@@ -91,7 +91,7 @@
             android:valueTo="1"/>
           <objectAnimator
             android:duration="33"
-            android:interpolator="@interpolator/checkable_checkbox_tochecked_0"
+            android:interpolator="@anim/checkable_checkbox_tochecked_0"
             android:propertyName="fillAlpha"
             android:valueFrom="1"
             android:valueTo="0"/>

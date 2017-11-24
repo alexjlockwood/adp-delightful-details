@@ -60,7 +60,7 @@
         <set android:ordering="sequentially">
           <objectAnimator
             android:duration="166"
-            android:interpolator="@interpolator/checkable_radiobutton"
+            android:interpolator="@anim/checkable_radiobutton"
             android:propertyName="strokeWidth"
             android:valueFrom="2.0"
             android:valueTo="18.0"

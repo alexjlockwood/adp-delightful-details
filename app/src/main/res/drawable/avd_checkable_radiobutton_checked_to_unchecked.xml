@@ -15,14 +15,14 @@
             android:valueType="floatType"/>
           <objectAnimator
             android:duration="16"
-            android:interpolator="@interpolator/checkable_radiobutton"
+            android:interpolator="@anim/checkable_radiobutton"
             android:propertyName="scaleX"
             android:valueFrom="0.9"
             android:valueTo="0.5"
             android:valueType="floatType"/>
           <objectAnimator
             android:duration="300"
-            android:interpolator="@interpolator/checkable_radiobutton"
+            android:interpolator="@anim/checkable_radiobutton"
             android:propertyName="scaleX"
             android:valueFrom="0.5"
             android:valueTo="1.0"
@@ -38,14 +38,14 @@
             android:valueType="floatType"/>
           <objectAnimator
             android:duration="16"
-            android:interpolator="@interpolator/checkable_radiobutton"
+            android:interpolator="@anim/checkable_radiobutton"
             android:propertyName="scaleY"
             android:valueFrom="0.9"
             android:valueTo="0.5"
             android:valueType="floatType"/>
           <objectAnimator
             android:duration="300"
-            android:interpolator="@interpolator/checkable_radiobutton"
+            android:interpolator="@anim/checkable_radiobutton"
             android:propertyName="scaleY"
             android:valueFrom="0.5"
             android:valueTo="1.0"

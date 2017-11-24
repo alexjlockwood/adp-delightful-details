@@ -14,7 +14,7 @@
           android:valueType="floatType"/>
         <objectAnimator
           android:duration="383"
-          android:interpolator="@interpolator/fingerprint_on_0"
+          android:interpolator="@anim/fingerprint_on_0"
           android:propertyName="trimPathEnd"
           android:valueFrom="0.0"
           android:valueTo="1.0"
@@ -34,7 +34,7 @@
           android:valueType="floatType"/>
         <objectAnimator
           android:duration="483"
-          android:interpolator="@interpolator/fingerprint_on_1"
+          android:interpolator="@anim/fingerprint_on_1"
           android:propertyName="trimPathEnd"
           android:valueFrom="0"
           android:valueTo="1"
@@ -54,7 +54,7 @@
           android:valueType="floatType"/>
         <objectAnimator
           android:duration="549"
-          android:interpolator="@interpolator/fingerprint_on_1"
+          android:interpolator="@anim/fingerprint_on_1"
           android:propertyName="trimPathStart"
           android:valueFrom="1"
           android:valueTo="0"
@@ -74,7 +74,7 @@
           android:valueType="floatType"/>
         <objectAnimator
           android:duration="400"
-          android:interpolator="@interpolator/fingerprint_on_1"
+          android:interpolator="@anim/fingerprint_on_1"
           android:propertyName="trimPathStart"
           android:valueFrom="1"
           android:valueTo="0"
@@ -94,7 +94,7 @@
           android:valueType="floatType"/>
         <objectAnimator
           android:duration="383"
-          android:interpolator="@interpolator/fingerprint_on_1"
+          android:interpolator="@anim/fingerprint_on_1"
           android:propertyName="trimPathEnd"
           android:valueFrom="0"
           android:valueTo="1"
