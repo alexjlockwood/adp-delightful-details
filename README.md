@@ -34,8 +34,6 @@ code can be backported to older platform versions. Some important things to note
 
 3. `AnimatedStateListDrawable` is **not supported** on pre-Lollipop devices. However, it is only being used in this project for convenience and is not strictly required (not using it just means you'll need to manually start the `AnimatedVectorDrawable`s yourself).
 
-4. Referencing the new material design interpolators (such as `@android:interpolator/fast_out_slow_in`, etc.) is **not supported** on pre-Lollipop devices. To get around this you can simply create your own custom path interpolators in XML and reference them in your AVDs.
-
 ## Known issues
 
 * On Android 5.0 and 5.1, some icons appear blurry and aren't tinted properly. See [this bug thread](https://github.com/alexjlockwood/adp-delightful-details/issues/1) for more information.
