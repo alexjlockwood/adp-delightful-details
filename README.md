@@ -32,11 +32,7 @@ code can be backported to older platform versions. Some important things to note
 
 2. Specifying tints, tint modes and/or theme attributes in `VectorDrawableCompat` XML **is supported** on all platform versions. Read [this blog post](http://www.androiddesignpatterns.com/2016/08/contextcompat-getcolor-getdrawable.html) for more information.
 
-3. `AnimatedStateListDrawable` is **not supported** on pre-Lollipop devices. However, it is only being used in this project for convenience and is not strictly required (not using it just means you'll need to manually start the `AnimatedVectorDrawable`s yourself).
-
-## Known issues
-
-* On Android 5.0 and 5.1, some icons appear blurry and aren't tinted properly. See [this bug thread](https://github.com/alexjlockwood/adp-delightful-details/issues/1) for more information.
+3. `AnimatedStateListDrawable` **is supported** on pre-Lollipop devices if you use support lib v28 or above. Under-the-hood, an `AnimatedStateListDrawableCompat` will be used instead.
 
   [chris-banes-vector-blog-post]: https://chris.banes.me/2016/02/25/appcompat-vector/
   [theme-attributes-blog-post]: http://www.androiddesignpatterns.com/2016/08/contextcompat-getcolor-getdrawable.html
