@@ -1,5 +1,5 @@
-<RelativeLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:padding="16dp">
@@ -18,7 +18,7 @@
       android:layout_marginBottom="64dp"
       android:contentDescription="@null"
       android:scaleType="fitCenter"
-      android:src="@drawable/avd_progress_indeterminate_circular"/>
+      app:srcCompat="@drawable/avd_progress_indeterminate_circular" />
 
     <ImageView
       android:id="@+id/horizontal_indeterminate_progress"
@@ -26,6 +26,6 @@
       android:layout_height="wrap_content"
       android:contentDescription="@null"
       android:scaleType="fitCenter"
-      android:src="@drawable/avd_progress_indeterminate_horizontal"/>
+      app:srcCompat="@drawable/avd_progress_indeterminate_horizontal" />
   </LinearLayout>
 </RelativeLayout>

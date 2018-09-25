@@ -1,5 +1,5 @@
-<RelativeLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
   android:id="@+id/rootview"
   android:layout_width="match_parent"
   android:layout_height="match_parent">
@@ -17,7 +17,7 @@
       android:layout_margin="4dp"
       android:contentDescription="@null"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_checkable_radiobutton"/>
+      app:srcCompat="@drawable/asl_checkable_radiobutton" />
 
     <ImageView
       android:id="@+id/checkbox"
@@ -26,7 +26,7 @@
       android:layout_margin="4dp"
       android:contentDescription="@null"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_checkable_checkbox"/>
+      app:srcCompat="@drawable/asl_checkable_checkbox" />
 
     <ImageView
       android:id="@+id/expandcollapse"
@@ -35,7 +35,7 @@
       android:layout_margin="4dp"
       android:contentDescription="@null"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_checkable_expandcollapse"/>
+      app:srcCompat="@drawable/asl_checkable_expandcollapse" />
 
   </LinearLayout>
 </RelativeLayout>

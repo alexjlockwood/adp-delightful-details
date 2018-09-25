@@ -1,5 +1,5 @@
-<RelativeLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
   android:id="@+id/rootview"
   android:layout_width="match_parent"
   android:layout_height="match_parent">
@@ -14,11 +14,12 @@
       android:layout_width="100dp"
       android:layout_height="100dp"
       android:layout_alignParentStart="true"
+      android:layout_alignParentLeft="true"
       android:layout_alignParentTop="true"
       android:contentDescription="@null"
       android:padding="8dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_trimclip_airplane"/>
+      app:srcCompat="@drawable/asl_trimclip_airplane" />
 
     <ImageView
       android:id="@+id/eye"
@@ -26,10 +27,11 @@
       android:layout_height="100dp"
       android:layout_alignTop="@id/airplane"
       android:layout_toEndOf="@id/airplane"
+      android:layout_toRightOf="@id/airplane"
       android:contentDescription="@null"
       android:padding="8dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_trimclip_eye"/>
+      app:srcCompat="@drawable/asl_trimclip_eye" />
 
     <ImageView
       android:id="@+id/flashlight"
@@ -37,21 +39,23 @@
       android:layout_height="100dp"
       android:layout_alignTop="@id/eye"
       android:layout_toEndOf="@id/eye"
+      android:layout_toRightOf="@id/eye"
       android:contentDescription="@null"
       android:padding="8dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_trimclip_flashlight"/>
+      app:srcCompat="@drawable/asl_trimclip_flashlight" />
 
     <ImageView
       android:id="@+id/heart"
       android:layout_width="150dp"
       android:layout_height="150dp"
-      android:layout_alignParentStart="true"
       android:layout_below="@id/airplane"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentLeft="true"
       android:contentDescription="@null"
       android:padding="8dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_trimclip_heart"/>
+      app:srcCompat="@drawable/asl_trimclip_heart" />
 
     <ImageView
       android:id="@+id/searchback"
@@ -59,10 +63,11 @@
       android:layout_height="150dp"
       android:layout_alignTop="@id/heart"
       android:layout_toEndOf="@id/heart"
+      android:layout_toRightOf="@id/heart"
       android:contentDescription="@null"
       android:padding="8dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_trimclip_searchback"/>
+      app:srcCompat="@drawable/asl_trimclip_searchback" />
   </RelativeLayout>
 
 </RelativeLayout>

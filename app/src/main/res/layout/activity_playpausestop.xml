@@ -1,5 +1,5 @@
-<LinearLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:orientation="vertical"
@@ -17,7 +17,7 @@
       android:layout_centerInParent="true"
       android:contentDescription="@null"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_playpausestop"/>
+      app:srcCompat="@drawable/asl_playpausestop" />
 
   </RelativeLayout>
 
@@ -32,20 +32,20 @@
       android:layout_height="wrap_content"
       android:layout_weight="1"
       android:enabled="false"
-      android:text="@string/play"/>
+      android:text="@string/play" />
 
     <Button
       android:id="@+id/pause"
       android:layout_width="0dp"
       android:layout_height="wrap_content"
       android:layout_weight="1"
-      android:text="@string/pause"/>
+      android:text="@string/pause" />
 
     <Button
       android:id="@+id/stop"
       android:layout_width="0dp"
       android:layout_height="wrap_content"
       android:layout_weight="1"
-      android:text="@string/stop"/>
+      android:text="@string/stop" />
   </LinearLayout>
 </LinearLayout>

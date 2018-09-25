@@ -1,5 +1,5 @@
-<RelativeLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
   android:id="@+id/rootview"
   android:layout_width="match_parent"
   android:layout_height="match_parent">
@@ -14,11 +14,12 @@
       android:layout_width="128dp"
       android:layout_height="128dp"
       android:layout_alignParentStart="true"
+      android:layout_alignParentLeft="true"
       android:layout_alignParentTop="true"
       android:contentDescription="@null"
       android:padding="8dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/avd_music_previous"/>
+      app:srcCompat="@drawable/avd_music_previous" />
 
     <ImageView
       android:id="@+id/next"
@@ -26,10 +27,11 @@
       android:layout_height="128dp"
       android:layout_alignTop="@id/previous"
       android:layout_toEndOf="@id/previous"
+      android:layout_toRightOf="@id/previous"
       android:contentDescription="@null"
       android:padding="8dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/avd_music_next"/>
+      app:srcCompat="@drawable/avd_music_next" />
   </RelativeLayout>
 
 </RelativeLayout>

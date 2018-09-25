@@ -1,5 +1,5 @@
-<RelativeLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
   android:id="@+id/rootview"
   android:layout_width="match_parent"
   android:layout_height="match_parent">
@@ -14,11 +14,12 @@
       android:layout_width="128dp"
       android:layout_height="128dp"
       android:layout_alignParentStart="true"
+      android:layout_alignParentLeft="true"
       android:layout_alignParentTop="true"
       android:contentDescription="@null"
       android:padding="8dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_pathmorph_drawer"/>
+      app:srcCompat="@drawable/asl_pathmorph_drawer" />
 
     <ImageView
       android:id="@+id/crosstick"
@@ -26,21 +27,23 @@
       android:layout_height="128dp"
       android:layout_alignTop="@id/drawer"
       android:layout_toEndOf="@id/drawer"
+      android:layout_toRightOf="@id/drawer"
       android:contentDescription="@null"
       android:padding="8dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_pathmorph_crosstick"/>
+      app:srcCompat="@drawable/asl_pathmorph_crosstick" />
 
     <ImageView
       android:id="@+id/plusminus"
       android:layout_width="128dp"
       android:layout_height="128dp"
-      android:layout_alignStart="@id/drawer"
       android:layout_below="@id/drawer"
+      android:layout_alignStart="@id/drawer"
+      android:layout_alignLeft="@id/drawer"
       android:contentDescription="@null"
       android:padding="8dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_pathmorph_plusminus"/>
+      app:srcCompat="@drawable/asl_pathmorph_plusminus" />
 
     <ImageView
       android:id="@+id/arrowoverflow"
@@ -48,10 +51,11 @@
       android:layout_height="128dp"
       android:layout_alignTop="@id/plusminus"
       android:layout_toEndOf="@id/plusminus"
+      android:layout_toRightOf="@id/plusminus"
       android:contentDescription="@null"
       android:padding="8dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_pathmorph_arrowoverflow"/>
+      app:srcCompat="@drawable/asl_pathmorph_arrowoverflow" />
 
   </RelativeLayout>
 </RelativeLayout>

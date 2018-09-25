@@ -1,5 +1,5 @@
-<RelativeLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
   android:id="@+id/rootview"
   android:layout_width="match_parent"
   android:layout_height="match_parent">
@@ -18,7 +18,7 @@
       android:contentDescription="@null"
       android:padding="8dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/avd_clock_alarm"/>
+      app:srcCompat="@drawable/avd_clock_alarm" />
 
     <ImageView
       android:id="@+id/clock"
@@ -29,18 +29,18 @@
       android:contentDescription="@null"
       android:padding="8dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/avd_clock_clock"/>
+      app:srcCompat="@drawable/avd_clock_clock" />
 
     <ImageView
       android:id="@+id/timer"
       android:layout_width="128dp"
       android:layout_height="128dp"
-      android:layout_alignStart="@id/alarm"
       android:layout_below="@id/alarm"
+      android:layout_alignStart="@id/alarm"
       android:contentDescription="@null"
       android:padding="8dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/avd_clock_timer"/>
+      app:srcCompat="@drawable/avd_clock_timer" />
 
     <ImageView
       android:id="@+id/stopwatch"
@@ -51,7 +51,7 @@
       android:contentDescription="@null"
       android:padding="8dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/avd_clock_stopwatch"/>
+      app:srcCompat="@drawable/avd_clock_stopwatch" />
 
   </RelativeLayout>
 </RelativeLayout>

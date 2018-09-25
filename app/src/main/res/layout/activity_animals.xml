@@ -1,5 +1,5 @@
-<LinearLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:orientation="vertical"
@@ -17,7 +17,7 @@
       android:layout_centerInParent="true"
       android:contentDescription="@null"
       android:scaleType="fitCenter"
-      android:src="@drawable/asl_animals"/>
+      app:srcCompat="@drawable/asl_animals" />
 
   </RelativeLayout>
 
@@ -32,20 +32,20 @@
       android:layout_height="wrap_content"
       android:layout_weight="1"
       android:enabled="false"
-      android:text="@string/hippo_text"/>
+      android:text="@string/hippo_text" />
 
     <Button
       android:id="@+id/buffalo"
       android:layout_width="0dp"
       android:layout_height="wrap_content"
       android:layout_weight="1"
-      android:text="@string/buffalo_text"/>
+      android:text="@string/buffalo_text" />
 
     <Button
       android:id="@+id/elephant"
       android:layout_width="0dp"
       android:layout_height="wrap_content"
       android:layout_weight="1"
-      android:text="@string/elephant_text"/>
+      android:text="@string/elephant_text" />
   </LinearLayout>
 </LinearLayout>

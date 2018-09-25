@@ -1,5 +1,5 @@
-<RelativeLayout
-  xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
   android:id="@+id/rootview"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
@@ -19,15 +19,15 @@
       android:contentDescription="@null"
       android:maxWidth="240dp"
       android:scaleType="fitCenter"
-      android:src="@drawable/avd_handwriting_io16"/>
+      app:srcCompat="@drawable/avd_handwriting_io16" />
 
     <ImageView
       android:id="@+id/cursiveIcon"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:maxWidth="240dp"
       android:contentDescription="@null"
-      android:src="@drawable/avd_handwriting_android_design"/>
+      android:maxWidth="240dp"
+      app:srcCompat="@drawable/avd_handwriting_android_design" />
   </LinearLayout>
 
 </RelativeLayout>
