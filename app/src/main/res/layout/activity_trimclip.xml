@@ -68,6 +68,18 @@
       android:padding="8dp"
       android:scaleType="fitCenter"
       app:srcCompat="@drawable/asl_trimclip_searchback" />
+
+    <ImageView
+            android:id="@+id/cross"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/heart"
+            android:contentDescription="@null"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/asl_arrow_cross" />
   </RelativeLayout>
 
 </RelativeLayout>
