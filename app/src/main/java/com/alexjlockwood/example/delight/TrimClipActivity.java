@@ -15,6 +15,7 @@ public class TrimClipActivity extends AppCompatActivity {
   @BindView(R.id.flashlight) ImageView flashlightView;
   @BindView(R.id.searchback) ImageView searchbackView;
   @BindView(R.id.heart) ImageView heartView;
+  @BindView(R.id.cross) ImageView crossView;
   private boolean isChecked;
 
   @Override
@@ -33,5 +34,6 @@ public class TrimClipActivity extends AppCompatActivity {
     flashlightView.setImageState(stateSet, true);
     searchbackView.setImageState(stateSet, true);
     heartView.setImageState(stateSet, true);
+    crossView.setImageState(stateSet, true);
   }
 }
