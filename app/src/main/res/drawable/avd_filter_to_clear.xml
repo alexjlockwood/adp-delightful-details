@@ -1,0 +1,40 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:drawable="@drawable/vd_filter">
+
+  <target android:name="top_line">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="400"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="pathData"
+        android:valueFrom="@string/filter_top_line"
+        android:valueTo="@string/clear_forward_slash"
+        android:valueType="pathType" />
+    </aapt:attr>
+  </target>
+
+  <target android:name="middle_line">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="400"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="pathData"
+        android:valueFrom="@string/filter_middle_line"
+        android:valueTo="@string/clear_backward_slash"
+        android:valueType="pathType" />
+    </aapt:attr>
+  </target>
+
+  <target android:name="bottom_line">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="300"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="fillAlpha"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:valueType="floatType" />
+    </aapt:attr>
+  </target>
+</animated-vector>

@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+  android:name="vector"
+  android:width="24dp"
+  android:height="24dp"
+  android:tint="?attr/colorControlNormal"
+  android:viewportWidth="24"
+  android:viewportHeight="24">
+  <path
+    android:name="forward_slash"
+    android:fillColor="@android:color/white"
+    android:pathData="M 19 6.41 L 17.59 5 L 5 17.59 L 6.41 19 L 19 6.41" />
+  <path
+    android:name="backward_slash"
+    android:fillColor="@android:color/white"
+    android:pathData="M 6.41 5 L 5 6.41 L 17.59 19 L 19 17.59 L 6.41 5" />
+  <path
+    android:name="gone"
+    android:fillAlpha="0"
+    android:fillColor="@android:color/white"
+    android:pathData="M 14.006 15.998 L 14.006 18 L 10.043 17.959 L 10.043 15.977 Z" />
+</vector>

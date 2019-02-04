@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+    android:id="@+id/filter"
+    android:drawable="@drawable/vd_filter"
+    android:state_checked="true" />
+
+  <item
+    android:id="@+id/clear"
+    android:drawable="@drawable/vd_clear" />
+
+  <transition
+    android:drawable="@drawable/avd_filter_to_clear"
+    android:fromId="@id/filter"
+    android:toId="@id/clear" />
+
+  <transition
+    android:drawable="@drawable/avd_clear_to_filter"
+    android:fromId="@id/clear"
+    android:toId="@id/filter" />
+
+</animated-selector>

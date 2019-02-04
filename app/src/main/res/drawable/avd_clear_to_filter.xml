@@ -1,0 +1,38 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:drawable="@drawable/vd_clear">
+
+  <target android:name="forward_slash">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="400"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="pathData"
+        android:valueFrom="@string/clear_forward_slash"
+        android:valueTo="@string/filter_top_line"
+        android:valueType="pathType" />
+    </aapt:attr>
+  </target>
+  <target android:name="backward_slash">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="400"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="pathData"
+        android:valueFrom="@string/clear_backward_slash"
+        android:valueTo="@string/filter_middle_line"
+        android:valueType="pathType" />
+    </aapt:attr>
+  </target>
+  <target android:name="gone">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="300"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="fillAlpha"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:valueType="floatType" />
+    </aapt:attr>
+  </target>
+</animated-vector>
