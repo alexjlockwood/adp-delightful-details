@@ -1,0 +1,38 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aapt="http://schemas.android.com/aapt"
+  android:drawable="@drawable/vd_filter">
+
+  <target android:name="path_1">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="400"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="pathData"
+        android:valueFrom="M 20.999 7.961 L 20.999 6.021 L 3 6 L 3 7.961 L 20.999 7.961"
+        android:valueTo="M 19 6.41 L 17.59 5 L 5 17.59 L 6.41 19 L 19 6.41"
+        android:valueType="pathType" />
+    </aapt:attr>
+  </target>
+  <target android:name="path_2">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="400"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="pathData"
+        android:valueFrom="M 6.018 10.982 L 6.018 12.984 L 18.031 13.046 L 17.99 10.982 L 6.018 10.982"
+        android:valueTo="M 6.41 5 L 5 6.41 L 17.59 19 L 19 17.59 L 6.41 5"
+        android:valueType="pathType" />
+    </aapt:attr>
+  </target>
+  <target android:name="path_3">
+    <aapt:attr name="android:animation">
+      <objectAnimator
+        android:duration="300"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
+        android:propertyName="fillAlpha"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:valueType="floatType" />
+    </aapt:attr>
+  </target>
+</animated-vector>

@@ -14,6 +14,7 @@ public class PathMorphActivity extends AppCompatActivity {
   @BindView(R.id.crosstick) ImageView crossTickView;
   @BindView(R.id.plusminus) ImageView plusMinusView;
   @BindView(R.id.arrowoverflow) ImageView arrowoverflowView;
+  @BindView(R.id.filterclear) ImageView filterclear;
   private boolean isChecked;
 
   @Override
@@ -31,5 +32,6 @@ public class PathMorphActivity extends AppCompatActivity {
     crossTickView.setImageState(stateSet, true);
     plusMinusView.setImageState(stateSet, true);
     arrowoverflowView.setImageState(stateSet, true);
+    filterclear.setImageState(stateSet, true);
   }
 }

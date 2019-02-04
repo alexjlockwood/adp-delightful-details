@@ -57,5 +57,17 @@
       android:scaleType="fitCenter"
       app:srcCompat="@drawable/asl_pathmorph_arrowoverflow" />
 
+    <ImageView
+        android:id="@+id/filterclear"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_below="@id/plusminus"
+        android:layout_alignStart="@id/drawer"
+        android:layout_alignLeft="@id/drawer"
+        android:contentDescription="@null"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/asl_pathmorph_filter" />
+
   </RelativeLayout>
 </RelativeLayout>
